@@ -10,24 +10,37 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130501204426) do
+ActiveRecord::Schema.define(:version => 20130502003721) do
 
   create_table "articles", :force => true do |t|
+    t.string   "title"
+    t.string   "body"
+    t.string   "source_url"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "kvectors", :force => true do |t|
+    t.boolean  "is_known"
+    t.integer  "view_count"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "users", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.string   "user_type"
+    t.string   "username"
+    t.string   "password"
+    t.string   "password_hash"
+    t.string   "password_salt"
+    t.string   "privacy_setting"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "words", :force => true do |t|
+    t.string   "text"
+    t.integer  "difficulty"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
