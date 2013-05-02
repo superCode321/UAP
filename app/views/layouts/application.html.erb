@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
+
+<div id="user_nav">
+  <% if current_user %>
+    You are logged in with <span style="background-color: #ffff00"><%= current_user.username %></span>
+    <%= link_to "Log out", log_out_path %>
+  <% else %>
+    <%= link_to "Sign up", sign_up_path %> |
+    <%= link_to "Log in", log_in_path %>
+  <% end %>
+</div>
+
+<% flash.each do |name, msg| %>
+  <%= content_tag :div, msg, :id => "flash_#{name}" %>
+<% end %>
+
 <head>
-  <title>Langapp</title>
+  <title>UAP</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
 <%= yield %>
