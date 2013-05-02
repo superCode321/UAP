@@ -1,8 +1,8 @@
 class User < ActiveRecord::Base
-  attr_accessible :user_type, :username, :password, :password_confirmation, 
+  attr_accessible :username, :password, :password_confirmation, 
 :password_hash, :password_salt, :privacy_setting
 
-  has_many :kvectors
+  has_many :kvectors, :dependent => :destroy
 
   attr_accessor :password
   before_save :encrypt_password
