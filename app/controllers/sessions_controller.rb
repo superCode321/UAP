@@ -8,8 +8,7 @@ class SessionsController < ApplicationController
     user = User.authenticate(params[:username], params[:password])
     if user
       session[:user_id] = user.id
-      if user.user_type == "shopper"
-        redirect_to articles_path, :notice => "Logged in!"
+	  redirect_to articles_path, :notice => "Logged in!"
       end
 	  
     else

@@ -2,7 +2,6 @@
 
 <table>
   <tr>
-    <th>Type</th>
     <th>Username</th>
     <th></th>
     <th></th>
@@ -11,7 +10,6 @@
 
 <% @users.each do |user| %>
   <tr>
-    <td><%= user.user_type %></td>
     <td><%= user.username %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
