@@ -9,8 +9,6 @@ class SessionsController < ApplicationController
     if user
       session[:user_id] = user.id
 	  redirect_to articles_path, :notice => "Logged in!"
-      end
-	  
     else
       flash.now.alert = "Invalid username or password"
       render 'new'
