@@ -1,0 +1,22 @@
+<h1>Your Orders</h1>
+
+<table border='1'>
+  <tr>
+    <th>Item Name</th>
+    <th>Price</th>
+    <th>Buyer Name</th>
+    <th>Quantity</th>
+  </tr>
+
+<% @items.each do |item| %>
+  <tr>
+    <td><%= item.name %></td>
+    <td><%= item.price %></td>
+    <td><%= item.buyer %></td>
+    <td><%= item.count %></td>
+<td><%= link_to 'Destroy', item, method: :delete, data: {confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Back', keeper_home_path %>

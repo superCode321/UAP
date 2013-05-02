@@ -1,0 +1,26 @@
+<h1>Editing user</h1>
+<%= form_for @user do |f| %>
+<p>
+ <%= f.label :username %><br />
+ <%= f.text_field :username %>
+</p>
+
+<p>
+ <%= f.label :password %><br />
+ <%= f.password_field :password %>
+</p>
+
+<p>
+ <b>Set your privacy setting to "private" or "public"<b/>
+ <%= f.label :privacy_setting %><br />
+ <%= f.text_field :privacy_setting %>
+</p>
+<p class="button"><%= f.submit %></p>
+
+  <% if session[:user_id] != nil %>
+    <%= link_to "Home Page", users_path %>
+  <% end %>
+<% end %>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>
