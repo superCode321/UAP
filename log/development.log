@@ -52,3 +52,15 @@ Migrating to CreateArticles (20130501204426)
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("kvectors")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130501204322)
+Migrating to CreateWords (20130501204356)
+Migrating to CreateKvectors (20130501204420)
+Migrating to CreateArticles (20130501204426)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("articles")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("kvectors")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
