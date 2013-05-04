@@ -1,0 +1,26 @@
+<h1>Editing user</h1>
+<%= form_for @user do |f| %>
+<p>
+ <%= f.label :title %><br />
+ <%= f.text_field :title %>
+</p>
+
+<p>
+ <%= f.label :body %><br />
+ <%= f.text_field :body %>
+</p>
+
+<p>
+ <b><b/>
+ <%= f.label :source_url %><br />
+ <%= f.text_field :source_url %>
+</p>
+<p class="button"><%= f.submit %></p>
+
+  <% if session[:user_id] != nil %>
+    <%= link_to "Home Page", articles_path %>
+  <% end %>
+<% end %>
+
+<%= link_to 'Show', @article %> |
+<%= link_to 'Back', articles_path %>

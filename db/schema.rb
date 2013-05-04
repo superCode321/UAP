@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130502003721) do
+ActiveRecord::Schema.define(:version => 20130503203246) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
@@ -33,9 +33,8 @@ ActiveRecord::Schema.define(:version => 20130502003721) do
     t.string   "password"
     t.string   "password_hash"
     t.string   "password_salt"
-    t.string   "privacy_setting"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
   end
 
   create_table "words", :force => true do |t|

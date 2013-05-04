@@ -10,10 +10,15 @@
  <%= f.password_field :password %>
 </p>
 
+<p>
+ <b>Set your privacy setting to "private" or "public"<b/>
+ <%= f.label :privacy_setting %><br />
+ <%= f.text_field :privacy_setting %>
+</p>
 <p class="button"><%= f.submit %></p>
 
   <% if session[:user_id] != nil %>
-    <%= link_to "Home Page", users_path %>
+    <%= link_to "Home Page", sites_path %>
   <% end %>
 <% end %>
 

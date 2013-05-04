@@ -1,0 +1,2 @@
+class KvectorsController < ApplicationController
+end
