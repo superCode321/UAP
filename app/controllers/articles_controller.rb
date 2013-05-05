@@ -1,4 +1,4 @@
-require 'feedzirra'
+#require 'feedzirra'
 
 class ArticlesController < ApplicationController
   before_filter :require_login
@@ -15,14 +15,14 @@ class ArticlesController < ApplicationController
   end
   
   
-  def addDefault
-	defaultUrl = 'http://www.chinadaily.com.cn/rss/china_rss.xml'
-	addArticle(defaultUrl)
-  end
+  #def addDefault
+	#defaultUrl = ''
+	#addArticle(defaultUrl)
+  #end
 
-  def addArticle(feedUrl)
-    feed = Feedzirra::Feed.fetch_and_parse(feedUrl)
-  end
+  #def addArticle(feedUrl)
+    #feed = Feedzirra::Feed.fetch_and_parse(feedUrl)
+  #end
 	
 	
   def create
