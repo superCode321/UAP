@@ -29,11 +29,10 @@ class SessionsController < ApplicationController
   def userIsInitialized(user)
     kvectors = Kvector.find(:all, :include => :user, 
 	  :condition => ["users.username = ?", user.username])
-	  
 	if kvectors.length == 0
-	  return true
-	else
 	  return false
+	else
+	  return true
 	end
   end
   
