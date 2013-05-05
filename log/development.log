@@ -1444,3 +1444,4 @@ SyntaxError (/Users/briansun/UAP/app/controllers/users_controller.rb:19: syntax 
   Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
   Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.2.7/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
