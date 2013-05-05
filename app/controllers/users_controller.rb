@@ -22,7 +22,7 @@ class UsersController < ApplicationController
 	for word in words
 	  @kvector = Kvector.new
 	  @kvector.word = word
-	  @kvector.is_known = 1
+	  @kvector.is_known = true
 	  @kvector.view_count = 0
 	  @kvector.save
 	  @kvectors.push(@kvector)
