@@ -1,25 +1,22 @@
-{% extends 'base.html' %}
-{% block title %}Pretest{% endblock %}
-
-{% block content %}
-click on level, populate user vectors, route to article list
-
+<!DOCTYPE html>
+<html>
 <head>
   <style>
   ul { margin-left:20px; color:blue; }
   li { cursor:default; font-size: 14}
   li.active { background:black;color:white; }
+  body {background-color: MistyRose;}
   span { color:red; }
   </style>
 
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 
-<script type="text/javascript" src="/path/to/jquery.min.js"></script>
-<link type="text/css" rel="stylesheet" href="/path/to/jquery.qtip.css" />
+<link type="text/css" rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.css" />
 
 </head>
 <body>
-<script type="text/javascript" src="/path/to/jquery.qtip.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.0.1/jquery.qtip.min.js"></script>
+
 
 <h2>Pick a Level</h2>
 <ul>
@@ -40,7 +37,7 @@ click on level, populate user vectors, route to article list
 
 
 
-{% block extra_js %} 
+<script>
 // Functionality for level selection and vector model population
 
 
@@ -148,4 +145,4 @@ $('#6').hover(
   }
 );
 
-{% endblock %}
+</script>
