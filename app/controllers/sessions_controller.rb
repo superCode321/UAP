@@ -28,7 +28,7 @@ class SessionsController < ApplicationController
 	
   def userIsInitialized(user)
     @kvectors = Kvector.find(:all, 
-	  :conditions => ['user.id = kvector.user_id'],
+	  :conditions => ['users.id = kvector.user_id'],
 	  :joins => [:user])
 	if @kvectors.length == 0
 	  return false
