@@ -1,2 +1,0 @@
-class KvectorController < ApplicationController
-end
