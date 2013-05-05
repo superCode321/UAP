@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Feed reader package
-gem 'feedzirra', :require => 'feedzirra'
+#gem 'feedzirra', :require => 'feedzirra'
 
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
