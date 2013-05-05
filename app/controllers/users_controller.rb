@@ -17,6 +17,7 @@ class UsersController < ApplicationController
   end
 
   def initializeUser
+    @user = current_user
     words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
   	kvs = []
   	for word in words
