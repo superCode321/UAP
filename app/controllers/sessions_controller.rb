@@ -3,7 +3,6 @@ class SessionsController < ApplicationController
   end
   
   # Creates a new session for the user by authenticating name and password.
-  # Differentiates Shopper and Keeper states and displays a persistent notification.
   def create
     user = User.authenticate(params[:username], params[:password])
     if user
@@ -11,7 +10,7 @@ class SessionsController < ApplicationController
 	  if userIsInitialized(user)
 	    redirect_to articles_path, :notice => "Logged in!"
 	  else
-	    redirect_to pretest
+	    redirect_to pretest_path
 	  end
     else
       flash.now.alert = "Invalid username or password"

@@ -1,19 +1,21 @@
-<h1>Listing public users..to be done in P2.3</h1>
+<h1>Listing articles</h1>
 
 <table>
   <tr>
-    <th>Username</th>
+    <th>Title</th>
+    <th>Source_url</th>
     <th></th>
     <th></th>
     <th></th>
   </tr>
 
-<% @users.each do |user| %>
+<% @articles.each do |article| %>
   <tr>
-    <td><%= user.username %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= article.title %></td>
+    <td><%= article.source_url %></td>
+    <td><%= link_to 'Show', article %></td>
+    <td><%= link_to 'Edit', edit_user_path(article) %></td>
+    <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>

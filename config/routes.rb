@@ -4,7 +4,8 @@ Langapp::Application.routes.draw do
 
   get 'sign_up' => 'users#new', :as => 'sign_up'
   
-  get 'pretest' => 'welcome#pretest', :as => 'pretest'
+  get 'pretest' => 'users#pretest', :as => 'pretest'
+  get 'init' => 'users#initializeUser', :as => 'init'
   
   root :to => 'sessions#new'
   

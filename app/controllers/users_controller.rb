@@ -11,7 +11,28 @@ class UsersController < ApplicationController
       render "new"
     end
   end
+  
+  def pretest
+    @user = current_user
+  end
 
+  def initializeUser(difficulty)
+    words = Word.find(:all, :conditions => ["difficulty <= ?",difficulty])
+	@kvectors = []
+	for word in words
+	  @kvector = Kvector.new
+	  @kvector.word = word
+	  @kvector.is_known = 1
+	  @kvector.view_count = 0
+	  @kvector.save
+	  @kvectors.push(@kvector)
+	  @kvectors.save
+	end
+	@user.kvectors = kvectors
+	@user.save
+  end
+  
+  
   def update
     @user = User.find(params[:id])
     respond_to do |format|

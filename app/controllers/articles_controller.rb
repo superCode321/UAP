@@ -37,7 +37,7 @@ class ArticlesController < ApplicationController
 
   # displays all articles
   def index
-	@article = Article.find(:all) #, :conditions => [])
+	@articles = Article.find(:all) #, :conditions => [])
 	respond_to do |format|
 	  format.html # index.html.erb
 	  format.json { render json: @articles }
