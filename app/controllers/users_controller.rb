@@ -22,7 +22,7 @@ class UsersController < ApplicationController
   	kvs = []
   	for word in words
   	  @kvector = Kvector.new
-  	  @kvector.word = word
+  	  @kvector.word_id = word.id
   	  @kvector.is_known = true
   	  @kvector.view_count = 0
   	  @kvector.save
