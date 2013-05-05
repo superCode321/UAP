@@ -27,9 +27,10 @@ class SessionsController < ApplicationController
     # Returns a boolean whether user model is initialized.
 	
   def userIsInitialized(user)
-    kvectors = Kvector.find(:all, :include => :user, 
-	  :conditions => ["users.username = ?", user.username])
-	if kvectors.length == 0
+    @kvectors = Kvector.find(:all, 
+	  :conditions => ['user.id = kvector.user_id'],
+	  :joins => [:user])
+	if @kvectors.length == 0
 	  return false
 	else
 	  return true
