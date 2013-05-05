@@ -16,8 +16,8 @@ class UsersController < ApplicationController
     @user = current_user
   end
 
-  def initializeUser(difficulty)
-    words = Word.find(:all, :conditions => ["difficulty <= ?",difficulty])
+  def initializeUser
+    words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
 	@kvectors = []
 	for word in words
 	  @kvector = Kvector.new
