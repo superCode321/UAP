@@ -18,17 +18,20 @@ class UsersController < ApplicationController
 
   def initializeUser
     words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
-	kvectors = []
-	for word in words
-	  @kvector = Kvector.new
-	  @kvector.word = word
-	  @kvector.is_known = true
-	  @kvector.view_count = 0
-	  @kvector.save
-	  kvectors.push(@kvector)
-	end
-	@user.kvectors = kvectors
-	@user.save
+  	kvs = []
+  	for word in words
+  	  @kvector = Kvector.new
+  	  @kvector.word = word
+  	  @kvector.is_known = true
+  	  @kvector.view_count = 0
+  	  @kvector.save
+
+  	  kvs.push(@kvector)
+  	end
+  	@user.kvectors = kvs
+  	@user.save
+
+    redirect_to articles_path, :notice => "You have been initialized!"
   end
   
   
