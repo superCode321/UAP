@@ -18,15 +18,14 @@ class UsersController < ApplicationController
 
   def initializeUser
     words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
-	@kvectors = []
+	kvectors = []
 	for word in words
 	  @kvector = Kvector.new
 	  @kvector.word = word
 	  @kvector.is_known = true
 	  @kvector.view_count = 0
 	  @kvector.save
-	  @kvectors.push(@kvector)
-	  @kvectors.save
+	  kvectors.push(@kvector)
 	end
 	@user.kvectors = kvectors
 	@user.save
