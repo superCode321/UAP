@@ -4,8 +4,10527 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+1:
+			  text: 的
+			  difficulty: 1
+
+2:
+			  text: 一
+			  difficulty: 1
+  			
+3:
+			  text: 是
+			  difficulty: 1
+  			
+4:
+			  text: 在
+			  difficulty: 1
+  			
+5:
+			  text: 了
+			  difficulty: 1
+  			
+6:
+			  text: 有
+			  difficulty: 1
+  			
+7:
+			  text: 人
+			  difficulty: 1
+  			
+8:
+			  text: 不
+			  difficulty: 1
+  			
+9:
+			  text: 国
+			  difficulty: 1
+  			
+10:
+			  text: 中
+			  difficulty: 1
+  			
+11:
+			  text: 大
+			  difficulty: 1
+  			
+12:
+			  text: 年
+			  difficulty: 1
+  			
+13:
+			  text: 上
+			  difficulty: 1
+  			
+14:
+			  text: 这
+			  difficulty: 1
+  			
+15:
+			  text: 个
+			  difficulty: 1
+  			
+16:
+			  text: 我
+			  difficulty: 1
+  			
+17:
+			  text: 和
+			  difficulty: 1
+  			
+18:
+			  text: 日
+			  difficulty: 1
+  			
+19:
+			  text: 时
+			  difficulty: 1
+  			
+20:
+			  text: 会
+			  difficulty: 1
+  			
+21:
+			  text: 出
+			  difficulty: 1
+  			
+22:
+			  text: 来
+			  difficulty: 1
+  			
+23:
+			  text: 他
+			  difficulty: 1
+  			
+24:
+			  text: 家
+			  difficulty: 1
+  			
+25:
+			  text: 生
+			  difficulty: 1
+  			
+26:
+			  text: 们
+			  difficulty: 1
+  			
+27:
+			  text: 对
+			  difficulty: 1
+  			
+28:
+			  text: 期
+			  difficulty: 1
+  			
+29:
+			  text: 月
+			  difficulty: 1
+  			
+30:
+			  text: 多
+			  difficulty: 1
+  			
+31:
+			  text: 能
+			  difficulty: 1
+  			
+32:
+			  text: 本
+			  difficulty: 1
+  			
+33:
+			  text: 学
+			  difficulty: 1
+  			
+34:
+			  text: 现
+			  difficulty: 1
+  			
+35:
+			  text: 说
+			  difficulty: 1
+  			
+36:
+			  text: 作
+			  difficulty: 1
+  			
+37:
+			  text: 电
+			  difficulty: 1
+  			
+38:
+			  text: 前
+			  difficulty: 1
+  			
+39:
+			  text: 下
+			  difficulty: 1
+  			
+40:
+			  text: 开
+			  difficulty: 1
+  			
+41:
+			  text: 天
+			  difficulty: 1
+  			
+42:
+			  text: 北
+			  difficulty: 1
+  			
+43:
+			  text: 京
+			  difficulty: 1
+  			
+44:
+			  text: 分
+			  difficulty: 1
+  			
+45:
+			  text: 高
+			  difficulty: 1
+  			
+46:
+			  text: 都
+			  difficulty: 1
+  			
+47:
+			  text: 工
+			  difficulty: 1
+  			
+48:
+			  text: 子
+			  difficulty: 1
+  			
+49:
+			  text: 小
+			  difficulty: 1
+  			
+50:
+			  text: 面
+			  difficulty: 1
+  			
+51:
+			  text: 机
+			  difficulty: 1
+  			
+52:
+			  text: 同
+			  difficulty: 1
+  			
+53:
+			  text: 车
+			  difficulty: 1
+  			
+54:
+			  text: 关
+			  difficulty: 1
+  			
+55:
+			  text: 名
+			  difficulty: 1
+  			
+56:
+			  text: 里
+			  difficulty: 1
+  			
+57:
+			  text: 好
+			  difficulty: 1
+  			
+58:
+			  text: 没
+			  difficulty: 1
+  			
+59:
+			  text: 明
+			  difficulty: 1
+  			
+60:
+			  text: 看
+			  difficulty: 1
+  			
+61:
+			  text: 点
+			  difficulty: 1
+  			
+62:
+			  text: 起
+			  difficulty: 1
+  			
+63:
+			  text: 星
+			  difficulty: 1
+  			
+64:
+			  text: 些
+			  difficulty: 1
+  			
+65:
+			  text: 三
+			  difficulty: 1
+  			
+66:
+			  text: 很
+			  difficulty: 1
+  			
+67:
+			  text: 去
+			  difficulty: 1
+  			
+68:
+			  text: 商
+			  difficulty: 1
+  			
+69:
+			  text: 今
+			  difficulty: 1
+  			
+70:
+			  text: 么
+			  difficulty: 1
+  			
+71:
+			  text: 样
+			  difficulty: 1
+  			
+72:
+			  text: 那
+			  difficulty: 1
+  			
+73:
+			  text: 东
+			  difficulty: 1
+  			
+74:
+			  text: 想
+			  difficulty: 1
+  			
+75:
+			  text: 西
+			  difficulty: 1
+  			
+76:
+			  text: 水
+			  difficulty: 1
+  			
+77:
+			  text: 影
+			  difficulty: 1
+  			
+78:
+			  text: 话
+			  difficulty: 1
+  			
+79:
+			  text: 视
+			  difficulty: 1
+  			
+80:
+			  text: 你
+			  difficulty: 1
+  			
+81:
+			  text: 果
+			  difficulty: 1
+  			
+82:
+			  text: 老
+			  difficulty: 1
+  			
+83:
+			  text: 二
+			  difficulty: 1
+  			
+84:
+			  text: 院
+			  difficulty: 1
+  			
+85:
+			  text: 女
+			  difficulty: 1
+  			
+86:
+			  text: 她
+			  difficulty: 1
+  			
+87:
+			  text: 认
+			  difficulty: 1
+  			
+88:
+			  text: 打
+			  difficulty: 1
+  			
+89:
+			  text: 做
+			  difficulty: 1
+  			
+90:
+			  text: 先
+			  difficulty: 1
+  			
+91:
+			  text: 少
+			  difficulty: 1
+  			
+92:
+			  text: 回
+			  difficulty: 1
+  			
+93:
+			  text: 系
+			  difficulty: 1
+  			
+94:
+			  text: 四
+			  difficulty: 1
+  			
+95:
+			  text: 气
+			  difficulty: 1
+  			
+96:
+			  text: 十
+			  difficulty: 1
+  			
+97:
+			  text: 服
+			  difficulty: 1
+  			
+98:
+			  text: 再
+			  difficulty: 1
+  			
+99:
+			  text: 儿
+			  difficulty: 1
+  			
+100:
+			  text: 住
+			  difficulty: 1
+  			
+101:
+			  text: 什
+			  difficulty: 1
+  			
+102:
+			  text: 书
+			  difficulty: 1
+  			
+103:
+			  text: 米
+			  difficulty: 1
+  			
+104:
+			  text: 师
+			  difficulty: 1
+  			
+105:
+			  text: 五
+			  difficulty: 1
+  			
+106:
+			  text: 见
+			  difficulty: 1
+  			
+107:
+			  text: 客
+			  difficulty: 1
+  			
+108:
+			  text: 热
+			  difficulty: 1
+  			
+109:
+			  text: 买
+			  difficulty: 1
+  			
+110:
+			  text: 医
+			  difficulty: 1
+  			
+111:
+			  text: 爱
+			  difficulty: 1
+  			
+112:
+			  text: 太
+			  difficulty: 1
+  			
+113:
+			  text: 校
+			  difficulty: 1
+  			
+114:
+			  text: 昨
+			  difficulty: 1
+  			
+115:
+			  text: 站
+			  difficulty: 1
+  			
+116:
+			  text: 觉
+			  difficulty: 1
+  			
+117:
+			  text: 候
+			  difficulty: 1
+  			
+118:
+			  text: 飞
+			  difficulty: 1
+  			
+119:
+			  text: 钱
+			  difficulty: 1
+  			
+120:
+			  text: 字
+			  difficulty: 1
+  			
+121:
+			  text: 岁
+			  difficulty: 1
+  			
+122:
+			  text: 友
+			  difficulty: 1
+  			
+123:
+			  text: 请
+			  difficulty: 1
+  			
+124:
+			  text: 识
+			  difficulty: 1
+  			
+125:
+			  text: 火
+			  difficulty: 1
+  			
+126:
+			  text: 听
+			  difficulty: 1
+  			
+127:
+			  text: 兴
+			  difficulty: 1
+  			
+128:
+			  text: 习
+			  difficulty: 1
+  			
+129:
+			  text: 语
+			  difficulty: 1
+  			
+130:
+			  text: 脑
+			  difficulty: 1
+  			
+131:
+			  text: 六
+			  difficulty: 1
+  			
+132:
+			  text: 店
+			  difficulty: 1
+  			
+133:
+			  text: 午
+			  difficulty: 1
+  			
+134:
+			  text: 写
+			  difficulty: 1
+  			
+135:
+			  text: 喜
+			  difficulty: 1
+  			
+136:
+			  text: 读
+			  difficulty: 1
+  			
+137:
+			  text: 馆
+			  difficulty: 1
+  			
+138:
+			  text: 欢
+			  difficulty: 1
+  			
+139:
+			  text: 怎
+			  difficulty: 1
+  			
+140:
+			  text: 吃
+			  difficulty: 1
+  			
+141:
+			  text: 杯
+			  difficulty: 1
+  			
+142:
+			  text: 钟
+			  difficulty: 1
+  			
+143:
+			  text: 八
+			  difficulty: 1
+  			
+144:
+			  text: 呢
+			  difficulty: 1
+  			
+145:
+			  text: 租
+			  difficulty: 1
+  			
+146:
+			  text: 块
+			  difficulty: 1
+  			
+147:
+			  text: 谁
+			  difficulty: 1
+  			
+148:
+			  text: 吗
+			  difficulty: 1
+  			
+149:
+			  text: 叫
+			  difficulty: 1
+  			
+150:
+			  text: 亮
+			  difficulty: 1
+  			
+151:
+			  text: 哪
+			  difficulty: 1
+  			
+152:
+			  text: 朋
+			  difficulty: 1
+  			
+153:
+			  text: 妈
+			  difficulty: 1
+  			
+154:
+			  text: 坐
+			  difficulty: 1
+  			
+155:
+			  text: 汉
+			  difficulty: 1
+  			
+156:
+			  text: 饭
+			  difficulty: 1
+  			
+157:
+			  text: 衣
+			  difficulty: 1
+  			
+158:
+			  text: 雨
+			  difficulty: 1
+  			
+159:
+			  text: 九
+			  difficulty: 1
+  			
+160:
+			  text: 冷
+			  difficulty: 1
+  			
+161:
+			  text: 七
+			  difficulty: 1
+  			
+162:
+			  text: 姐
+			  difficulty: 1
+  			
+163:
+			  text: 谢
+			  difficulty: 1
+  			
+164:
+			  text: 菜
+			  difficulty: 1
+  			
+165:
+			  text: 零
+			  difficulty: 1
+  			
+166:
+			  text: 爸
+			  difficulty: 1
+  			
+167:
+			  text: 睡
+			  difficulty: 1
+  			
+168:
+			  text: 喝
+			  difficulty: 1
+  			
+169:
+			  text: 茶
+			  difficulty: 1
+  			
+170:
+			  text: 猫
+			  difficulty: 1
+  			
+171:
+			  text: 桌
+			  difficulty: 1
+  			
+172:
+			  text: 狗
+			  difficulty: 1
+  			
+173:
+			  text: 漂
+			  difficulty: 1
+  			
+174:
+			  text: 椅
+			  difficulty: 1
+  			
+175:
+			  text: 喂
+			  difficulty: 1
+  			
+176:
+			  text: 苹
+			  difficulty: 1
+  			
+177:
+			  text: 为
+			  difficulty: 2
+  			
+178:
+			  text: 到
+			  difficulty: 2
+  			
+179:
+			  text: 以
+			  difficulty: 2
+  			
+180:
+			  text: 公
+			  difficulty: 2
+  			
+181:
+			  text: 行
+			  difficulty: 2
+  			
+182:
+			  text: 就
+			  difficulty: 2
+  			
+183:
+			  text: 新
+			  difficulty: 2
+  			
+184:
+			  text: 经
+			  difficulty: 2
+  			
+185:
+			  text: 也
+			  difficulty: 2
+  			
+186:
+			  text: 场
+			  difficulty: 2
+  			
+187:
+			  text: 第
+			  difficulty: 2
+  			
+188:
+			  text: 可
+			  difficulty: 2
+  			
+189:
+			  text: 过
+			  difficulty: 2
+  			
+190:
+			  text: 自
+			  difficulty: 2
+  			
+191:
+			  text: 得
+			  difficulty: 2
+  			
+192:
+			  text: 报
+			  difficulty: 2
+  			
+193:
+			  text: 进
+			  difficulty: 2
+  			
+194:
+			  text: 动
+			  difficulty: 2
+  			
+195:
+			  text: 还
+			  difficulty: 2
+  			
+196:
+			  text: 司
+			  difficulty: 2
+  			
+197:
+			  text: 最
+			  difficulty: 2
+  			
+198:
+			  text: 所
+			  difficulty: 2
+  			
+199:
+			  text: 外
+			  difficulty: 2
+  			
+200:
+			  text: 但
+			  difficulty: 2
+  			
+201:
+			  text: 长
+			  difficulty: 2
+  			
+202:
+			  text: 员
+			  difficulty: 2
+  			
+203:
+			  text: 次
+			  difficulty: 2
+  			
+204:
+			  text: 体
+			  difficulty: 2
+  			
+205:
+			  text: 等
+			  difficulty: 2
+  			
+206:
+			  text: 着
+			  difficulty: 2
+  			
+207:
+			  text: 已
+			  difficulty: 2
+  			
+208:
+			  text: 间
+			  difficulty: 2
+  			
+209:
+			  text: 因
+			  difficulty: 2
+  			
+210:
+			  text: 比
+			  difficulty: 2
+  			
+211:
+			  text: 手
+			  difficulty: 2
+  			
+212:
+			  text: 表
+			  difficulty: 2
+  			
+213:
+			  text: 两
+			  difficulty: 2
+  			
+214:
+			  text: 意
+			  difficulty: 2
+  			
+215:
+			  text: 务
+			  difficulty: 2
+  			
+216:
+			  text: 正
+			  difficulty: 2
+  			
+217:
+			  text: 房
+			  difficulty: 2
+  			
+218:
+			  text: 问
+			  difficulty: 2
+  			
+219:
+			  text: 门
+			  difficulty: 2
+  			
+220:
+			  text: 球
+			  difficulty: 2
+  			
+221:
+			  text: 题
+			  difficulty: 2
+  			
+222:
+			  text: 教
+			  difficulty: 2
+  			
+223:
+			  text: 路
+			  difficulty: 2
+  			
+224:
+			  text: 告
+			  difficulty: 2
+  			
+225:
+			  text: 件
+			  difficulty: 2
+  			
+226:
+			  text: 运
+			  difficulty: 2
+  			
+227:
+			  text: 给
+			  difficulty: 2
+  			
+228:
+			  text: 常
+			  difficulty: 2
+  			
+229:
+			  text: 每
+			  difficulty: 2
+  			
+230:
+			  text: 乐
+			  difficulty: 2
+  			
+231:
+			  text: 身
+			  difficulty: 2
+  			
+232:
+			  text: 别
+			  difficulty: 2
+  			
+233:
+			  text: 张
+			  difficulty: 2
+  			
+234:
+			  text: 让
+			  difficulty: 2
+  			
+235:
+			  text: 走
+			  difficulty: 2
+  			
+236:
+			  text: 色
+			  difficulty: 2
+  			
+237:
+			  text: 真
+			  difficulty: 2
+  			
+238:
+			  text: 它
+			  difficulty: 2
+  			
+239:
+			  text: 息
+			  difficulty: 2
+  			
+240:
+			  text: 非
+			  difficulty: 2
+  			
+241:
+			  text: 足
+			  difficulty: 2
+  			
+242:
+			  text: 始
+			  difficulty: 2
+  			
+243:
+			  text: 马
+			  difficulty: 2
+  			
+244:
+			  text: 考
+			  difficulty: 2
+  			
+245:
+			  text: 准
+			  difficulty: 2
+  			
+246:
+			  text: 完
+			  difficulty: 2
+  			
+247:
+			  text: 共
+			  difficulty: 2
+  			
+248:
+			  text: 游
+			  difficulty: 2
+  			
+249:
+			  text: 望
+			  difficulty: 2
+  			
+250:
+			  text: 票
+			  difficulty: 2
+  			
+251:
+			  text: 步
+			  difficulty: 2
+  			
+252:
+			  text: 备
+			  difficulty: 2
+  			
+253:
+			  text: 快
+			  difficulty: 2
+  			
+254:
+			  text: 病
+			  difficulty: 2
+  			
+255:
+			  text: 号
+			  difficulty: 2
+  			
+256:
+			  text: 孩
+			  difficulty: 2
+  			
+257:
+			  text: 便
+			  difficulty: 2
+  			
+258:
+			  text: 百
+			  difficulty: 2
+  			
+259:
+			  text: 诉
+			  difficulty: 2
+  			
+260:
+			  text: 介
+			  difficulty: 2
+  			
+261:
+			  text: 白
+			  difficulty: 2
+  			
+262:
+			  text: 红
+			  difficulty: 2
+  			
+263:
+			  text: 试
+			  difficulty: 2
+  			
+264:
+			  text: 边
+			  difficulty: 2
+  			
+265:
+			  text: 远
+			  difficulty: 2
+  			
+266:
+			  text: 旅
+			  difficulty: 2
+  			
+267:
+			  text: 助
+			  difficulty: 2
+  			
+268:
+			  text: 男
+			  difficulty: 2
+  			
+269:
+			  text: 离
+			  difficulty: 2
+  			
+270:
+			  text: 找
+			  difficulty: 2
+  			
+271:
+			  text: 思
+			  difficulty: 2
+  			
+272:
+			  text: 夫
+			  difficulty: 2
+  			
+273:
+			  text: 晚
+			  difficulty: 2
+  			
+274:
+			  text: 希
+			  difficulty: 2
+  			
+275:
+			  text: 眼
+			  difficulty: 2
+  			
+276:
+			  text: 室
+			  difficulty: 2
+  			
+277:
+			  text: 汽
+			  difficulty: 2
+  			
+278:
+			  text: 卖
+			  difficulty: 2
+  			
+279:
+			  text: 早
+			  difficulty: 2
+  			
+280:
+			  text: 药
+			  difficulty: 2
+  			
+281:
+			  text: 班
+			  difficulty: 2
+  			
+282:
+			  text: 绍
+			  difficulty: 2
+  			
+283:
+			  text: 歌
+			  difficulty: 2
+  			
+284:
+			  text: 送
+			  difficulty: 2
+  			
+285:
+			  text: 黑
+			  difficulty: 2
+  			
+286:
+			  text: 左
+			  difficulty: 2
+  			
+287:
+			  text: 右
+			  difficulty: 2
+  			
+288:
+			  text: 千
+			  difficulty: 2
+  			
+289:
+			  text: 您
+			  difficulty: 2
+  			
+290:
+			  text: 答
+			  difficulty: 2
+  			
+291:
+			  text: 帮
+			  difficulty: 2
+  			
+292:
+			  text: 舞
+			  difficulty: 2
+  			
+293:
+			  text: 笑
+			  difficulty: 2
+  			
+294:
+			  text: 错
+			  difficulty: 2
+  			
+295:
+			  text: 课
+			  difficulty: 2
+  			
+296:
+			  text: 唱
+			  difficulty: 2
+  			
+297:
+			  text: 雪
+			  difficulty: 2
+  			
+298:
+			  text: 吧
+			  difficulty: 2
+  			
+299:
+			  text: 纸
+			  difficulty: 2
+  			
+300:
+			  text: 休
+			  difficulty: 2
+  			
+301:
+			  text: 牛
+			  difficulty: 2
+  			
+302:
+			  text: 哥
+			  difficulty: 2
+  			
+303:
+			  text: 穿
+			  difficulty: 2
+  			
+304:
+			  text: 贵
+			  difficulty: 2
+  			
+305:
+			  text: 姓
+			  difficulty: 2
+  			
+306:
+			  text: 迎
+			  difficulty: 2
+  			
+307:
+			  text: 跑
+			  difficulty: 2
+  			
+308:
+			  text: 玩
+			  difficulty: 2
+  			
+309:
+			  text: 洗
+			  difficulty: 2
+  			
+310:
+			  text: 船
+			  difficulty: 2
+  			
+311:
+			  text: 跳
+			  difficulty: 2
+  			
+312:
+			  text: 妻
+			  difficulty: 2
+  			
+313:
+			  text: 鱼
+			  difficulty: 2
+  			
+314:
+			  text: 宜
+			  difficulty: 2
+  			
+315:
+			  text: 忙
+			  difficulty: 2
+  			
+316:
+			  text: 慢
+			  difficulty: 2
+  			
+317:
+			  text: 肉
+			  difficulty: 2
+  			
+318:
+			  text: 弟
+			  difficulty: 2
+  			
+319:
+			  text: 床
+			  difficulty: 2
+  			
+320:
+			  text: 旁
+			  difficulty: 2
+  			
+321:
+			  text: 篮
+			  difficulty: 2
+  			
+322:
+			  text: 圆
+			  difficulty: 2
+  			
+323:
+			  text: 奶
+			  difficulty: 2
+  			
+324:
+			  text: 妹
+			  difficulty: 2
+  			
+325:
+			  text: 羊
+			  difficulty: 2
+  			
+326:
+			  text: 斤
+			  difficulty: 2
+  			
+327:
+			  text: 阴
+			  difficulty: 2
+  			
+328:
+			  text: 丈
+			  difficulty: 2
+  			
+329:
+			  text: 泳
+			  difficulty: 2
+  			
+330:
+			  text: 鸡
+			  difficulty: 2
+  			
+331:
+			  text: 懂
+			  difficulty: 2
+  			
+332:
+			  text: 睛
+			  difficulty: 2
+  			
+333:
+			  text: 蛋
+			  difficulty: 2
+  			
+334:
+			  text: 颜
+			  difficulty: 2
+  			
+335:
+			  text: 踢
+			  difficulty: 2
+  			
+336:
+			  text: 瓜
+			  difficulty: 2
+  			
+337:
+			  text: 晴
+			  difficulty: 2
+  			
+338:
+			  text: 啡
+			  difficulty: 2
+  			
+339:
+			  text: 咖
+			  difficulty: 2
+  			
+340:
+			  text: 市
+			  difficulty: 3
+  			
+341:
+			  text: 地
+			  difficulty: 3
+  			
+342:
+			  text: 要
+			  difficulty: 3
+  			
+343:
+			  text: 发
+			  difficulty: 3
+  			
+344:
+			  text: 者
+			  difficulty: 3
+  			
+345:
+			  text: 业
+			  difficulty: 3
+  			
+346:
+			  text: 成
+			  difficulty: 3
+  			
+347:
+			  text: 后
+			  difficulty: 3
+  			
+348:
+			  text: 于
+			  difficulty: 3
+  			
+349:
+			  text: 方
+			  difficulty: 3
+  			
+350:
+			  text: 用
+			  difficulty: 3
+  			
+351:
+			  text: 而
+			  difficulty: 3
+  			
+352:
+			  text: 法
+			  difficulty: 3
+  			
+353:
+			  text: 理
+			  difficulty: 3
+  			
+354:
+			  text: 事
+			  difficulty: 3
+  			
+355:
+			  text: 记
+			  difficulty: 3
+  			
+356:
+			  text: 主
+			  difficulty: 3
+  			
+357:
+			  text: 实
+			  difficulty: 3
+  			
+358:
+			  text: 定
+			  difficulty: 3
+  			
+359:
+			  text: 其
+			  difficulty: 3
+  			
+360:
+			  text: 文
+			  difficulty: 3
+  			
+361:
+			  text: 心
+			  difficulty: 3
+  			
+362:
+			  text: 目
+			  difficulty: 3
+  			
+363:
+			  text: 力
+			  difficulty: 3
+  			
+364:
+			  text: 当
+			  difficulty: 3
+  			
+365:
+			  text: 通
+			  difficulty: 3
+  			
+366:
+			  text: 位
+			  difficulty: 3
+  			
+367:
+			  text: 道
+			  difficulty: 3
+  			
+368:
+			  text: 如
+			  difficulty: 3
+  			
+369:
+			  text: 种
+			  difficulty: 3
+  			
+370:
+			  text: 重
+			  difficulty: 3
+  			
+371:
+			  text: 加
+			  difficulty: 3
+  			
+372:
+			  text: 然
+			  difficulty: 3
+  			
+373:
+			  text: 情
+			  difficulty: 3
+  			
+374:
+			  text: 化
+			  difficulty: 3
+  			
+375:
+			  text: 特
+			  difficulty: 3
+  			
+376:
+			  text: 提
+			  difficulty: 3
+  			
+377:
+			  text: 平
+			  difficulty: 3
+  			
+378:
+			  text: 网
+			  difficulty: 3
+  			
+379:
+			  text: 万
+			  difficulty: 3
+  			
+380:
+			  text: 据
+			  difficulty: 3
+  			
+381:
+			  text: 安
+			  difficulty: 3
+  			
+382:
+			  text: 只
+			  difficulty: 3
+  			
+383:
+			  text: 信
+			  difficulty: 3
+  			
+384:
+			  text: 赛
+			  difficulty: 3
+  			
+385:
+			  text: 世
+			  difficulty: 3
+  			
+386:
+			  text: 应
+			  difficulty: 3
+  			
+387:
+			  text: 相
+			  difficulty: 3
+  			
+388:
+			  text: 使
+			  difficulty: 3
+  			
+389:
+			  text: 向
+			  difficulty: 3
+  			
+390:
+			  text: 总
+			  difficulty: 3
+  			
+391:
+			  text: 物
+			  difficulty: 3
+  			
+392:
+			  text: 己
+			  difficulty: 3
+  			
+393:
+			  text: 数
+			  difficulty: 3
+  			
+394:
+			  text: 解
+			  difficulty: 3
+  			
+395:
+			  text: 该
+			  difficulty: 3
+  			
+396:
+			  text: 界
+			  difficulty: 3
+  			
+397:
+			  text: 周
+			  difficulty: 3
+  			
+398:
+			  text: 接
+			  difficulty: 3
+  			
+399:
+			  text: 近
+			  difficulty: 3
+  			
+400:
+			  text: 城
+			  difficulty: 3
+  			
+401:
+			  text: 调
+			  difficulty: 3
+  			
+402:
+			  text: 几
+			  difficulty: 3
+  			
+403:
+			  text: 办
+			  difficulty: 3
+  			
+404:
+			  text: 把
+			  difficulty: 3
+  			
+405:
+			  text: 结
+			  difficulty: 3
+  			
+406:
+			  text: 演
+			  difficulty: 3
+  			
+407:
+			  text: 感
+			  difficulty: 3
+  			
+408:
+			  text: 又
+			  difficulty: 3
+  			
+409:
+			  text: 选
+			  difficulty: 3
+  			
+410:
+			  text: 闻
+			  difficulty: 3
+  			
+411:
+			  text: 决
+			  difficulty: 3
+  			
+412:
+			  text: 示
+			  difficulty: 3
+  			
+413:
+			  text: 节
+			  difficulty: 3
+  			
+414:
+			  text: 空
+			  difficulty: 3
+  			
+415:
+			  text: 头
+			  difficulty: 3
+  			
+416:
+			  text: 口
+			  difficulty: 3
+  			
+417:
+			  text: 放
+			  difficulty: 3
+  			
+418:
+			  text: 求
+			  difficulty: 3
+  			
+419:
+			  text: 直
+			  difficulty: 3
+  			
+420:
+			  text: 单
+			  difficulty: 3
+  			
+421:
+			  text: 风
+			  difficulty: 3
+  			
+422:
+			  text: 南
+			  difficulty: 3
+  			
+423:
+			  text: 才
+			  difficulty: 3
+  			
+424:
+			  text: 变
+			  difficulty: 3
+  			
+425:
+			  text: 查
+			  difficulty: 3
+  			
+426:
+			  text: 或
+			  difficulty: 3
+  			
+427:
+			  text: 育
+			  difficulty: 3
+  			
+428:
+			  text: 议
+			  difficulty: 3
+  			
+429:
+			  text: 带
+			  difficulty: 3
+  			
+430:
+			  text: 难
+			  difficulty: 3
+  			
+431:
+			  text: 参
+			  difficulty: 3
+  			
+432:
+			  text: 较
+			  difficulty: 3
+  			
+433:
+			  text: 片
+			  difficulty: 3
+  			
+434:
+			  text: 环
+			  difficulty: 3
+  			
+435:
+			  text: 山
+			  difficulty: 3
+  			
+436:
+			  text: 条
+			  difficulty: 3
+  			
+437:
+			  text: 级
+			  difficulty: 3
+  			
+438:
+			  text: 易
+			  difficulty: 3
+  			
+439:
+			  text: 需
+			  difficulty: 3
+  			
+440:
+			  text: 举
+			  difficulty: 3
+  			
+441:
+			  text: 音
+			  difficulty: 3
+  			
+442:
+			  text: 李
+			  difficulty: 3
+  			
+443:
+			  text: 清
+			  difficulty: 3
+  			
+444:
+			  text: 注
+			  difficulty: 3
+  			
+445:
+			  text: 越
+			  difficulty: 3
+  			
+446:
+			  text: 居
+			  difficulty: 3
+  			
+447:
+			  text: 低
+			  difficulty: 3
+  			
+448:
+			  text: 包
+			  difficulty: 3
+  			
+449:
+			  text: 且
+			  difficulty: 3
+  			
+450:
+			  text: 容
+			  difficulty: 3
+  			
+451:
+			  text: 图
+			  difficulty: 3
+  			
+452:
+			  text: 花
+			  difficulty: 3
+  			
+453:
+			  text: 根
+			  difficulty: 3
+  			
+454:
+			  text: 历
+			  difficulty: 3
+  			
+455:
+			  text: 响
+			  difficulty: 3
+  			
+456:
+			  text: 段
+			  difficulty: 3
+  			
+457:
+			  text: 必
+			  difficulty: 3
+  			
+458:
+			  text: 声
+			  difficulty: 3
+  			
+459:
+			  text: 园
+			  difficulty: 3
+  			
+460:
+			  text: 超
+			  difficulty: 3
+  			
+461:
+			  text: 盘
+			  difficulty: 3
+  			
+462:
+			  text: 护
+			  difficulty: 3
+  			
+463:
+			  text: 照
+			  difficulty: 3
+  			
+464:
+			  text: 终
+			  difficulty: 3
+  			
+465:
+			  text: 除
+			  difficulty: 3
+  			
+466:
+			  text: 极
+			  difficulty: 3
+  			
+467:
+			  text: 普
+			  difficulty: 3
+  			
+468:
+			  text: 境
+			  difficulty: 3
+  			
+469:
+			  text: 楼
+			  difficulty: 3
+  			
+470:
+			  text: 满
+			  difficulty: 3
+  			
+471:
+			  text: 干
+			  difficulty: 3
+  			
+472:
+			  text: 半
+			  difficulty: 3
+  			
+473:
+			  text: 复
+			  difficulty: 3
+  			
+474:
+			  text: 阳
+			  difficulty: 3
+  			
+475:
+			  text: 算
+			  difficulty: 3
+  			
+476:
+			  text: 双
+			  difficulty: 3
+  			
+477:
+			  text: 银
+			  difficulty: 3
+  			
+478:
+			  text: 刚
+			  difficulty: 3
+  			
+479:
+			  text: 阿
+			  difficulty: 3
+  			
+480:
+			  text: 讲
+			  difficulty: 3
+  			
+481:
+			  text: 板
+			  difficulty: 3
+  			
+482:
+			  text: 突
+			  difficulty: 3
+  			
+483:
+			  text: 轻
+			  difficulty: 3
+  			
+484:
+			  text: 史
+			  difficulty: 3
+  			
+485:
+			  text: 虽
+			  difficulty: 3
+  			
+486:
+			  text: 练
+			  difficulty: 3
+  			
+487:
+			  text: 春
+			  difficulty: 3
+  			
+488:
+			  text: 检
+			  difficulty: 3
+  			
+489:
+			  text: 层
+			  difficulty: 3
+  			
+490:
+			  text: 健
+			  difficulty: 3
+  			
+491:
+			  text: 河
+			  difficulty: 3
+  			
+492:
+			  text: 戏
+			  difficulty: 3
+  			
+493:
+			  text: 拿
+			  difficulty: 3
+  			
+494:
+			  text: 黄
+			  difficulty: 3
+  			
+495:
+			  text: 角
+			  difficulty: 3
+  			
+496:
+			  text: 担
+			  difficulty: 3
+  			
+497:
+			  text: 短
+			  difficulty: 3
+  			
+498:
+			  text: 街
+			  difficulty: 3
+  			
+499:
+			  text: 奇
+			  difficulty: 3
+  			
+500:
+			  text: 愿
+			  difficulty: 3
+  			
+501:
+			  text: 香
+			  difficulty: 3
+  			
+502:
+			  text: 康
+			  difficulty: 3
+  			
+503:
+			  text: 择
+			  difficulty: 3
+  			
+504:
+			  text: 害
+			  difficulty: 3
+  			
+505:
+			  text: 乎
+			  difficulty: 3
+  			
+506:
+			  text: 画
+			  difficulty: 3
+  			
+507:
+			  text: 换
+			  difficulty: 3
+  			
+508:
+			  text: 须
+			  difficulty: 3
+  			
+509:
+			  text: 差
+			  difficulty: 3
+  			
+510:
+			  text: 季
+			  difficulty: 3
+  			
+511:
+			  text: 酒
+			  difficulty: 3
+  			
+512:
+			  text: 简
+			  difficulty: 3
+  			
+513:
+			  text: 遇
+			  difficulty: 3
+  			
+514:
+			  text: 久
+			  difficulty: 3
+  			
+515:
+			  text: 跟
+			  difficulty: 3
+  			
+516:
+			  text: 辆
+			  difficulty: 3
+  			
+517:
+			  text: 般
+			  difficulty: 3
+  			
+518:
+			  text: 急
+			  difficulty: 3
+  			
+519:
+			  text: 云
+			  difficulty: 3
+  			
+520:
+			  text: 婚
+			  difficulty: 3
+  			
+521:
+			  text: 顾
+			  difficulty: 3
+  			
+522:
+			  text: 绩
+			  difficulty: 3
+  			
+523:
+			  text: 绿
+			  difficulty: 3
+  			
+524:
+			  text: 典
+			  difficulty: 3
+  			
+525:
+			  text: 背
+			  difficulty: 3
+  			
+526:
+			  text: 刻
+			  difficulty: 3
+  			
+527:
+			  text: 笔
+			  difficulty: 3
+  			
+528:
+			  text: 束
+			  difficulty: 3
+  			
+529:
+			  text: 夏
+			  difficulty: 3
+  			
+530:
+			  text: 树
+			  difficulty: 3
+  			
+531:
+			  text: 邮
+			  difficulty: 3
+  			
+532:
+			  text: 附
+			  difficulty: 3
+  			
+533:
+			  text: 旧
+			  difficulty: 3
+  			
+534:
+			  text: 鲜
+			  difficulty: 3
+  			
+535:
+			  text: 冰
+			  difficulty: 3
+  			
+536:
+			  text: 怕
+			  difficulty: 3
+  			
+537:
+			  text: 借
+			  difficulty: 3
+  			
+538:
+			  text: 静
+			  difficulty: 3
+  			
+539:
+			  text: 脚
+			  difficulty: 3
+  			
+540:
+			  text: 礼
+			  difficulty: 3
+  			
+541:
+			  text: 箱
+			  difficulty: 3
+  			
+542:
+			  text: 草
+			  difficulty: 3
+  			
+543:
+			  text: 趣
+			  difficulty: 3
+  			
+544:
+			  text: 牙
+			  difficulty: 3
+  			
+545:
+			  text: 坏
+			  difficulty: 3
+  			
+546:
+			  text: 净
+			  difficulty: 3
+  			
+547:
+			  text: 句
+			  difficulty: 3
+  			
+548:
+			  text: 灯
+			  difficulty: 3
+  			
+549:
+			  text: 努
+			  difficulty: 3
+  			
+550:
+			  text: 词
+			  difficulty: 3
+  			
+551:
+			  text: 脸
+			  difficulty: 3
+  			
+552:
+			  text: 冬
+			  difficulty: 3
+  			
+553:
+			  text: 蓝
+			  difficulty: 3
+  			
+554:
+			  text: 宾
+			  difficulty: 3
+  			
+555:
+			  text: 末
+			  difficulty: 3
+  			
+556:
+			  text: 敢
+			  difficulty: 3
+  			
+557:
+			  text: 秋
+			  difficulty: 3
+  			
+558:
+			  text: 楚
+			  difficulty: 3
+  			
+559:
+			  text: 耳
+			  difficulty: 3
+  			
+560:
+			  text: 镜
+			  difficulty: 3
+  			
+561:
+			  text: 惯
+			  difficulty: 3
+  			
+562:
+			  text: 烧
+			  difficulty: 3
+  			
+563:
+			  text: 忘
+			  difficulty: 3
+  			
+564:
+			  text: 冒
+			  difficulty: 3
+  			
+565:
+			  text: 舒
+			  difficulty: 3
+  			
+566:
+			  text: 怪
+			  difficulty: 3
+  			
+567:
+			  text: 爷
+			  difficulty: 3
+  			
+568:
+			  text: 搬
+			  difficulty: 3
+  			
+569:
+			  text: 祝
+			  difficulty: 3
+  			
+570:
+			  text: 迟
+			  difficulty: 3
+  			
+571:
+			  text: 熊
+			  difficulty: 3
+  			
+572:
+			  text: 鸟
+			  difficulty: 3
+  			
+573:
+			  text: 扫
+			  difficulty: 3
+  			
+574:
+			  text: 啊
+			  difficulty: 3
+  			
+575:
+			  text: 梯
+			  difficulty: 3
+  			
+576:
+			  text: 腿
+			  difficulty: 3
+  			
+577:
+			  text: 鞋
+			  difficulty: 3
+  			
+578:
+			  text: 邻
+			  difficulty: 3
+  			
+579:
+			  text: 糖
+			  difficulty: 3
+  			
+580:
+			  text: 哭
+			  difficulty: 3
+  			
+581:
+			  text: 刷
+			  difficulty: 3
+  			
+582:
+			  text: 厨
+			  difficulty: 3
+  			
+583:
+			  text: 炼
+			  difficulty: 3
+  			
+584:
+			  text: 骑
+			  difficulty: 3
+  			
+585:
+			  text: 帽
+			  difficulty: 3
+  			
+586:
+			  text: 葡
+			  difficulty: 3
+  			
+587:
+			  text: 萄
+			  difficulty: 3
+  			
+588:
+			  text: 疼
+			  difficulty: 3
+  			
+589:
+			  text: 聪
+			  difficulty: 3
+  			
+590:
+			  text: 甜
+			  difficulty: 3
+  			
+591:
+			  text: 爬
+			  difficulty: 3
+  			
+592:
+			  text: 鼻
+			  difficulty: 3
+  			
+593:
+			  text: 渴
+			  difficulty: 3
+  			
+594:
+			  text: 啤
+			  difficulty: 3
+  			
+595:
+			  text: 胖
+			  difficulty: 3
+  			
+596:
+			  text: 饱
+			  difficulty: 3
+  			
+597:
+			  text: 锻
+			  difficulty: 3
+  			
+598:
+			  text: 刮
+			  difficulty: 3
+  			
+599:
+			  text: 碗
+			  difficulty: 3
+  			
+600:
+			  text: 叔
+			  difficulty: 3
+  			
+601:
+			  text: 裤
+			  difficulty: 3
+  			
+602:
+			  text: 朵
+			  difficulty: 3
+  			
+603:
+			  text: 瘦
+			  difficulty: 3
+  			
+604:
+			  text: 糕
+			  difficulty: 3
+  			
+605:
+			  text: 衫
+			  difficulty: 3
+  			
+606:
+			  text: 汁
+			  difficulty: 3
+  			
+607:
+			  text: 伞
+			  difficulty: 3
+  			
+608:
+			  text: 衬
+			  difficulty: 3
+  			
+609:
+			  text: 澡
+			  difficulty: 3
+  			
+610:
+			  text: 饿
+			  difficulty: 3
+  			
+611:
+			  text: 矮
+			  difficulty: 3
+  			
+612:
+			  text: 姨
+			  difficulty: 3
+  			
+613:
+			  text: 裙
+			  difficulty: 3
+  			
+614:
+			  text: 铅
+			  difficulty: 3
+  			
+615:
+			  text: 筷
+			  difficulty: 3
+  			
+616:
+			  text: 蕉
+			  difficulty: 3
+  			
+617:
+			  text: 将
+			  difficulty: 4
+  			
+618:
+			  text: 部
+			  difficulty: 4
+  			
+619:
+			  text: 之
+			  difficulty: 4
+  			
+620:
+			  text: 全
+			  difficulty: 4
+  			
+621:
+			  text: 元
+			  difficulty: 4
+  			
+622:
+			  text: 美
+			  difficulty: 4
+  			
+623:
+			  text: 从
+			  difficulty: 4
+  			
+624:
+			  text: 内
+			  difficulty: 4
+  			
+625:
+			  text: 资
+			  difficulty: 4
+  			
+626:
+			  text: 民
+			  difficulty: 4
+  			
+627:
+			  text: 此
+			  difficulty: 4
+  			
+628:
+			  text: 利
+			  difficulty: 4
+  			
+629:
+			  text: 合
+			  difficulty: 4
+  			
+630:
+			  text: 品
+			  difficulty: 4
+  			
+631:
+			  text: 金
+			  difficulty: 4
+  			
+632:
+			  text: 价
+			  difficulty: 4
+  			
+633:
+			  text: 区
+			  difficulty: 4
+  			
+634:
+			  text: 入
+			  difficulty: 4
+  			
+635:
+			  text: 被
+			  difficulty: 4
+  			
+636:
+			  text: 展
+			  difficulty: 4
+  			
+637:
+			  text: 并
+			  difficulty: 4
+  			
+638:
+			  text: 度
+			  difficulty: 4
+  			
+639:
+			  text: 由
+			  difficulty: 4
+  			
+640:
+			  text: 保
+			  difficulty: 4
+  			
+641:
+			  text: 性
+			  difficulty: 4
+  			
+642:
+			  text: 制
+			  difficulty: 4
+  			
+643:
+			  text: 代
+			  difficulty: 4
+  			
+644:
+			  text: 海
+			  difficulty: 4
+  			
+645:
+			  text: 交
+			  difficulty: 4
+  			
+646:
+			  text: 台
+			  difficulty: 4
+  			
+647:
+			  text: 管
+			  difficulty: 4
+  			
+648:
+			  text: 活
+			  difficulty: 4
+  			
+649:
+			  text: 无
+			  difficulty: 4
+  			
+650:
+			  text: 费
+			  difficulty: 4
+  			
+651:
+			  text: 计
+			  difficulty: 4
+  			
+652:
+			  text: 及
+			  difficulty: 4
+  			
+653:
+			  text: 受
+			  difficulty: 4
+  			
+654:
+			  text: 科
+			  difficulty: 4
+  			
+655:
+			  text: 量
+			  difficulty: 4
+  			
+656:
+			  text: 至
+			  difficulty: 4
+  			
+657:
+			  text: 联
+			  difficulty: 4
+  			
+658:
+			  text: 证
+			  difficulty: 4
+  			
+659:
+			  text: 收
+			  difficulty: 4
+  			
+660:
+			  text: 格
+			  difficulty: 4
+  			
+661:
+			  text: 基
+			  difficulty: 4
+  			
+662:
+			  text: 式
+			  difficulty: 4
+  			
+663:
+			  text: 社
+			  difficulty: 4
+  			
+664:
+			  text: 术
+			  difficulty: 4
+  			
+665:
+			  text: 达
+			  difficulty: 4
+  			
+666:
+			  text: 规
+			  difficulty: 4
+  			
+667:
+			  text: 技
+			  difficulty: 4
+  			
+668:
+			  text: 专
+			  difficulty: 4
+  			
+669:
+			  text: 处
+			  difficulty: 4
+  			
+670:
+			  text: 程
+			  difficulty: 4
+  			
+671:
+			  text: 知
+			  difficulty: 4
+  			
+672:
+			  text: 各
+			  difficulty: 4
+  			
+673:
+			  text: 任
+			  difficulty: 4
+  			
+674:
+			  text: 原
+			  difficulty: 4
+  			
+675:
+			  text: 际
+			  difficulty: 4
+  			
+676:
+			  text: 组
+			  difficulty: 4
+  			
+677:
+			  text: 持
+			  difficulty: 4
+  			
+678:
+			  text: 剧
+			  difficulty: 4
+  			
+679:
+			  text: 首
+			  difficulty: 4
+  			
+680:
+			  text: 广
+			  difficulty: 4
+  			
+681:
+			  text: 尔
+			  difficulty: 4
+  			
+682:
+			  text: 消
+			  difficulty: 4
+  			
+683:
+			  text: 续
+			  difficulty: 4
+  			
+684:
+			  text: 观
+			  difficulty: 4
+  			
+685:
+			  text: 标
+			  difficulty: 4
+  			
+686:
+			  text: 导
+			  difficulty: 4
+  			
+687:
+			  text: 集
+			  difficulty: 4
+  			
+688:
+			  text: 指
+			  difficulty: 4
+  			
+689:
+			  text: 济
+			  difficulty: 4
+  			
+690:
+			  text: 连
+			  difficulty: 4
+  			
+691:
+			  text: 案
+			  difficulty: 4
+  			
+692:
+			  text: 拉
+			  difficulty: 4
+  			
+693:
+			  text: 造
+			  difficulty: 4
+  			
+694:
+			  text: 反
+			  difficulty: 4
+  			
+695:
+			  text: 取
+			  difficulty: 4
+  			
+696:
+			  text: 增
+			  difficulty: 4
+  			
+697:
+			  text: 整
+			  difficulty: 4
+  			
+698:
+			  text: 传
+			  difficulty: 4
+  			
+699:
+			  text: 克
+			  difficulty: 4
+  			
+700:
+			  text: 流
+			  difficulty: 4
+  			
+701:
+			  text: 改
+			  difficulty: 4
+  			
+702:
+			  text: 质
+			  difficulty: 4
+  			
+703:
+			  text: 士
+			  difficulty: 4
+  			
+704:
+			  text: 户
+			  difficulty: 4
+  			
+705:
+			  text: 具
+			  difficulty: 4
+  			
+706:
+			  text: 亚
+			  difficulty: 4
+  			
+707:
+			  text: 何
+			  difficulty: 4
+  			
+708:
+			  text: 许
+			  difficulty: 4
+  			
+709:
+			  text: 份
+			  difficulty: 4
+  			
+710:
+			  text: 供
+			  difficulty: 4
+  			
+711:
+			  text: 众
+			  difficulty: 4
+  			
+712:
+			  text: 售
+			  difficulty: 4
+  			
+713:
+			  text: 像
+			  difficulty: 4
+  			
+714:
+			  text: 光
+			  difficulty: 4
+  			
+715:
+			  text: 推
+			  difficulty: 4
+  			
+716:
+			  text: 深
+			  difficulty: 4
+  			
+717:
+			  text: 购
+			  difficulty: 4
+  			
+718:
+			  text: 获
+			  difficulty: 4
+  			
+719:
+			  text: 约
+			  difficulty: 4
+  			
+720:
+			  text: 况
+			  difficulty: 4
+  			
+721:
+			  text: 论
+			  difficulty: 4
+  			
+722:
+			  text: 研
+			  difficulty: 4
+  			
+723:
+			  text: 争
+			  difficulty: 4
+  			
+724:
+			  text: 则
+			  difficulty: 4
+  			
+725:
+			  text: 支
+			  difficulty: 4
+  			
+726:
+			  text: 确
+			  difficulty: 4
+  			
+727:
+			  text: 功
+			  difficulty: 4
+  			
+728:
+			  text: 象
+			  difficulty: 4
+  			
+729:
+			  text: 精
+			  difficulty: 4
+  			
+730:
+			  text: 即
+			  difficulty: 4
+  			
+731:
+			  text: 仅
+			  difficulty: 4
+  			
+732:
+			  text: 引
+			  difficulty: 4
+  			
+733:
+			  text: 失
+			  difficulty: 4
+  			
+734:
+			  text: 往
+			  difficulty: 4
+  			
+735:
+			  text: 奖
+			  difficulty: 4
+  			
+736:
+			  text: 职
+			  difficulty: 4
+  			
+737:
+			  text: 限
+			  difficulty: 4
+  			
+738:
+			  text: 责
+			  difficulty: 4
+  			
+739:
+			  text: 律
+			  difficulty: 4
+  			
+740:
+			  text: 林
+			  difficulty: 4
+  			
+741:
+			  text: 却
+			  difficulty: 4
+  			
+742:
+			  text: 纪
+			  difficulty: 4
+  			
+743:
+			  text: 优
+			  difficulty: 4
+  			
+744:
+			  text: 预
+			  difficulty: 4
+  			
+745:
+			  text: 警
+			  difficulty: 4
+  			
+746:
+			  text: 随
+			  difficulty: 4
+  			
+747:
+			  text: 究
+			  difficulty: 4
+  			
+748:
+			  text: 险
+			  difficulty: 4
+  			
+749:
+			  text: 速
+			  difficulty: 4
+  			
+750:
+			  text: 值
+			  difficulty: 4
+  			
+751:
+			  text: 亲
+			  difficulty: 4
+  			
+752:
+			  text: 神
+			  difficulty: 4
+  			
+753:
+			  text: 划
+			  difficulty: 4
+  			
+754:
+			  text: 列
+			  difficulty: 4
+  			
+755:
+			  text: 另
+			  difficulty: 4
+  			
+756:
+			  text: 艺
+			  difficulty: 4
+  			
+757:
+			  text: 志
+			  difficulty: 4
+  			
+758:
+			  text: 积
+			  difficulty: 4
+  			
+759:
+			  text: 效
+			  difficulty: 4
+  			
+760:
+			  text: 言
+			  difficulty: 4
+  			
+761:
+			  text: 评
+			  difficulty: 4
+  			
+762:
+			  text: 江
+			  difficulty: 4
+  			
+763:
+			  text: 降
+			  difficulty: 4
+  			
+764:
+			  text: 修
+			  difficulty: 4
+  			
+765:
+			  text: 排
+			  difficulty: 4
+  			
+766:
+			  text: 料
+			  difficulty: 4
+  			
+767:
+			  text: 负
+			  difficulty: 4
+  			
+768:
+			  text: 访
+			  difficulty: 4
+  			
+769:
+			  text: 底
+			  difficulty: 4
+  			
+770:
+			  text: 断
+			  difficulty: 4
+  			
+771:
+			  text: 景
+			  difficulty: 4
+  			
+772:
+			  text: 彩
+			  difficulty: 4
+  			
+773:
+			  text: 卡
+			  difficulty: 4
+  			
+774:
+			  text: 亿
+			  difficulty: 4
+  			
+775:
+			  text: 按
+			  difficulty: 4
+  			
+776:
+			  text: 死
+			  difficulty: 4
+  			
+777:
+			  text: 命
+			  difficulty: 4
+  			
+778:
+			  text: 故
+			  difficulty: 4
+  			
+779:
+			  text: 否
+			  difficulty: 4
+  			
+780:
+			  text: 严
+			  difficulty: 4
+  			
+781:
+			  text: 态
+			  difficulty: 4
+  			
+782:
+			  text: 验
+			  difficulty: 4
+  			
+783:
+			  text: 尽
+			  difficulty: 4
+  			
+784:
+			  text: 破
+			  difficulty: 4
+  			
+785:
+			  text: 村
+			  difficulty: 4
+  			
+786:
+			  text: 留
+			  difficulty: 4
+  			
+787:
+			  text: 仍
+			  difficulty: 4
+  			
+788:
+			  text: 织
+			  difficulty: 4
+  			
+789:
+			  text: 富
+			  difficulty: 4
+  			
+790:
+			  text: 航
+			  difficulty: 4
+  			
+791:
+			  text: 谈
+			  difficulty: 4
+  			
+792:
+			  text: 批
+			  difficulty: 4
+  			
+793:
+			  text: 范
+			  difficulty: 4
+  			
+794:
+			  text: 够
+			  difficulty: 4
+  			
+795:
+			  text: 围
+			  difficulty: 4
+  			
+796:
+			  text: 省
+			  difficulty: 4
+  			
+797:
+			  text: 洲
+			  difficulty: 4
+  			
+798:
+			  text: 继
+			  difficulty: 4
+  			
+799:
+			  text: 伤
+			  difficulty: 4
+  			
+800:
+			  text: 判
+			  difficulty: 4
+  			
+801:
+			  text: 适
+			  difficulty: 4
+  			
+802:
+			  text: 申
+			  difficulty: 4
+  			
+803:
+			  text: 播
+			  difficulty: 4
+  			
+804:
+			  text: 假
+			  difficulty: 4
+  			
+805:
+			  text: 切
+			  difficulty: 4
+  			
+806:
+			  text: 止
+			  difficulty: 4
+  			
+807:
+			  text: 农
+			  difficulty: 4
+  			
+808:
+			  text: 竞
+			  difficulty: 4
+  			
+809:
+			  text: 例
+			  difficulty: 4
+  			
+810:
+			  text: 绝
+			  difficulty: 4
+  			
+811:
+			  text: 察
+			  difficulty: 4
+  			
+812:
+			  text: 福
+			  difficulty: 4
+  			
+813:
+			  text: 养
+			  difficulty: 4
+  			
+814:
+			  text: 群
+			  difficulty: 4
+  			
+815:
+			  text: 停
+			  difficulty: 4
+  			
+816:
+			  text: 招
+			  difficulty: 4
+  			
+817:
+			  text: 母
+			  difficulty: 4
+  			
+818:
+			  text: 印
+			  difficulty: 4
+  			
+819:
+			  text: 油
+			  difficulty: 4
+  			
+820:
+			  text: 食
+			  difficulty: 4
+  			
+821:
+			  text: 压
+			  difficulty: 4
+  			
+822:
+			  text: 减
+			  difficulty: 4
+  			
+823:
+			  text: 货
+			  difficulty: 4
+  			
+824:
+			  text: 紧
+			  difficulty: 4
+  			
+825:
+			  text: 括
+			  difficulty: 4
+  			
+826:
+			  text: 密
+			  difficulty: 4
+  			
+827:
+			  text: 父
+			  difficulty: 4
+  			
+828:
+			  text: 免
+			  difficulty: 4
+  			
+829:
+			  text: 材
+			  difficulty: 4
+  			
+830:
+			  text: 激
+			  difficulty: 4
+  			
+831:
+			  text: 细
+			  difficulty: 4
+  			
+832:
+			  text: 互
+			  difficulty: 4
+  			
+833:
+			  text: 软
+			  difficulty: 4
+  			
+834:
+			  text: 签
+			  difficulty: 4
+  			
+835:
+			  text: 温
+			  difficulty: 4
+  			
+836:
+			  text: 甚
+			  difficulty: 4
+  			
+837:
+			  text: 悉
+			  difficulty: 4
+  			
+838:
+			  text: 味
+			  difficulty: 4
+  			
+839:
+			  text: 博
+			  difficulty: 4
+  			
+840:
+			  text: 疑
+			  difficulty: 4
+  			
+841:
+			  text: 著
+			  difficulty: 4
+  			
+842:
+			  text: 族
+			  difficulty: 4
+  			
+843:
+			  text: 座
+			  difficulty: 4
+  			
+844:
+			  text: 弹
+			  difficulty: 4
+  			
+845:
+			  text: 桥
+			  difficulty: 4
+  			
+846:
+			  text: 吸
+			  difficulty: 4
+  			
+847:
+			  text: 松
+			  difficulty: 4
+  			
+848:
+			  text: 血
+			  difficulty: 4
+  			
+849:
+			  text: 沙
+			  difficulty: 4
+  			
+850:
+			  text: 丽
+			  difficulty: 4
+  			
+851:
+			  text: 币
+			  difficulty: 4
+  			
+852:
+			  text: 缺
+			  difficulty: 4
+  			
+853:
+			  text: 丰
+			  difficulty: 4
+  			
+854:
+			  text: 码
+			  difficulty: 4
+  			
+855:
+			  text: 毕
+			  difficulty: 4
+  			
+856:
+			  text: 永
+			  difficulty: 4
+  			
+857:
+			  text: 章
+			  difficulty: 4
+  			
+858:
+			  text: 授
+			  difficulty: 4
+  			
+859:
+			  text: 坚
+			  difficulty: 4
+  			
+860:
+			  text: 微
+			  difficulty: 4
+  			
+861:
+			  text: 毛
+			  difficulty: 4
+  			
+862:
+			  text: 危
+			  difficulty: 4
+  			
+863:
+			  text: 竟
+			  difficulty: 4
+  			
+864:
+			  text: 困
+			  difficulty: 4
+  			
+865:
+			  text: 苦
+			  difficulty: 4
+  			
+866:
+			  text: 皮
+			  difficulty: 4
+  			
+867:
+			  text: 恐
+			  difficulty: 4
+  			
+868:
+			  text: 逐
+			  difficulty: 4
+  			
+869:
+			  text: 映
+			  difficulty: 4
+  			
+870:
+			  text: 洋
+			  difficulty: 4
+  			
+871:
+			  text: 虑
+			  difficulty: 4
+  			
+872:
+			  text: 顺
+			  difficulty: 4
+  			
+873:
+			  text: 秀
+			  difficulty: 4
+  			
+874:
+			  text: 肯
+			  difficulty: 4
+  			
+875:
+			  text: 惊
+			  difficulty: 4
+  			
+876:
+			  text: 败
+			  difficulty: 4
+  			
+877:
+			  text: 折
+			  difficulty: 4
+  			
+878:
+			  text: 杂
+			  difficulty: 4
+  			
+879:
+			  text: 础
+			  difficulty: 4
+  			
+880:
+			  text: 讨
+			  difficulty: 4
+  			
+881:
+			  text: 染
+			  difficulty: 4
+  			
+882:
+			  text: 顿
+			  difficulty: 4
+  			
+883:
+			  text: 幸
+			  difficulty: 4
+  			
+884:
+			  text: 润
+			  difficulty: 4
+  			
+885:
+			  text: 熟
+			  difficulty: 4
+  			
+886:
+			  text: 输
+			  difficulty: 4
+  			
+887:
+			  text: 既
+			  difficulty: 4
+  			
+888:
+			  text: 乘
+			  difficulty: 4
+  			
+889:
+			  text: 童
+			  difficulty: 4
+  			
+890:
+			  text: 序
+			  difficulty: 4
+  			
+891:
+			  text: 怀
+			  difficulty: 4
+  			
+892:
+			  text: 扩
+			  difficulty: 4
+  			
+893:
+			  text: 浪
+			  difficulty: 4
+  			
+894:
+			  text: 散
+			  difficulty: 4
+  			
+895:
+			  text: 梦
+			  difficulty: 4
+  			
+896:
+			  text: 钢
+			  difficulty: 4
+  			
+897:
+			  text: 概
+			  difficulty: 4
+  			
+898:
+			  text: 扬
+			  difficulty: 4
+  			
+899:
+			  text: 误
+			  difficulty: 4
+  			
+900:
+			  text: 释
+			  difficulty: 4
+  			
+901:
+			  text: 禁
+			  difficulty: 4
+  			
+902:
+			  text: 宽
+			  difficulty: 4
+  			
+903:
+			  text: 针
+			  difficulty: 4
+  			
+904:
+			  text: 尤
+			  difficulty: 4
+  			
+905:
+			  text: 污
+			  difficulty: 4
+  			
+906:
+			  text: 距
+			  difficulty: 4
+  			
+907:
+			  text: 渐
+			  difficulty: 4
+  			
+908:
+			  text: 掉
+			  difficulty: 4
+  			
+909:
+			  text: 森
+			  difficulty: 4
+  			
+910:
+			  text: 遍
+			  difficulty: 4
+  			
+911:
+			  text: 龄
+			  difficulty: 4
+  			
+912:
+			  text: 乱
+			  difficulty: 4
+  			
+913:
+			  text: 墙
+			  difficulty: 4
+  			
+914:
+			  text: 键
+			  difficulty: 4
+  			
+915:
+			  text: 齐
+			  difficulty: 4
+  			
+916:
+			  text: 脱
+			  difficulty: 4
+  			
+917:
+			  text: 翻
+			  difficulty: 4
+  			
+918:
+			  text: 估
+			  difficulty: 4
+  			
+919:
+			  text: 窗
+			  difficulty: 4
+  			
+920:
+			  text: 漫
+			  difficulty: 4
+  			
+921:
+			  text: 掌
+			  difficulty: 4
+  			
+922:
+			  text: 握
+			  difficulty: 4
+  			
+923:
+			  text: 赢
+			  difficulty: 4
+  			
+924:
+			  text: 烟
+			  difficulty: 4
+  			
+925:
+			  text: 醒
+			  difficulty: 4
+  			
+926:
+			  text: 鼓
+			  difficulty: 4
+  			
+927:
+			  text: 勇
+			  difficulty: 4
+  			
+928:
+			  text: 挂
+			  difficulty: 4
+  			
+929:
+			  text: 厚
+			  difficulty: 4
+  			
+930:
+			  text: 植
+			  difficulty: 4
+  			
+931:
+			  text: 戴
+			  difficulty: 4
+  			
+932:
+			  text: 暖
+			  difficulty: 4
+  			
+933:
+			  text: 叶
+			  difficulty: 4
+  			
+934:
+			  text: 聘
+			  difficulty: 4
+  			
+935:
+			  text: 硬
+			  difficulty: 4
+  			
+936:
+			  text: 符
+			  difficulty: 4
+  			
+937:
+			  text: 累
+			  difficulty: 4
+  			
+938:
+			  text: 虎
+			  difficulty: 4
+  			
+939:
+			  text: 奋
+			  difficulty: 4
+  			
+940:
+			  text: 篇
+			  difficulty: 4
+  			
+941:
+			  text: 弃
+			  difficulty: 4
+  			
+942:
+			  text: 诚
+			  difficulty: 4
+  			
+943:
+			  text: 暂
+			  difficulty: 4
+  			
+944:
+			  text: 饮
+			  difficulty: 4
+  			
+945:
+			  text: 抽
+			  difficulty: 4
+  			
+946:
+			  text: 麻
+			  difficulty: 4
+  			
+947:
+			  text: 默
+			  difficulty: 4
+  			
+948:
+			  text: 励
+			  difficulty: 4
+  			
+949:
+			  text: 暗
+			  difficulty: 4
+  			
+950:
+			  text: 汗
+			  difficulty: 4
+  			
+951:
+			  text: 塑
+			  difficulty: 4
+  			
+952:
+			  text: 替
+			  difficulty: 4
+  			
+953:
+			  text: 址
+			  difficulty: 4
+  			
+954:
+			  text: 拒
+			  difficulty: 4
+  			
+955:
+			  text: 巧
+			  difficulty: 4
+  			
+956:
+			  text: 挺
+			  difficulty: 4
+  			
+957:
+			  text: 撞
+			  difficulty: 4
+  			
+958:
+			  text: 偶
+			  difficulty: 4
+  			
+959:
+			  text: 琴
+			  difficulty: 4
+  			
+960:
+			  text: 抱
+			  difficulty: 4
+  			
+961:
+			  text: 尊
+			  difficulty: 4
+  			
+962:
+			  text: 闹
+			  difficulty: 4
+  			
+963:
+			  text: 骗
+			  difficulty: 4
+  			
+964:
+			  text: 辛
+			  difficulty: 4
+  			
+965:
+			  text: 聊
+			  difficulty: 4
+  			
+966:
+			  text: 邀
+			  difficulty: 4
+  			
+967:
+			  text: 忆
+			  difficulty: 4
+  			
+968:
+			  text: 烦
+			  difficulty: 4
+  			
+969:
+			  text: 刀
+			  difficulty: 4
+  			
+970:
+			  text: 寄
+			  difficulty: 4
+  			
+971:
+			  text: 译
+			  difficulty: 4
+  			
+972:
+			  text: 贺
+			  difficulty: 4
+  			
+973:
+			  text: 忽
+			  difficulty: 4
+  			
+974:
+			  text: 允
+			  difficulty: 4
+  			
+975:
+			  text: 详
+			  difficulty: 4
+  			
+976:
+			  text: 嘴
+			  difficulty: 4
+  			
+977:
+			  text: 尝
+			  difficulty: 4
+  			
+978:
+			  text: 肥
+			  difficulty: 4
+  			
+979:
+			  text: 寒
+			  difficulty: 4
+  			
+980:
+			  text: 泪
+			  difficulty: 4
+  			
+981:
+			  text: 袋
+			  difficulty: 4
+  			
+982:
+			  text: 耐
+			  difficulty: 4
+  			
+983:
+			  text: 扰
+			  difficulty: 4
+  			
+984:
+			  text: 傅
+			  difficulty: 4
+  			
+985:
+			  text: 剩
+			  difficulty: 4
+  			
+986:
+			  text: 垃
+			  difficulty: 4
+  			
+987:
+			  text: 圾
+			  difficulty: 4
+  			
+988:
+			  text: 赚
+			  difficulty: 4
+  			
+989:
+			  text: 阅
+			  difficulty: 4
+  			
+990:
+			  text: 扮
+			  difficulty: 4
+  			
+991:
+			  text: 页
+			  difficulty: 4
+  			
+992:
+			  text: 弄
+			  difficulty: 4
+  			
+993:
+			  text: 瓶
+			  difficulty: 4
+  			
+994:
+			  text: 肤
+			  difficulty: 4
+  			
+995:
+			  text: 惜
+			  difficulty: 4
+  			
+996:
+			  text: 呀
+			  difficulty: 4
+  			
+997:
+			  text: 汤
+			  difficulty: 4
+  			
+998:
+			  text: 填
+			  difficulty: 4
+  			
+999:
+			  text: 酸
+			  difficulty: 4
+  			
+1000:
+			  text: 陪
+			  difficulty: 4
+  			
+1001:
+			  text: 貌
+			  difficulty: 4
+  			
+1002:
+			  text: 帅
+			  difficulty: 4
+  			
+1003:
+			  text: 猜
+			  difficulty: 4
+  			
+1004:
+			  text: 仔
+			  difficulty: 4
+  			
+1005:
+			  text: 丢
+			  difficulty: 4
+  			
+1006:
+			  text: 湿
+			  difficulty: 4
+  			
+1007:
+			  text: 孤
+			  difficulty: 4
+  			
+1008:
+			  text: 羽
+			  difficulty: 4
+  			
+1009:
+			  text: 稍
+			  difficulty: 4
+  			
+1010:
+			  text: 堵
+			  difficulty: 4
+  			
+1011:
+			  text: 穷
+			  difficulty: 4
+  			
+1012:
+			  text: 盒
+			  difficulty: 4
+  			
+1013:
+			  text: 俩
+			  difficulty: 4
+  			
+1014:
+			  text: 凉
+			  difficulty: 4
+  			
+1015:
+			  text: 粗
+			  difficulty: 4
+  			
+1016:
+			  text: 硕
+			  difficulty: 4
+  			
+1017:
+			  text: 暑
+			  difficulty: 4
+  			
+1018:
+			  text: 咱
+			  difficulty: 4
+  			
+1019:
+			  text: 幽
+			  difficulty: 4
+  			
+1020:
+			  text: 谊
+			  difficulty: 4
+  			
+1021:
+			  text: 猪
+			  difficulty: 4
+  			
+1022:
+			  text: 厉
+			  difficulty: 4
+  			
+1023:
+			  text: 擦
+			  difficulty: 4
+  			
+1024:
+			  text: 饼
+			  difficulty: 4
+  			
+1025:
+			  text: 敲
+			  difficulty: 4
+  			
+1026:
+			  text: 桶
+			  difficulty: 4
+  			
+1027:
+			  text: 抬
+			  difficulty: 4
+  			
+1028:
+			  text: 傲
+			  difficulty: 4
+  			
+1029:
+			  text: 盐
+			  difficulty: 4
+  			
+1030:
+			  text: 慕
+			  difficulty: 4
+  			
+1031:
+			  text: 歉
+			  difficulty: 4
+  			
+1032:
+			  text: 悔
+			  difficulty: 4
+  			
+1033:
+			  text: 乒
+			  difficulty: 4
+  			
+1034:
+			  text: 逛
+			  difficulty: 4
+  			
+1035:
+			  text: 辣
+			  difficulty: 4
+  			
+1036:
+			  text: 猴
+			  difficulty: 4
+  			
+1037:
+			  text: 恼
+			  difficulty: 4
+  			
+1038:
+			  text: 窄
+			  difficulty: 4
+  			
+1039:
+			  text: 扔
+			  difficulty: 4
+  			
+1040:
+			  text: 躺
+			  difficulty: 4
+  			
+1041:
+			  text: 棵
+			  difficulty: 4
+  			
+1042:
+			  text: 拾
+			  difficulty: 4
+  			
+1043:
+			  text: 骄
+			  difficulty: 4
+  			
+1044:
+			  text: 愉
+			  difficulty: 4
+  			
+1045:
+			  text: 肚
+			  difficulty: 4
+  			
+1046:
+			  text: 泼
+			  difficulty: 4
+  			
+1047:
+			  text: 吵
+			  difficulty: 4
+  			
+1048:
+			  text: 戚
+			  difficulty: 4
+  			
+1049:
+			  text: 巾
+			  difficulty: 4
+  			
+1050:
+			  text: 匙
+			  difficulty: 4
+  			
+1051:
+			  text: 厌
+			  difficulty: 4
+  			
+1052:
+			  text: 乓
+			  difficulty: 4
+  			
+1053:
+			  text: 钥
+			  difficulty: 4
+  			
+1054:
+			  text: 怜
+			  difficulty: 4
+  			
+1055:
+			  text: 燥
+			  difficulty: 4
+  			
+1056:
+			  text: 羡
+			  difficulty: 4
+  			
+1057:
+			  text: 羞
+			  difficulty: 4
+  			
+1058:
+			  text: 懒
+			  difficulty: 4
+  			
+1059:
+			  text: 谅
+			  difficulty: 4
+  			
+1060:
+			  text: 膏
+			  difficulty: 4
+  			
+1061:
+			  text: 咸
+			  difficulty: 4
+  			
+1062:
+			  text: 笨
+			  difficulty: 4
+  			
+1063:
+			  text: 饺
+			  difficulty: 4
+  			
+1064:
+			  text: 咳
+			  difficulty: 4
+  			
+1065:
+			  text: 柿
+			  difficulty: 4
+  			
+1066:
+			  text: 袜
+			  difficulty: 4
+  			
+1067:
+			  text: 嗽
+			  difficulty: 4
+  			
+1068:
+			  text: 与
+			  difficulty: 5
+  			
+1069:
+			  text: 产
+			  difficulty: 5
+  			
+1070:
+			  text: 股
+			  difficulty: 5
+  			
+1071:
+			  text: 队
+			  difficulty: 5
+  			
+1072:
+			  text: 建
+			  difficulty: 5
+  			
+1073:
+			  text: 政
+			  difficulty: 5
+  			
+1074:
+			  text: 更
+			  difficulty: 5
+  			
+1075:
+			  text: 设
+			  difficulty: 5
+  			
+1076:
+			  text: 华
+			  difficulty: 5
+  			
+1077:
+			  text: 投
+			  difficulty: 5
+  			
+1078:
+			  text: 线
+			  difficulty: 5
+  			
+1079:
+			  text: 立
+			  difficulty: 5
+  			
+1080:
+			  text: 强
+			  difficulty: 5
+  			
+1081:
+			  text: 企
+			  difficulty: 5
+  			
+1082:
+			  text: 版
+			  difficulty: 5
+  			
+1083:
+			  text: 战
+			  difficulty: 5
+  			
+1084:
+			  text: 军
+			  difficulty: 5
+  			
+1085:
+			  text: 统
+			  difficulty: 5
+  			
+1086:
+			  text: 局
+			  difficulty: 5
+  			
+1087:
+			  text: 王
+			  difficulty: 5
+  			
+1088:
+			  text: 布
+			  difficulty: 5
+  			
+1089:
+			  text: 权
+			  difficulty: 5
+  			
+1090:
+			  text: 团
+			  difficulty: 5
+  			
+1091:
+			  text: 项
+			  difficulty: 5
+  			
+1092:
+			  text: 装
+			  difficulty: 5
+  			
+1093:
+			  text: 德
+			  difficulty: 5
+  			
+1094:
+			  text: 形
+			  difficulty: 5
+  			
+1095:
+			  text: 青
+			  difficulty: 5
+  			
+1096:
+			  text: 英
+			  difficulty: 5
+  			
+1097:
+			  text: 领
+			  difficulty: 5
+  			
+1098:
+			  text: 营
+			  difficulty: 5
+  			
+1099:
+			  text: 委
+			  difficulty: 5
+  			
+1100:
+			  text: 势
+			  difficulty: 5
+  			
+1101:
+			  text: 采
+			  difficulty: 5
+  			
+1102:
+			  text: 销
+			  difficulty: 5
+  			
+1103:
+			  text: 型
+			  difficulty: 5
+  			
+1104:
+			  text: 创
+			  difficulty: 5
+  			
+1105:
+			  text: 显
+			  difficulty: 5
+  			
+1106:
+			  text: 转
+			  difficulty: 5
+  			
+1107:
+			  text: 未
+			  difficulty: 5
+  			
+1108:
+			  text: 均
+			  difficulty: 5
+  			
+1109:
+			  text: 类
+			  difficulty: 5
+  			
+1110:
+			  text: 府
+			  difficulty: 5
+  			
+1111:
+			  text: 卫
+			  difficulty: 5
+  			
+1112:
+			  text: 款
+			  difficulty: 5
+  			
+1113:
+			  text: 牌
+			  difficulty: 5
+  			
+1114:
+			  text: 称
+			  difficulty: 5
+  			
+1115:
+			  text: 施
+			  difficulty: 5
+  			
+1116:
+			  text: 率
+			  difficulty: 5
+  			
+1117:
+			  text: 义
+			  difficulty: 5
+  			
+1118:
+			  text: 协
+			  difficulty: 5
+  			
+1119:
+			  text: 治
+			  difficulty: 5
+  			
+1120:
+			  text: 存
+			  difficulty: 5
+  			
+1121:
+			  text: 配
+			  difficulty: 5
+  			
+1122:
+			  text: 巴
+			  difficulty: 5
+  			
+1123:
+			  text: 构
+			  difficulty: 5
+  			
+1124:
+			  text: 曾
+			  difficulty: 5
+  			
+1125:
+			  text: 置
+			  difficulty: 5
+  			
+1126:
+			  text: 击
+			  difficulty: 5
+  			
+1127:
+			  text: 模
+			  difficulty: 5
+  			
+1128:
+			  text: 益
+			  difficulty: 5
+  			
+1129:
+			  text: 维
+			  difficulty: 5
+  			
+1130:
+			  text: 器
+			  difficulty: 5
+  			
+1131:
+			  text: 防
+			  difficulty: 5
+  			
+1132:
+			  text: 升
+			  difficulty: 5
+  			
+1133:
+			  text: 龙
+			  difficulty: 5
+  			
+1134:
+			  text: 致
+			  difficulty: 5
+  			
+1135:
+			  text: 摄
+			  difficulty: 5
+  			
+1136:
+			  text: 念
+			  difficulty: 5
+  			
+1137:
+			  text: 源
+			  difficulty: 5
+  			
+1138:
+			  text: 庭
+			  difficulty: 5
+  			
+1139:
+			  text: 宣
+			  difficulty: 5
+  			
+1140:
+			  text: 官
+			  difficulty: 5
+  			
+1141:
+			  text: 初
+			  difficulty: 5
+  			
+1142:
+			  text: 承
+			  difficulty: 5
+  			
+1143:
+			  text: 落
+			  difficulty: 5
+  			
+1144:
+			  text: 财
+			  difficulty: 5
+  			
+1145:
+			  text: 策
+			  difficulty: 5
+  			
+1146:
+			  text: 讯
+			  difficulty: 5
+  			
+1147:
+			  text: 拍
+			  difficulty: 5
+  			
+1148:
+			  text: 素
+			  difficulty: 5
+  			
+1149:
+			  text: 某
+			  difficulty: 5
+  			
+1150:
+			  text: 厂
+			  difficulty: 5
+  			
+1151:
+			  text: 属
+			  difficulty: 5
+  			
+1152:
+			  text: 石
+			  difficulty: 5
+  			
+1153:
+			  text: 令
+			  difficulty: 5
+  			
+1154:
+			  text: 届
+			  difficulty: 5
+  			
+1155:
+			  text: 训
+			  difficulty: 5
+  			
+1156:
+			  text: 依
+			  difficulty: 5
+  			
+1157:
+			  text: 古
+			  difficulty: 5
+  			
+1158:
+			  text: 武
+			  difficulty: 5
+  			
+1159:
+			  text: 胜
+			  difficulty: 5
+  			
+1160:
+			  text: 占
+			  difficulty: 5
+  			
+1161:
+			  text: 状
+			  difficulty: 5
+  			
+1162:
+			  text: 待
+			  difficulty: 5
+  			
+1163:
+			  text: 测
+			  difficulty: 5
+  			
+1164:
+			  text: 余
+			  difficulty: 5
+  			
+1165:
+			  text: 套
+			  difficulty: 5
+  			
+1166:
+			  text: 录
+			  difficulty: 5
+  			
+1167:
+			  text: 充
+			  difficulty: 5
+  			
+1168:
+			  text: 土
+			  difficulty: 5
+  			
+1169:
+			  text: 派
+			  difficulty: 5
+  			
+1170:
+			  text: 独
+			  difficulty: 5
+  			
+1171:
+			  text: 铁
+			  difficulty: 5
+  			
+1172:
+			  text: 筑
+			  difficulty: 5
+  			
+1173:
+			  text: 执
+			  difficulty: 5
+  			
+1174:
+			  text: 登
+			  difficulty: 5
+  			
+1175:
+			  text: 临
+			  difficulty: 5
+  			
+1176:
+			  text: 控
+			  difficulty: 5
+  			
+1177:
+			  text: 朝
+			  difficulty: 5
+  			
+1178:
+			  text: 税
+			  difficulty: 5
+  			
+1179:
+			  text: 幅
+			  difficulty: 5
+  			
+1180:
+			  text: 犯
+			  difficulty: 5
+  			
+1181:
+			  text: 威
+			  difficulty: 5
+  			
+1182:
+			  text: 宝
+			  difficulty: 5
+  			
+1183:
+			  text: 露
+			  difficulty: 5
+  			
+1184:
+			  text: 革
+			  difficulty: 5
+  			
+1185:
+			  text: 培
+			  difficulty: 5
+  			
+1186:
+			  text: 轮
+			  difficulty: 5
+  			
+1187:
+			  text: 域
+			  difficulty: 5
+  			
+1188:
+			  text: 良
+			  difficulty: 5
+  			
+1189:
+			  text: 冲
+			  difficulty: 5
+  			
+1190:
+			  text: 移
+			  difficulty: 5
+  			
+1191:
+			  text: 劳
+			  difficulty: 5
+  			
+1192:
+			  text: 托
+			  difficulty: 5
+  			
+1193:
+			  text: 损
+			  difficulty: 5
+  			
+1194:
+			  text: 罪
+			  difficulty: 5
+  			
+1195:
+			  text: 席
+			  difficulty: 5
+  			
+1196:
+			  text: 似
+			  difficulty: 5
+  			
+1197:
+			  text: 屋
+			  difficulty: 5
+  			
+1198:
+			  text: 迷
+			  difficulty: 5
+  			
+1199:
+			  text: 救
+			  difficulty: 5
+  			
+1200:
+			  text: 县
+			  difficulty: 5
+  			
+1201:
+			  text: 庆
+			  difficulty: 5
+  			
+1202:
+			  text: 退
+			  difficulty: 5
+  			
+1203:
+			  text: 善
+			  difficulty: 5
+  			
+1204:
+			  text: 巨
+			  difficulty: 5
+  			
+1205:
+			  text: 融
+			  difficulty: 5
+  			
+1206:
+			  text: 补
+			  difficulty: 5
+  			
+1207:
+			  text: 追
+			  difficulty: 5
+  			
+1208:
+			  text: 贸
+			  difficulty: 5
+  			
+1209:
+			  text: 尚
+			  difficulty: 5
+  			
+1210:
+			  text: 毒
+			  difficulty: 5
+  			
+1211:
+			  text: 编
+			  difficulty: 5
+  			
+1212:
+			  text: 征
+			  difficulty: 5
+  			
+1213:
+			  text: 夜
+			  difficulty: 5
+  			
+1214:
+			  text: 付
+			  difficulty: 5
+  			
+1215:
+			  text: 核
+			  difficulty: 5
+  			
+1216:
+			  text: 透
+			  difficulty: 5
+  			
+1217:
+			  text: 杀
+			  difficulty: 5
+  			
+1218:
+			  text: 略
+			  difficulty: 5
+  			
+1219:
+			  text: 询
+			  difficulty: 5
+  			
+1220:
+			  text: 宁
+			  difficulty: 5
+  			
+1221:
+			  text: 纷
+			  difficulty: 5
+  			
+1222:
+			  text: 厅
+			  difficulty: 5
+  			
+1223:
+			  text: 汇
+			  difficulty: 5
+  			
+1224:
+			  text: 田
+			  difficulty: 5
+  			
+1225:
+			  text: 烈
+			  difficulty: 5
+  			
+1226:
+			  text: 塔
+			  difficulty: 5
+  			
+1227:
+			  text: 疗
+			  difficulty: 5
+  			
+1228:
+			  text: 裁
+			  difficulty: 5
+  			
+1229:
+			  text: 涨
+			  difficulty: 5
+  			
+1230:
+			  text: 呼
+			  difficulty: 5
+  			
+1231:
+			  text: 冠
+			  difficulty: 5
+  			
+1232:
+			  text: 稳
+			  difficulty: 5
+  			
+1233:
+			  text: 幕
+			  difficulty: 5
+  			
+1234:
+			  text: 倒
+			  difficulty: 5
+  			
+1235:
+			  text: 兵
+			  difficulty: 5
+  			
+1236:
+			  text: 操
+			  difficulty: 5
+  			
+1237:
+			  text: 木
+			  difficulty: 5
+  			
+1238:
+			  text: 藏
+			  difficulty: 5
+  			
+1239:
+			  text: 靠
+			  difficulty: 5
+  			
+1240:
+			  text: 挥
+			  difficulty: 5
+  			
+1241:
+			  text: 惠
+			  difficulty: 5
+  			
+1242:
+			  text: 析
+			  difficulty: 5
+  			
+1243:
+			  text: 述
+			  difficulty: 5
+  			
+1244:
+			  text: 拥
+			  difficulty: 5
+  			
+1245:
+			  text: 违
+			  difficulty: 5
+  			
+1246:
+			  text: 含
+			  difficulty: 5
+  			
+1247:
+			  text: 雷
+			  difficulty: 5
+  			
+1248:
+			  text: 射
+			  difficulty: 5
+  			
+1249:
+			  text: 寻
+			  difficulty: 5
+  			
+1250:
+			  text: 哈
+			  difficulty: 5
+  			
+1251:
+			  text: 架
+			  difficulty: 5
+  			
+1252:
+			  text: 私
+			  difficulty: 5
+  			
+1253:
+			  text: 订
+			  difficulty: 5
+  			
+1254:
+			  text: 餐
+			  difficulty: 5
+  			
+1255:
+			  text: 陆
+			  difficulty: 5
+  			
+1256:
+			  text: 赶
+			  difficulty: 5
+  			
+1257:
+			  text: 频
+			  difficulty: 5
+  			
+1258:
+			  text: 乡
+			  difficulty: 5
+  			
+1259:
+			  text: 贷
+			  difficulty: 5
+  			
+1260:
+			  text: 震
+			  difficulty: 5
+  			
+1261:
+			  text: 秘
+			  difficulty: 5
+  			
+1262:
+			  text: 荣
+			  difficulty: 5
+  			
+1263:
+			  text: 抢
+			  difficulty: 5
+  			
+1264:
+			  text: 抗
+			  difficulty: 5
+  			
+1265:
+			  text: 伟
+			  difficulty: 5
+  			
+1266:
+			  text: 偿
+			  difficulty: 5
+  			
+1267:
+			  text: 孙
+			  difficulty: 5
+  			
+1268:
+			  text: 智
+			  difficulty: 5
+  			
+1269:
+			  text: 守
+			  difficulty: 5
+  			
+1270:
+			  text: 顶
+			  difficulty: 5
+  			
+1271:
+			  text: 野
+			  difficulty: 5
+  			
+1272:
+			  text: 享
+			  difficulty: 5
+  			
+1273:
+			  text: 封
+			  difficulty: 5
+  			
+1274:
+			  text: 胡
+			  difficulty: 5
+  			
+1275:
+			  text: 妇
+			  difficulty: 5
+  			
+1276:
+			  text: 饰
+			  difficulty: 5
+  			
+1277:
+			  text: 促
+			  difficulty: 5
+  			
+1278:
+			  text: 赔
+			  difficulty: 5
+  			
+1279:
+			  text: 挑
+			  difficulty: 5
+  			
+1280:
+			  text: 综
+			  difficulty: 5
+  			
+1281:
+			  text: 召
+			  difficulty: 5
+  			
+1282:
+			  text: 炸
+			  difficulty: 5
+  			
+1283:
+			  text: 斗
+			  difficulty: 5
+  			
+1284:
+			  text: 遗
+			  difficulty: 5
+  			
+1285:
+			  text: 库
+			  difficulty: 5
+  			
+1286:
+			  text: 延
+			  difficulty: 5
+  			
+1287:
+			  text: 俱
+			  difficulty: 5
+  			
+1288:
+			  text: 坦
+			  difficulty: 5
+  			
+1289:
+			  text: 贝
+			  difficulty: 5
+  			
+1290:
+			  text: 措
+			  difficulty: 5
+  			
+1291:
+			  text: 岛
+			  difficulty: 5
+  			
+1292:
+			  text: 玉
+			  difficulty: 5
+  			
+1293:
+			  text: 盖
+			  difficulty: 5
+  			
+1294:
+			  text: 途
+			  difficulty: 5
+  			
+1295:
+			  text: 启
+			  difficulty: 5
+  			
+1296:
+			  text: 档
+			  difficulty: 5
+  			
+1297:
+			  text: 灵
+			  difficulty: 5
+  			
+1298:
+			  text: 雄
+			  difficulty: 5
+  			
+1299:
+			  text: 避
+			  difficulty: 5
+  			
+1300:
+			  text: 甲
+			  difficulty: 5
+  			
+1301:
+			  text: 弱
+			  difficulty: 5
+  			
+1302:
+			  text: 痛
+			  difficulty: 5
+  			
+1303:
+			  text: 阵
+			  difficulty: 5
+  			
+1304:
+			  text: 趋
+			  difficulty: 5
+  			
+1305:
+			  text: 览
+			  difficulty: 5
+  			
+1306:
+			  text: 罚
+			  difficulty: 5
+  			
+1307:
+			  text: 抓
+			  difficulty: 5
+  			
+1308:
+			  text: 迅
+			  difficulty: 5
+  			
+1309:
+			  text: 咨
+			  difficulty: 5
+  			
+1310:
+			  text: 献
+			  difficulty: 5
+  			
+1311:
+			  text: 迹
+			  difficulty: 5
+  			
+1312:
+			  text: 载
+			  difficulty: 5
+  			
+1313:
+			  text: 枪
+			  difficulty: 5
+  			
+1314:
+			  text: 驶
+			  difficulty: 5
+  			
+1315:
+			  text: 旦
+			  difficulty: 5
+  			
+1316:
+			  text: 册
+			  difficulty: 5
+  			
+1317:
+			  text: 沉
+			  difficulty: 5
+  			
+1318:
+			  text: 驾
+			  difficulty: 5
+  			
+1319:
+			  text: 麦
+			  difficulty: 5
+  			
+1320:
+			  text: 贴
+			  difficulty: 5
+  			
+1321:
+			  text: 摩
+			  difficulty: 5
+  			
+1322:
+			  text: 纯
+			  difficulty: 5
+  			
+1323:
+			  text: 侵
+			  difficulty: 5
+  			
+1324:
+			  text: 伙
+			  difficulty: 5
+  			
+1325:
+			  text: 谓
+			  difficulty: 5
+  			
+1326:
+			  text: 触
+			  difficulty: 5
+  			
+1327:
+			  text: 滑
+			  difficulty: 5
+  			
+1328:
+			  text: 聚
+			  difficulty: 5
+  			
+1329:
+			  text: 固
+			  difficulty: 5
+  			
+1330:
+			  text: 恶
+			  difficulty: 5
+  			
+1331:
+			  text: 娱
+			  difficulty: 5
+  			
+1332:
+			  text: 骨
+			  difficulty: 5
+  			
+1333:
+			  text: 倍
+			  difficulty: 5
+  			
+1334:
+			  text: 伴
+			  difficulty: 5
+  			
+1335:
+			  text: 残
+			  difficulty: 5
+  			
+1336:
+			  text: 宇
+			  difficulty: 5
+  			
+1337:
+			  text: 棋
+			  difficulty: 5
+  			
+1338:
+			  text: 搞
+			  difficulty: 5
+  			
+1339:
+			  text: 劲
+			  difficulty: 5
+  			
+1340:
+			  text: 殊
+			  difficulty: 5
+  			
+1341:
+			  text: 缩
+			  difficulty: 5
+  			
+1342:
+			  text: 拆
+			  difficulty: 5
+  			
+1343:
+			  text: 丁
+			  difficulty: 5
+  			
+1344:
+			  text: 敏
+			  difficulty: 5
+  			
+1345:
+			  text: 圈
+			  difficulty: 5
+  			
+1346:
+			  text: 逃
+			  difficulty: 5
+  			
+1347:
+			  text: 誉
+			  difficulty: 5
+  			
+1348:
+			  text: 凭
+			  difficulty: 5
+  			
+1349:
+			  text: 疾
+			  difficulty: 5
+  			
+1350:
+			  text: 毫
+			  difficulty: 5
+  			
+1351:
+			  text: 亏
+			  difficulty: 5
+  			
+1352:
+			  text: 摆
+			  difficulty: 5
+  			
+1353:
+			  text: 虚
+			  difficulty: 5
+  			
+1354:
+			  text: 刺
+			  difficulty: 5
+  			
+1355:
+			  text: 繁
+			  difficulty: 5
+  			
+1356:
+			  text: 嘉
+			  difficulty: 5
+  			
+1357:
+			  text: 乏
+			  difficulty: 5
+  			
+1358:
+			  text: 缓
+			  difficulty: 5
+  			
+1359:
+			  text: 辑
+			  difficulty: 5
+  			
+1360:
+			  text: 阻
+			  difficulty: 5
+  			
+1361:
+			  text: 舍
+			  difficulty: 5
+  			
+1362:
+			  text: 跃
+			  difficulty: 5
+  			
+1363:
+			  text: 闭
+			  difficulty: 5
+  			
+1364:
+			  text: 佛
+			  difficulty: 5
+  			
+1365:
+			  text: 丝
+			  difficulty: 5
+  			
+1366:
+			  text: 偷
+			  difficulty: 5
+  			
+1367:
+			  text: 赞
+			  difficulty: 5
+  			
+1368:
+			  text: 返
+			  difficulty: 5
+  			
+1369:
+			  text: 豪
+			  difficulty: 5
+  			
+1370:
+			  text: 欣
+			  difficulty: 5
+  			
+1371:
+			  text: 怖
+			  difficulty: 5
+  			
+1372:
+			  text: 灾
+			  difficulty: 5
+  			
+1373:
+			  text: 凡
+			  difficulty: 5
+  			
+1374:
+			  text: 祖
+			  difficulty: 5
+  			
+1375:
+			  text: 炒
+			  difficulty: 5
+  			
+1376:
+			  text: 赏
+			  difficulty: 5
+  			
+1377:
+			  text: 泉
+			  difficulty: 5
+  			
+1378:
+			  text: 狂
+			  difficulty: 5
+  			
+1379:
+			  text: 捐
+			  difficulty: 5
+  			
+1380:
+			  text: 燃
+			  difficulty: 5
+  			
+1381:
+			  text: 缘
+			  difficulty: 5
+  			
+1382:
+			  text: 迫
+			  difficulty: 5
+  			
+1383:
+			  text: 锁
+			  difficulty: 5
+  			
+1384:
+			  text: 液
+			  difficulty: 5
+  			
+1385:
+			  text: 隔
+			  difficulty: 5
+  			
+1386:
+			  text: 恢
+			  difficulty: 5
+  			
+1387:
+			  text: 岸
+			  difficulty: 5
+  			
+1388:
+			  text: 沟
+			  difficulty: 5
+  			
+1389:
+			  text: 珍
+			  difficulty: 5
+  			
+1390:
+			  text: 彻
+			  difficulty: 5
+  			
+1391:
+			  text: 泛
+			  difficulty: 5
+  			
+1392:
+			  text: 诊
+			  difficulty: 5
+  			
+1393:
+			  text: 皇
+			  difficulty: 5
+  			
+1394:
+			  text: 衡
+			  difficulty: 5
+  			
+1395:
+			  text: 紫
+			  difficulty: 5
+  			
+1396:
+			  text: 卷
+			  difficulty: 5
+  			
+1397:
+			  text: 横
+			  difficulty: 5
+  			
+1398:
+			  text: 递
+			  difficulty: 5
+  			
+1399:
+			  text: 池
+			  difficulty: 5
+  			
+1400:
+			  text: 闲
+			  difficulty: 5
+  			
+1401:
+			  text: 淡
+			  difficulty: 5
+  			
+1402:
+			  text: 洞
+			  difficulty: 5
+  			
+1403:
+			  text: 尾
+			  difficulty: 5
+  			
+1404:
+			  text: 振
+			  difficulty: 5
+  			
+1405:
+			  text: 恋
+			  difficulty: 5
+  			
+1406:
+			  text: 宗
+			  difficulty: 5
+  			
+1407:
+			  text: 矿
+			  difficulty: 5
+  			
+1408:
+			  text: 诗
+			  difficulty: 5
+  			
+1409:
+			  text: 郊
+			  difficulty: 5
+  			
+1410:
+			  text: 账
+			  difficulty: 5
+  			
+1411:
+			  text: 籍
+			  difficulty: 5
+  			
+1412:
+			  text: 摇
+			  difficulty: 5
+  			
+1413:
+			  text: 腐
+			  difficulty: 5
+  			
+1414:
+			  text: 盾
+			  difficulty: 5
+  			
+1415:
+			  text: 悲
+			  difficulty: 5
+  			
+1416:
+			  text: 废
+			  difficulty: 5
+  			
+1417:
+			  text: 辞
+			  difficulty: 5
+  			
+1418:
+			  text: 煤
+			  difficulty: 5
+  			
+1419:
+			  text: 俗
+			  difficulty: 5
+  			
+1420:
+			  text: 敬
+			  difficulty: 5
+  			
+1421:
+			  text: 柜
+			  difficulty: 5
+  			
+1422:
+			  text: 灭
+			  difficulty: 5
+  			
+1423:
+			  text: 宿
+			  difficulty: 5
+  			
+1424:
+			  text: 敌
+			  difficulty: 5
+  			
+1425:
+			  text: 虹
+			  difficulty: 5
+  			
+1426:
+			  text: 秒
+			  difficulty: 5
+  			
+1427:
+			  text: 艰
+			  difficulty: 5
+  			
+1428:
+			  text: 浓
+			  difficulty: 5
+  			
+1429:
+			  text: 佩
+			  difficulty: 5
+  			
+1430:
+			  text: 描
+			  difficulty: 5
+  			
+1431:
+			  text: 豆
+			  difficulty: 5
+  			
+1432:
+			  text: 忍
+			  difficulty: 5
+  			
+1433:
+			  text: 寿
+			  difficulty: 5
+  			
+1434:
+			  text: 帝
+			  difficulty: 5
+  			
+1435:
+			  text: 氛
+			  difficulty: 5
+  			
+1436:
+			  text: 璃
+			  difficulty: 5
+  			
+1437:
+			  text: 娘
+			  difficulty: 5
+  			
+1438:
+			  text: 慧
+			  difficulty: 5
+  			
+1439:
+			  text: 玻
+			  difficulty: 5
+  			
+1440:
+			  text: 践
+			  difficulty: 5
+  			
+1441:
+			  text: 绪
+			  difficulty: 5
+  			
+1442:
+			  text: 寓
+			  difficulty: 5
+  			
+1443:
+			  text: 幼
+			  difficulty: 5
+  			
+1444:
+			  text: 挡
+			  difficulty: 5
+  			
+1445:
+			  text: 吨
+			  difficulty: 5
+  			
+1446:
+			  text: 仿
+			  difficulty: 5
+  			
+1447:
+			  text: 绕
+			  difficulty: 5
+  			
+1448:
+			  text: 薄
+			  difficulty: 5
+  			
+1449:
+			  text: 妙
+			  difficulty: 5
+  			
+1450:
+			  text: 碍
+			  difficulty: 5
+  			
+1451:
+			  text: 俊
+			  difficulty: 5
+  			
+1452:
+			  text: 唯
+			  difficulty: 5
+  			
+1453:
+			  text: 链
+			  difficulty: 5
+  			
+1454:
+			  text: 碰
+			  difficulty: 5
+  			
+1455:
+			  text: 勤
+			  difficulty: 5
+  			
+1456:
+			  text: 铜
+			  difficulty: 5
+  			
+1457:
+			  text: 姻
+			  difficulty: 5
+  			
+1458:
+			  text: 矛
+			  difficulty: 5
+  			
+1459:
+			  text: 堆
+			  difficulty: 5
+  			
+1460:
+			  text: 柔
+			  difficulty: 5
+  			
+1461:
+			  text: 尘
+			  difficulty: 5
+  			
+1462:
+			  text: 披
+			  difficulty: 5
+  			
+1463:
+			  text: 脏
+			  difficulty: 5
+  			
+1464:
+			  text: 壁
+			  difficulty: 5
+  			
+1465:
+			  text: 挤
+			  difficulty: 5
+  			
+1466:
+			  text: 拜
+			  difficulty: 5
+  			
+1467:
+			  text: 灰
+			  difficulty: 5
+  			
+1468:
+			  text: 辩
+			  difficulty: 5
+  			
+1469:
+			  text: 摸
+			  difficulty: 5
+  			
+1470:
+			  text: 慎
+			  difficulty: 5
+  			
+1471:
+			  text: 贡
+			  difficulty: 5
+  			
+1472:
+			  text: 胁
+			  difficulty: 5
+  			
+1473:
+			  text: 彼
+			  difficulty: 5
+  			
+1474:
+			  text: 悄
+			  difficulty: 5
+  			
+1475:
+			  text: 拳
+			  difficulty: 5
+  			
+1476:
+			  text: 胆
+			  difficulty: 5
+  			
+1477:
+			  text: 劣
+			  difficulty: 5
+  			
+1478:
+			  text: 辅
+			  difficulty: 5
+  			
+1479:
+			  text: 插
+			  difficulty: 5
+  			
+1480:
+			  text: 荐
+			  difficulty: 5
+  			
+1481:
+			  text: 漏
+			  difficulty: 5
+  			
+1482:
+			  text: 姑
+			  difficulty: 5
+  			
+1483:
+			  text: 喊
+			  difficulty: 5
+  			
+1484:
+			  text: 犹
+			  difficulty: 5
+  			
+1485:
+			  text: 欠
+			  difficulty: 5
+  			
+1486:
+			  text: 粮
+			  difficulty: 5
+  			
+1487:
+			  text: 匹
+			  difficulty: 5
+  			
+1488:
+			  text: 喷
+			  difficulty: 5
+  			
+1489:
+			  text: 涂
+			  difficulty: 5
+  			
+1490:
+			  text: 奈
+			  difficulty: 5
+  			
+1491:
+			  text: 卧
+			  difficulty: 5
+  			
+1492:
+			  text: 疲
+			  difficulty: 5
+  			
+1493:
+			  text: 闪
+			  difficulty: 5
+  			
+1494:
+			  text: 伸
+			  difficulty: 5
+  			
+1495:
+			  text: 胶
+			  difficulty: 5
+  			
+1496:
+			  text: 竹
+			  difficulty: 5
+  			
+1497:
+			  text: 锅
+			  difficulty: 5
+  			
+1498:
+			  text: 肃
+			  difficulty: 5
+  			
+1499:
+			  text: 滚
+			  difficulty: 5
+  			
+1500:
+			  text: 辈
+			  difficulty: 5
+  			
+1501:
+			  text: 艳
+			  difficulty: 5
+  			
+1502:
+			  text: 摘
+			  difficulty: 5
+  			
+1503:
+			  text: 挣
+			  difficulty: 5
+  			
+1504:
+			  text: 炮
+			  difficulty: 5
+  			
+1505:
+			  text: 尖
+			  difficulty: 5
+  			
+1506:
+			  text: 戒
+			  difficulty: 5
+  			
+1507:
+			  text: 疯
+			  difficulty: 5
+  			
+1508:
+			  text: 扶
+			  difficulty: 5
+  			
+1509:
+			  text: 碎
+			  difficulty: 5
+  			
+1510:
+			  text: 牵
+			  difficulty: 5
+  			
+1511:
+			  text: 旬
+			  difficulty: 5
+  			
+1512:
+			  text: 苗
+			  difficulty: 5
+  			
+1513:
+			  text: 鼠
+			  difficulty: 5
+  			
+1514:
+			  text: 兄
+			  difficulty: 5
+  			
+1515:
+			  text: 寺
+			  difficulty: 5
+  			
+1516:
+			  text: 怒
+			  difficulty: 5
+  			
+1517:
+			  text: 慰
+			  difficulty: 5
+  			
+1518:
+			  text: 憾
+			  difficulty: 5
+  			
+1519:
+			  text: 呆
+			  difficulty: 5
+  			
+1520:
+			  text: 颗
+			  difficulty: 5
+  			
+1521:
+			  text: 腰
+			  difficulty: 5
+  			
+1522:
+			  text: 吹
+			  difficulty: 5
+  			
+1523:
+			  text: 幻
+			  difficulty: 5
+  			
+1524:
+			  text: 魅
+			  difficulty: 5
+  			
+1525:
+			  text: 谨
+			  difficulty: 5
+  			
+1526:
+			  text: 愤
+			  difficulty: 5
+  			
+1527:
+			  text: 冻
+			  difficulty: 5
+  			
+1528:
+			  text: 庙
+			  difficulty: 5
+  			
+1529:
+			  text: 糊
+			  difficulty: 5
+  			
+1530:
+			  text: 厘
+			  difficulty: 5
+  			
+1531:
+			  text: 秩
+			  difficulty: 5
+  			
+1532:
+			  text: 倡
+			  difficulty: 5
+  			
+1533:
+			  text: 锐
+			  difficulty: 5
+  			
+1534:
+			  text: 烂
+			  difficulty: 5
+  			
+1535:
+			  text: 尺
+			  difficulty: 5
+  			
+1536:
+			  text: 肩
+			  difficulty: 5
+  			
+1537:
+			  text: 桃
+			  difficulty: 5
+  			
+1538:
+			  text: 宠
+			  difficulty: 5
+  			
+1539:
+			  text: 胸
+			  difficulty: 5
+  			
+1540:
+			  text: 厕
+			  difficulty: 5
+  			
+1541:
+			  text: 飘
+			  difficulty: 5
+  			
+1542:
+			  text: 乙
+			  difficulty: 5
+  			
+1543:
+			  text: 遵
+			  difficulty: 5
+  			
+1544:
+			  text: 姿
+			  difficulty: 5
+  			
+1545:
+			  text: 哲
+			  difficulty: 5
+  			
+1546:
+			  text: 磁
+			  difficulty: 5
+  			
+1547:
+			  text: 漠
+			  difficulty: 5
+  			
+1548:
+			  text: 弯
+			  difficulty: 5
+  			
+1549:
+			  text: 雾
+			  difficulty: 5
+  			
+1550:
+			  text: 朴
+			  difficulty: 5
+  			
+1551:
+			  text: 夕
+			  difficulty: 5
+  			
+1552:
+			  text: 脆
+			  difficulty: 5
+  			
+1553:
+			  text: 雇
+			  difficulty: 5
+  			
+1554:
+			  text: 盼
+			  difficulty: 5
+  			
+1555:
+			  text: 眠
+			  difficulty: 5
+  			
+1556:
+			  text: 骂
+			  difficulty: 5
+  			
+1557:
+			  text: 棒
+			  difficulty: 5
+  			
+1558:
+			  text: 闯
+			  difficulty: 5
+  			
+1559:
+			  text: 匆
+			  difficulty: 5
+  			
+1560:
+			  text: 劝
+			  difficulty: 5
+  			
+1561:
+			  text: 夹
+			  difficulty: 5
+  			
+1562:
+			  text: 恨
+			  difficulty: 5
+  			
+1563:
+			  text: 浅
+			  difficulty: 5
+  			
+1564:
+			  text: 屈
+			  difficulty: 5
+  			
+1565:
+			  text: 丑
+			  difficulty: 5
+  			
+1566:
+			  text: 鬼
+			  difficulty: 5
+  			
+1567:
+			  text: 吐
+			  difficulty: 5
+  			
+1568:
+			  text: 铃
+			  difficulty: 5
+  			
+1569:
+			  text: 纲
+			  difficulty: 5
+  			
+1570:
+			  text: 肌
+			  difficulty: 5
+  			
+1571:
+			  text: 蛇
+			  difficulty: 5
+  			
+1572:
+			  text: 陌
+			  difficulty: 5
+  			
+1573:
+			  text: 狼
+			  difficulty: 5
+  			
+1574:
+			  text: 躲
+			  difficulty: 5
+  			
+1575:
+			  text: 吓
+			  difficulty: 5
+  			
+1576:
+			  text: 棉
+			  difficulty: 5
+  			
+1577:
+			  text: 厢
+			  difficulty: 5
+  			
+1578:
+			  text: 蔬
+			  difficulty: 5
+  			
+1579:
+			  text: 粒
+			  difficulty: 5
+  			
+1580:
+			  text: 滩
+			  difficulty: 5
+  			
+1581:
+			  text: 盆
+			  difficulty: 5
+  			
+1582:
+			  text: 眉
+			  difficulty: 5
+  			
+1583:
+			  text: 剪
+			  difficulty: 5
+  			
+1584:
+			  text: 悠
+			  difficulty: 5
+  			
+1585:
+			  text: 鸭
+			  difficulty: 5
+  			
+1586:
+			  text: 斜
+			  difficulty: 5
+  			
+1587:
+			  text: 夸
+			  difficulty: 5
+  			
+1588:
+			  text: 蜂
+			  difficulty: 5
+  			
+1589:
+			  text: 柴
+			  difficulty: 5
+  			
+1590:
+			  text: 胃
+			  difficulty: 5
+  			
+1591:
+			  text: 摔
+			  difficulty: 5
+  			
+1592:
+			  text: 绳
+			  difficulty: 5
+  			
+1593:
+			  text: 拦
+			  difficulty: 5
+  			
+1594:
+			  text: 嫁
+			  difficulty: 5
+  			
+1595:
+			  text: 寂
+			  difficulty: 5
+  			
+1596:
+			  text: 醉
+			  difficulty: 5
+  			
+1597:
+			  text: 咬
+			  difficulty: 5
+  			
+1598:
+			  text: 臭
+			  difficulty: 5
+  			
+1599:
+			  text: 慌
+			  difficulty: 5
+  			
+1600:
+			  text: 妨
+			  difficulty: 5
+  			
+1601:
+			  text: 滴
+			  difficulty: 5
+  			
+1602:
+			  text: 拐
+			  difficulty: 5
+  			
+1603:
+			  text: 膀
+			  difficulty: 5
+  			
+1604:
+			  text: 豫
+			  difficulty: 5
+  			
+1605:
+			  text: 烤
+			  difficulty: 5
+  			
+1606:
+			  text: 肺
+			  difficulty: 5
+  			
+1607:
+			  text: 罐
+			  difficulty: 5
+  			
+1608:
+			  text: 砍
+			  difficulty: 5
+  			
+1609:
+			  text: 逻
+			  difficulty: 5
+  			
+1610:
+			  text: 宴
+			  difficulty: 5
+  			
+1611:
+			  text: 洒
+			  difficulty: 5
+  			
+1612:
+			  text: 叉
+			  difficulty: 5
+  			
+1613:
+			  text: 炭
+			  difficulty: 5
+  			
+1614:
+			  text: 叙
+			  difficulty: 5
+  			
+1615:
+			  text: 嫩
+			  difficulty: 5
+  			
+1616:
+			  text: 抄
+			  difficulty: 5
+  			
+1617:
+			  text: 傻
+			  difficulty: 5
+  			
+1618:
+			  text: 催
+			  difficulty: 5
+  			
+1619:
+			  text: 趁
+			  difficulty: 5
+  			
+1620:
+			  text: 谜
+			  difficulty: 5
+  			
+1621:
+			  text: 歇
+			  difficulty: 5
+  			
+1622:
+			  text: 趟
+			  difficulty: 5
+  			
+1623:
+			  text: 蜜
+			  difficulty: 5
+  			
+1624:
+			  text: 浏
+			  difficulty: 5
+  			
+1625:
+			  text: 骤
+			  difficulty: 5
+  			
+1626:
+			  text: 愁
+			  difficulty: 5
+  			
+1627:
+			  text: 粘
+			  difficulty: 5
+  			
+1628:
+			  text: 晒
+			  difficulty: 5
+  			
+1629:
+			  text: 吻
+			  difficulty: 5
+  			
+1630:
+			  text: 矩
+			  difficulty: 5
+  			
+1631:
+			  text: 梨
+			  difficulty: 5
+  			
+1632:
+			  text: 蝶
+			  difficulty: 5
+  			
+1633:
+			  text: 糟
+			  difficulty: 5
+  			
+1634:
+			  text: 踩
+			  difficulty: 5
+  			
+1635:
+			  text: 宙
+			  difficulty: 5
+  			
+1636:
+			  text: 佣
+			  difficulty: 5
+  			
+1637:
+			  text: 裔
+			  difficulty: 5
+  			
+1638:
+			  text: 捡
+			  difficulty: 5
+  			
+1639:
+			  text: 晕
+			  difficulty: 5
+  			
+1640:
+			  text: 酱
+			  difficulty: 5
+  			
+1641:
+			  text: 傍
+			  difficulty: 5
+  			
+1642:
+			  text: 霉
+			  difficulty: 5
+  			
+1643:
+			  text: 舌
+			  difficulty: 5
+  			
+1644:
+			  text: 毯
+			  difficulty: 5
+  			
+1645:
+			  text: 嘱
+			  difficulty: 5
+  			
+1646:
+			  text: 姥
+			  difficulty: 5
+  			
+1647:
+			  text: 寞
+			  difficulty: 5
+  			
+1648:
+			  text: 歪
+			  difficulty: 5
+  			
+1649:
+			  text: 睁
+			  difficulty: 5
+  			
+1650:
+			  text: 畏
+			  difficulty: 5
+  			
+1651:
+			  text: 裹
+			  difficulty: 5
+  			
+1652:
+			  text: 瞧
+			  difficulty: 5
+  			
+1653:
+			  text: 撕
+			  difficulty: 5
+  			
+1654:
+			  text: 帘
+			  difficulty: 5
+  			
+1655:
+			  text: 甩
+			  difficulty: 5
+  			
+1656:
+			  text: 愧
+			  difficulty: 5
+  			
+1657:
+			  text: 抖
+			  difficulty: 5
+  			
+1658:
+			  text: 翅
+			  difficulty: 5
+  			
+1659:
+			  text: 煮
+			  difficulty: 5
+  			
+1660:
+			  text: 鞭
+			  difficulty: 5
+  			
+1661:
+			  text: 谦
+			  difficulty: 5
+  			
+1662:
+			  text: 烫
+			  difficulty: 5
+  			
+1663:
+			  text: 绸
+			  difficulty: 5
+  			
+1664:
+			  text: 耽
+			  difficulty: 5
+  			
+1665:
+			  text: 乖
+			  difficulty: 5
+  			
+1666:
+			  text: 钓
+			  difficulty: 5
+  			
+1667:
+			  text: 兔
+			  difficulty: 5
+  			
+1668:
+			  text: 脖
+			  difficulty: 5
+  			
+1669:
+			  text: 浇
+			  difficulty: 5
+  			
+1670:
+			  text: 蜡
+			  difficulty: 5
+  			
+1671:
+			  text: 髦
+			  difficulty: 5
+  			
+1672:
+			  text: 逗
+			  difficulty: 5
+  			
+1673:
+			  text: 嗓
+			  difficulty: 5
+  			
+1674:
+			  text: 鸽
+			  difficulty: 5
+  			
+1675:
+			  text: 壶
+			  difficulty: 5
+  			
+1676:
+			  text: 蹲
+			  difficulty: 5
+  			
+1677:
+			  text: 匀
+			  difficulty: 5
+  			
+1678:
+			  text: 恳
+			  difficulty: 5
+  			
+1679:
+			  text: 橡
+			  difficulty: 5
+  			
+1680:
+			  text: 椒
+			  difficulty: 5
+  			
+1681:
+			  text: 删
+			  difficulty: 5
+  			
+1682:
+			  text: 枕
+			  difficulty: 5
+  			
+1683:
+			  text: 讽
+			  difficulty: 5
+  			
+1684:
+			  text: 梳
+			  difficulty: 5
+  			
+1685:
+			  text: 烛
+			  difficulty: 5
+  			
+1686:
+			  text: 痒
+			  difficulty: 5
+  			
+1687:
+			  text: 舅
+			  difficulty: 5
+  			
+1688:
+			  text: 膊
+			  difficulty: 5
+  			
+1689:
+			  text: 蝴
+			  difficulty: 5
+  			
+1690:
+			  text: 娶
+			  difficulty: 5
+  			
+1691:
+			  text: 醋
+			  difficulty: 5
+  			
+1692:
+			  text: 瞎
+			  difficulty: 5
+  			
+1693:
+			  text: 胳
+			  difficulty: 5
+  			
+1694:
+			  text: 嚷
+			  difficulty: 5
+  			
+1695:
+			  text: 丙
+			  difficulty: 5
+  			
+1696:
+			  text: 勺
+			  difficulty: 5
+  			
+1697:
+			  text: 煎
+			  difficulty: 5
+  			
+1698:
+			  text: 狡
+			  difficulty: 5
+  			
+1699:
+			  text: 皂
+			  difficulty: 5
+  			
+1700:
+			  text: 咐
+			  difficulty: 5
+  			
+1701:
+			  text: 唉
+			  difficulty: 5
+  			
+1702:
+			  text: 屉
+			  difficulty: 5
+  			
+1703:
+			  text: 猾
+			  difficulty: 5
+  			
+1704:
+			  text: 馒
+			  difficulty: 5
+  			
+1705:
+			  text: 桔
+			  difficulty: 5
+  			
+1706:
+			  text: 惭
+			  difficulty: 5
+  			
+1707:
+			  text: 嚏
+			  difficulty: 5
+  			
+1708:
+			  text: 阶
+			  difficulty: 5
+  			
+1709:
+			  text: 斯
+			  difficulty: 6
+  			
+1710:
+			  text: 奥
+			  difficulty: 6
+  			
+1711:
+			  text: 欧
+			  difficulty: 6
+  			
+1712:
+			  text: 州
+			  difficulty: 6
+  			
+1713:
+			  text: 党
+			  difficulty: 6
+  			
+1714:
+			  text: 络
+			  difficulty: 6
+  			
+1715:
+			  text: 监
+			  difficulty: 6
+  			
+1716:
+			  text: 券
+			  difficulty: 6
+  			
+1717:
+			  text: 陈
+			  difficulty: 6
+  			
+1718:
+			  text: 央
+			  difficulty: 6
+  			
+1719:
+			  text: 纳
+			  difficulty: 6
+  			
+1720:
+			  text: 审
+			  difficulty: 6
+  			
+1721:
+			  text: 额
+			  difficulty: 6
+  			
+1722:
+			  text: 副
+			  difficulty: 6
+  			
+1723:
+			  text: 波
+			  difficulty: 6
+  			
+1724:
+			  text: 港
+			  difficulty: 6
+  			
+1725:
+			  text: 媒
+			  difficulty: 6
+  			
+1726:
+			  text: 索
+			  difficulty: 6
+  			
+1727:
+			  text: 曲
+			  difficulty: 6
+  			
+1728:
+			  text: 佳
+			  difficulty: 6
+  			
+1729:
+			  text: 跌
+			  difficulty: 6
+  			
+1730:
+			  text: 诺
+			  difficulty: 6
+  			
+1731:
+			  text: 苏
+			  difficulty: 6
+  			
+1732:
+			  text: 湖
+			  difficulty: 6
+  			
+1733:
+			  text: 董
+			  difficulty: 6
+  			
+1734:
+			  text: 探
+			  difficulty: 6
+  			
+1735:
+			  text: 爆
+			  difficulty: 6
+  			
+1736:
+			  text: 吉
+			  difficulty: 6
+  			
+1737:
+			  text: 异
+			  difficulty: 6
+  			
+1738:
+			  text: 盟
+			  difficulty: 6
+  			
+1739:
+			  text: 攻
+			  difficulty: 6
+  			
+1740:
+			  text: 峰
+			  difficulty: 6
+  			
+1741:
+			  text: 晓
+			  difficulty: 6
+  			
+1742:
+			  text: 予
+			  difficulty: 6
+  			
+1743:
+			  text: 坛
+			  difficulty: 6
+  			
+1744:
+			  text: 庄
+			  difficulty: 6
+  			
+1745:
+			  text: 亡
+			  difficulty: 6
+  			
+1746:
+			  text: 镇
+			  difficulty: 6
+  			
+1747:
+			  text: 宅
+			  difficulty: 6
+  			
+1748:
+			  text: 患
+			  difficulty: 6
+  			
+1749:
+			  text: 障
+			  difficulty: 6
+  			
+1750:
+			  text: 堂
+			  difficulty: 6
+  			
+1751:
+			  text: 刑
+			  difficulty: 6
+  			
+1752:
+			  text: 遭
+			  difficulty: 6
+  			
+1753:
+			  text: 涉
+			  difficulty: 6
+  			
+1754:
+			  text: 刊
+			  difficulty: 6
+  			
+1755:
+			  text: 暴
+			  difficulty: 6
+  			
+1756:
+			  text: 鲁
+			  difficulty: 6
+  			
+1757:
+			  text: 夺
+			  difficulty: 6
+  			
+1758:
+			  text: 盛
+			  difficulty: 6
+  			
+1759:
+			  text: 湾
+			  difficulty: 6
+  			
+1760:
+			  text: 伦
+			  difficulty: 6
+  			
+1761:
+			  text: 晨
+			  difficulty: 6
+  			
+1762:
+			  text: 债
+			  difficulty: 6
+  			
+1763:
+			  text: 泰
+			  difficulty: 6
+  			
+1764:
+			  text: 归
+			  difficulty: 6
+  			
+1765:
+			  text: 杰
+			  difficulty: 6
+  			
+1766:
+			  text: 姆
+			  difficulty: 6
+  			
+1767:
+			  text: 端
+			  difficulty: 6
+  			
+1768:
+			  text: 津
+			  difficulty: 6
+  			
+1769:
+			  text: 若
+			  difficulty: 6
+  			
+1770:
+			  text: 川
+			  difficulty: 6
+  			
+1771:
+			  text: 宫
+			  difficulty: 6
+  			
+1772:
+			  text: 泽
+			  difficulty: 6
+  			
+1773:
+			  text: 潮
+			  difficulty: 6
+  			
+1774:
+			  text: 莫
+			  difficulty: 6
+  			
+1775:
+			  text: 隆
+			  difficulty: 6
+  			
+1776:
+			  text: 蒙
+			  difficulty: 6
+  			
+1777:
+			  text: 雅
+			  difficulty: 6
+  			
+1778:
+			  text: 锋
+			  difficulty: 6
+  			
+1779:
+			  text: 潜
+			  difficulty: 6
+  			
+1780:
+			  text: 仪
+			  difficulty: 6
+  			
+1781:
+			  text: 塞
+			  difficulty: 6
+  			
+1782:
+			  text: 厦
+			  difficulty: 6
+  			
+1783:
+			  text: 瓦
+			  difficulty: 6
+  			
+1784:
+			  text: 援
+			  difficulty: 6
+  			
+1785:
+			  text: 督
+			  difficulty: 6
+  			
+1786:
+			  text: 郑
+			  difficulty: 6
+  			
+1787:
+			  text: 截
+			  difficulty: 6
+  			
+1788:
+			  text: 旗
+			  difficulty: 6
+  			
+1789:
+			  text: 侧
+			  difficulty: 6
+  			
+1790:
+			  text: 梁
+			  difficulty: 6
+  			
+1791:
+			  text: 宏
+			  difficulty: 6
+  			
+1792:
+			  text: 储
+			  difficulty: 6
+  			
+1793:
+			  text: 辉
+			  difficulty: 6
+  			
+1794:
+			  text: 朗
+			  difficulty: 6
+  			
+1795:
+			  text: 抵
+			  difficulty: 6
+  			
+1796:
+			  text: 伯
+			  difficulty: 6
+  			
+1797:
+			  text: 偏
+			  difficulty: 6
+  			
+1798:
+			  text: 迁
+			  difficulty: 6
+  			
+1799:
+			  text: 恩
+			  difficulty: 6
+  			
+1800:
+			  text: 驻
+			  difficulty: 6
+  			
+1801:
+			  text: 筹
+			  difficulty: 6
+  			
+1802:
+			  text: 焦
+			  difficulty: 6
+  			
+1803:
+			  text: 症
+			  difficulty: 6
+  			
+1804:
+			  text: 鉴
+			  difficulty: 6
+  			
+1805:
+			  text: 奔
+			  difficulty: 6
+  			
+1806:
+			  text: 洁
+			  difficulty: 6
+  			
+1807:
+			  text: 隐
+			  difficulty: 6
+  			
+1808:
+			  text: 洪
+			  difficulty: 6
+  			
+1809:
+			  text: 嫌
+			  difficulty: 6
+  			
+1810:
+			  text: 唐
+			  difficulty: 6
+  			
+1811:
+			  text: 锦
+			  difficulty: 6
+  			
+1812:
+			  text: 岗
+			  difficulty: 6
+  			
+1813:
+			  text: 井
+			  difficulty: 6
+  			
+1814:
+			  text: 稿
+			  difficulty: 6
+  			
+1815:
+			  text: 杜
+			  difficulty: 6
+  			
+1816:
+			  text: 沿
+			  difficulty: 6
+  			
+1817:
+			  text: 搜
+			  difficulty: 6
+  			
+1818:
+			  text: 圣
+			  difficulty: 6
+  			
+1819:
+			  text: 珠
+			  difficulty: 6
+  			
+1820:
+			  text: 昌
+			  difficulty: 6
+  			
+1821:
+			  text: 拨
+			  difficulty: 6
+  			
+1822:
+			  text: 赴
+			  difficulty: 6
+  			
+1823:
+			  text: 谋
+			  difficulty: 6
+  			
+1824:
+			  text: 盗
+			  difficulty: 6
+  			
+1825:
+			  text: 混
+			  difficulty: 6
+  			
+1826:
+			  text: 乌
+			  difficulty: 6
+  			
+1827:
+			  text: 伍
+			  difficulty: 6
+  			
+1828:
+			  text: 荡
+			  difficulty: 6
+  			
+1829:
+			  text: 栏
+			  difficulty: 6
+  			
+1830:
+			  text: 黎
+			  difficulty: 6
+  			
+1831:
+			  text: 径
+			  difficulty: 6
+  			
+1832:
+			  text: 仓
+			  difficulty: 6
+  			
+1833:
+			  text: 扣
+			  difficulty: 6
+  			
+1834:
+			  text: 捕
+			  difficulty: 6
+  			
+1835:
+			  text: 兼
+			  difficulty: 6
+  			
+1836:
+			  text: 袭
+			  difficulty: 6
+  			
+1837:
+			  text: 署
+			  difficulty: 6
+  			
+1838:
+			  text: 呈
+			  difficulty: 6
+  			
+1839:
+			  text: 欲
+			  difficulty: 6
+  			
+1840:
+			  text: 谷
+			  difficulty: 6
+  			
+1841:
+			  text: 盈
+			  difficulty: 6
+  			
+1842:
+			  text: 跨
+			  difficulty: 6
+  			
+1843:
+			  text: 奏
+			  difficulty: 6
+  			
+1844:
+			  text: 兑
+			  difficulty: 6
+  			
+1845:
+			  text: 纽
+			  difficulty: 6
+  			
+1846:
+			  text: 倾
+			  difficulty: 6
+  			
+1847:
+			  text: 贫
+			  difficulty: 6
+  			
+1848:
+			  text: 扎
+			  difficulty: 6
+  			
+1849:
+			  text: 榜
+			  difficulty: 6
+  			
+1850:
+			  text: 坡
+			  difficulty: 6
+  			
+1851:
+			  text: 滋
+			  difficulty: 6
+  			
+1852:
+			  text: 凌
+			  difficulty: 6
+  			
+1853:
+			  text: 屏
+			  difficulty: 6
+  			
+1854:
+			  text: 毁
+			  difficulty: 6
+  			
+1855:
+			  text: 捷
+			  difficulty: 6
+  			
+1856:
+			  text: 陷
+			  difficulty: 6
+  			
+1857:
+			  text: 淀
+			  difficulty: 6
+  			
+1858:
+			  text: 桑
+			  difficulty: 6
+  			
+1859:
+			  text: 蒂
+			  difficulty: 6
+  			
+1860:
+			  text: 踪
+			  difficulty: 6
+  			
+1861:
+			  text: 颁
+			  difficulty: 6
+  			
+1862:
+			  text: 缴
+			  difficulty: 6
+  			
+1863:
+			  text: 壮
+			  difficulty: 6
+  			
+1864:
+			  text: 揭
+			  difficulty: 6
+  			
+1865:
+			  text: 徒
+			  difficulty: 6
+  			
+1866:
+			  text: 拟
+			  difficulty: 6
+  			
+1867:
+			  text: 诸
+			  difficulty: 6
+  			
+1868:
+			  text: 轨
+			  difficulty: 6
+  			
+1869:
+			  text: 赠
+			  difficulty: 6
+  			
+1870:
+			  text: 纠
+			  difficulty: 6
+  			
+1871:
+			  text: 廉
+			  difficulty: 6
+  			
+1872:
+			  text: 胞
+			  difficulty: 6
+  			
+1873:
+			  text: 撑
+			  difficulty: 6
+  			
+1874:
+			  text: 忠
+			  difficulty: 6
+  			
+1875:
+			  text: 搭
+			  difficulty: 6
+  			
+1876:
+			  text: 铺
+			  difficulty: 6
+  			
+1877:
+			  text: 押
+			  difficulty: 6
+  			
+1878:
+			  text: 祥
+			  difficulty: 6
+  			
+1879:
+			  text: 番
+			  difficulty: 6
+  			
+1880:
+			  text: 剂
+			  difficulty: 6
+  			
+1881:
+			  text: 涛
+			  difficulty: 6
+  			
+1882:
+			  text: 颇
+			  difficulty: 6
+  			
+1883:
+			  text: 磨
+			  difficulty: 6
+  			
+1884:
+			  text: 讼
+			  difficulty: 6
+  			
+1885:
+			  text: 摊
+			  difficulty: 6
+  			
+1886:
+			  text: 孔
+			  difficulty: 6
+  			
+1887:
+			  text: 崇
+			  difficulty: 6
+  			
+1888:
+			  text: 枚
+			  difficulty: 6
+  			
+1889:
+			  text: 渡
+			  difficulty: 6
+  			
+1890:
+			  text: 拼
+			  difficulty: 6
+  			
+1891:
+			  text: 仁
+			  difficulty: 6
+  			
+1892:
+			  text: 忧
+			  difficulty: 6
+  			
+1893:
+			  text: 恰
+			  difficulty: 6
+  			
+1894:
+			  text: 拓
+			  difficulty: 6
+  			
+1895:
+			  text: 腾
+			  difficulty: 6
+  			
+1896:
+			  text: 浮
+			  difficulty: 6
+  			
+1897:
+			  text: 猛
+			  difficulty: 6
+  			
+1898:
+			  text: 狱
+			  difficulty: 6
+  			
+1899:
+			  text: 悬
+			  difficulty: 6
+  			
+1900:
+			  text: 劫
+			  difficulty: 6
+  			
+1901:
+			  text: 疫
+			  difficulty: 6
+  			
+1902:
+			  text: 薪
+			  difficulty: 6
+  			
+1903:
+			  text: 渠
+			  difficulty: 6
+  			
+1904:
+			  text: 畅
+			  difficulty: 6
+  			
+1905:
+			  text: 贯
+			  difficulty: 6
+  			
+1906:
+			  text: 岩
+			  difficulty: 6
+  			
+1907:
+			  text: 虫
+			  difficulty: 6
+  			
+1908:
+			  text: 辽
+			  difficulty: 6
+  			
+1909:
+			  text: 晶
+			  difficulty: 6
+  			
+1910:
+			  text: 拔
+			  difficulty: 6
+  			
+1911:
+			  text: 墨
+			  difficulty: 6
+  			
+1912:
+			  text: 侦
+			  difficulty: 6
+  			
+1913:
+			  text: 昆
+			  difficulty: 6
+  			
+1914:
+			  text: 胎
+			  difficulty: 6
+  			
+1915:
+			  text: 沃
+			  difficulty: 6
+  			
+1916:
+			  text: 迈
+			  difficulty: 6
+  			
+1917:
+			  text: 毅
+			  difficulty: 6
+  			
+1918:
+			  text: 甘
+			  difficulty: 6
+  			
+1919:
+			  text: 拖
+			  difficulty: 6
+  			
+1920:
+			  text: 巡
+			  difficulty: 6
+  			
+1921:
+			  text: 恒
+			  difficulty: 6
+  			
+1922:
+			  text: 泥
+			  difficulty: 6
+  			
+1923:
+			  text: 陶
+			  difficulty: 6
+  			
+1924:
+			  text: 撤
+			  difficulty: 6
+  			
+1925:
+			  text: 添
+			  difficulty: 6
+  			
+1926:
+			  text: 赖
+			  difficulty: 6
+  			
+1927:
+			  text: 踏
+			  difficulty: 6
+  			
+1928:
+			  text: 雕
+			  difficulty: 6
+  			
+1929:
+			  text: 亦
+			  difficulty: 6
+  			
+1930:
+			  text: 粉
+			  difficulty: 6
+  			
+1931:
+			  text: 泡
+			  difficulty: 6
+  			
+1932:
+			  text: 裂
+			  difficulty: 6
+  			
+1933:
+			  text: 峡
+			  difficulty: 6
+  			
+1934:
+			  text: 炎
+			  difficulty: 6
+  			
+1935:
+			  text: 霍
+			  difficulty: 6
+  			
+1936:
+			  text: 携
+			  difficulty: 6
+  			
+1937:
+			  text: 诞
+			  difficulty: 6
+  			
+1938:
+			  text: 耗
+			  difficulty: 6
+  			
+1939:
+			  text: 挖
+			  difficulty: 6
+  			
+1940:
+			  text: 轰
+			  difficulty: 6
+  			
+1941:
+			  text: 魔
+			  difficulty: 6
+  			
+1942:
+			  text: 寸
+			  difficulty: 6
+  			
+1943:
+			  text: 郎
+			  difficulty: 6
+  			
+1944:
+			  text: 酷
+			  difficulty: 6
+  			
+1945:
+			  text: 肖
+			  difficulty: 6
+  			
+1946:
+			  text: 旋
+			  difficulty: 6
+  			
+1947:
+			  text: 抛
+			  difficulty: 6
+  			
+1948:
+			  text: 颖
+			  difficulty: 6
+  			
+1949:
+			  text: 驱
+			  difficulty: 6
+  			
+1950:
+			  text: 纵
+			  difficulty: 6
+  			
+1951:
+			  text: 蓄
+			  difficulty: 6
+  			
+1952:
+			  text: 艇
+			  difficulty: 6
+  			
+1953:
+			  text: 氏
+			  difficulty: 6
+  			
+1954:
+			  text: 伪
+			  difficulty: 6
+  			
+1955:
+			  text: 炉
+			  difficulty: 6
+  			
+1956:
+			  text: 愈
+			  difficulty: 6
+  			
+1957:
+			  text: 墓
+			  difficulty: 6
+  			
+1958:
+			  text: 逢
+			  difficulty: 6
+  			
+1959:
+			  text: 惨
+			  difficulty: 6
+  			
+1960:
+			  text: 疆
+			  difficulty: 6
+  			
+1961:
+			  text: 砖
+			  difficulty: 6
+  			
+1962:
+			  text: 鸣
+			  difficulty: 6
+  			
+1963:
+			  text: 逼
+			  difficulty: 6
+  			
+1964:
+			  text: 淘
+			  difficulty: 6
+  			
+1965:
+			  text: 堡
+			  difficulty: 6
+  			
+1966:
+			  text: 绘
+			  difficulty: 6
+  			
+1967:
+			  text: 循
+			  difficulty: 6
+  			
+1968:
+			  text: 钻
+			  difficulty: 6
+  			
+1969:
+			  text: 菌
+			  difficulty: 6
+  			
+1970:
+			  text: 贩
+			  difficulty: 6
+  			
+1971:
+			  text: 霸
+			  difficulty: 6
+  			
+1972:
+			  text: 遥
+			  difficulty: 6
+  			
+1973:
+			  text: 丧
+			  difficulty: 6
+  			
+1974:
+			  text: 氧
+			  difficulty: 6
+  			
+1975:
+			  text: 涌
+			  difficulty: 6
+  			
+1976:
+			  text: 娃
+			  difficulty: 6
+  			
+1977:
+			  text: 臣
+			  difficulty: 6
+  			
+1978:
+			  text: 婆
+			  difficulty: 6
+  			
+1979:
+			  text: 癌
+			  difficulty: 6
+  			
+1980:
+			  text: 诱
+			  difficulty: 6
+  			
+1981:
+			  text: 惑
+			  difficulty: 6
+  			
+1982:
+			  text: 掘
+			  difficulty: 6
+  			
+1983:
+			  text: 婴
+			  difficulty: 6
+  			
+1984:
+			  text: 尸
+			  difficulty: 6
+  			
+1985:
+			  text: 械
+			  difficulty: 6
+  			
+1986:
+			  text: 覆
+			  difficulty: 6
+  			
+1987:
+			  text: 吊
+			  difficulty: 6
+  			
+1988:
+			  text: 耀
+			  difficulty: 6
+  			
+1989:
+			  text: 叹
+			  difficulty: 6
+  			
+1990:
+			  text: 驰
+			  difficulty: 6
+  			
+1991:
+			  text: 舰
+			  difficulty: 6
+  			
+1992:
+			  text: 庞
+			  difficulty: 6
+  			
+1993:
+			  text: 旺
+			  difficulty: 6
+  			
+1994:
+			  text: 柱
+			  difficulty: 6
+  			
+1995:
+			  text: 伏
+			  difficulty: 6
+  			
+1996:
+			  text: 阔
+			  difficulty: 6
+  			
+1997:
+			  text: 箭
+			  difficulty: 6
+  			
+1998:
+			  text: 栋
+			  difficulty: 6
+  			
+1999:
+			  text: 扭
+			  difficulty: 6
+  			
+2000:
+			  text: 凶
+			  difficulty: 6
+  			
+2001:
+			  text: 奉
+			  difficulty: 6
+  			
+2002:
+			  text: 堪
+			  difficulty: 6
+  			
+2003:
+			  text: 绑
+			  difficulty: 6
+  			
+2004:
+			  text: 盲
+			  difficulty: 6
+  			
+2005:
+			  text: 贪
+			  difficulty: 6
+  			
+2006:
+			  text: 晰
+			  difficulty: 6
+  			
+2007:
+			  text: 埋
+			  difficulty: 6
+  			
+2008:
+			  text: 牢
+			  difficulty: 6
+  			
+2009:
+			  text: 衰
+			  difficulty: 6
+  			
+2010:
+			  text: 漆
+			  difficulty: 6
+  			
+2011:
+			  text: 履
+			  difficulty: 6
+  			
+2012:
+			  text: 抑
+			  difficulty: 6
+  			
+2013:
+			  text: 滨
+			  difficulty: 6
+  			
+2014:
+			  text: 涵
+			  difficulty: 6
+  			
+2015:
+			  text: 翼
+			  difficulty: 6
+  			
+2016:
+			  text: 役
+			  difficulty: 6
+  			
+2017:
+			  text: 杆
+			  difficulty: 6
+  			
+2018:
+			  text: 逊
+			  difficulty: 6
+  			
+2019:
+			  text: 孕
+			  difficulty: 6
+  			
+2020:
+			  text: 吁
+			  difficulty: 6
+  			
+2021:
+			  text: 悦
+			  difficulty: 6
+  			
+2022:
+			  text: 荒
+			  difficulty: 6
+  			
+2023:
+			  text: 侠
+			  difficulty: 6
+  			
+2024:
+			  text: 郁
+			  difficulty: 6
+  			
+2025:
+			  text: 煌
+			  difficulty: 6
+  			
+2026:
+			  text: 昂
+			  difficulty: 6
+  			
+2027:
+			  text: 兆
+			  difficulty: 6
+  			
+2028:
+			  text: 汰
+			  difficulty: 6
+  			
+2029:
+			  text: 怨
+			  difficulty: 6
+  			
+2030:
+			  text: 猎
+			  difficulty: 6
+  			
+2031:
+			  text: 窃
+			  difficulty: 6
+  			
+2032:
+			  text: 稀
+			  difficulty: 6
+  			
+2033:
+			  text: 酬
+			  difficulty: 6
+  			
+2034:
+			  text: 蹈
+			  difficulty: 6
+  			
+2035:
+			  text: 串
+			  difficulty: 6
+  			
+2036:
+			  text: 裕
+			  difficulty: 6
+  			
+2037:
+			  text: 殖
+			  difficulty: 6
+  			
+2038:
+			  text: 凝
+			  difficulty: 6
+  			
+2039:
+			  text: 缝
+			  difficulty: 6
+  			
+2040:
+			  text: 挫
+			  difficulty: 6
+  			
+2041:
+			  text: 脉
+			  difficulty: 6
+  			
+2042:
+			  text: 壳
+			  difficulty: 6
+  			
+2043:
+			  text: 攀
+			  difficulty: 6
+  			
+2044:
+			  text: 旨
+			  difficulty: 6
+  			
+2045:
+			  text: 峻
+			  difficulty: 6
+  			
+2046:
+			  text: 扑
+			  difficulty: 6
+  			
+2047:
+			  text: 碑
+			  difficulty: 6
+  			
+2048:
+			  text: 勃
+			  difficulty: 6
+  			
+2049:
+			  text: 抚
+			  difficulty: 6
+  			
+2050:
+			  text: 欺
+			  difficulty: 6
+  			
+2051:
+			  text: 膜
+			  difficulty: 6
+  			
+2052:
+			  text: 贿
+			  difficulty: 6
+  			
+2053:
+			  text: 仙
+			  difficulty: 6
+  			
+2054:
+			  text: 御
+			  difficulty: 6
+  			
+2055:
+			  text: 乳
+			  difficulty: 6
+  			
+2056:
+			  text: 伐
+			  difficulty: 6
+  			
+2057:
+			  text: 帐
+			  difficulty: 6
+  			
+2058:
+			  text: 割
+			  difficulty: 6
+  			
+2059:
+			  text: 霞
+			  difficulty: 6
+  			
+2060:
+			  text: 撒
+			  difficulty: 6
+  			
+2061:
+			  text: 赁
+			  difficulty: 6
+  			
+2062:
+			  text: 屡
+			  difficulty: 6
+  			
+2063:
+			  text: 狮
+			  difficulty: 6
+  			
+2064:
+			  text: 祸
+			  difficulty: 6
+  			
+2065:
+			  text: 瓷
+			  difficulty: 6
+  			
+2066:
+			  text: 诈
+			  difficulty: 6
+  			
+2067:
+			  text: 挪
+			  difficulty: 6
+  			
+2068:
+			  text: 衷
+			  difficulty: 6
+  			
+2069:
+			  text: 舱
+			  difficulty: 6
+  			
+2070:
+			  text: 犬
+			  difficulty: 6
+  			
+2071:
+			  text: 舟
+			  difficulty: 6
+  			
+2072:
+			  text: 浴
+			  difficulty: 6
+  			
+2073:
+			  text: 罢
+			  difficulty: 6
+  			
+2074:
+			  text: 痕
+			  difficulty: 6
+  			
+2075:
+			  text: 疏
+			  difficulty: 6
+  			
+2076:
+			  text: 泄
+			  difficulty: 6
+  			
+2077:
+			  text: 赌
+			  difficulty: 6
+  			
+2078:
+			  text: 舆
+			  difficulty: 6
+  			
+2079:
+			  text: 拘
+			  difficulty: 6
+  			
+2080:
+			  text: 妆
+			  difficulty: 6
+  			
+2081:
+			  text: 歧
+			  difficulty: 6
+  			
+2082:
+			  text: 魂
+			  difficulty: 6
+  			
+2083:
+			  text: 辐
+			  difficulty: 6
+  			
+2084:
+			  text: 掩
+			  difficulty: 6
+  			
+2085:
+			  text: 陵
+			  difficulty: 6
+  			
+2086:
+			  text: 腹
+			  difficulty: 6
+  			
+2087:
+			  text: 晋
+			  difficulty: 6
+  			
+2088:
+			  text: 牲
+			  difficulty: 6
+  			
+2089:
+			  text: 窝
+			  difficulty: 6
+  			
+2090:
+			  text: 亭
+			  difficulty: 6
+  			
+2091:
+			  text: 牧
+			  difficulty: 6
+  			
+2092:
+			  text: 廊
+			  difficulty: 6
+  			
+2093:
+			  text: 斑
+			  difficulty: 6
+  			
+2094:
+			  text: 脂
+			  difficulty: 6
+  			
+2095:
+			  text: 艘
+			  difficulty: 6
+  			
+2096:
+			  text: 捧
+			  difficulty: 6
+  			
+2097:
+			  text: 啦
+			  difficulty: 6
+  			
+2098:
+			  text: 岳
+			  difficulty: 6
+  			
+2099:
+			  text: 帆
+			  difficulty: 6
+  			
+2100:
+			  text: 卓
+			  difficulty: 6
+  			
+2101:
+			  text: 弊
+			  difficulty: 6
+  			
+2102:
+			  text: 搏
+			  difficulty: 6
+  			
+2103:
+			  text: 弥
+			  difficulty: 6
+  			
+2104:
+			  text: 茂
+			  difficulty: 6
+  			
+2105:
+			  text: 垄
+			  difficulty: 6
+  			
+2106:
+			  text: 粹
+			  difficulty: 6
+  			
+2107:
+			  text: 匪
+			  difficulty: 6
+  			
+2108:
+			  text: 坑
+			  difficulty: 6
+  			
+2109:
+			  text: 逮
+			  difficulty: 6
+  			
+2110:
+			  text: 泊
+			  difficulty: 6
+  			
+2111:
+			  text: 仰
+			  difficulty: 6
+  			
+2112:
+			  text: 刹
+			  difficulty: 6
+  			
+2113:
+			  text: 赤
+			  difficulty: 6
+  			
+2114:
+			  text: 闷
+			  difficulty: 6
+  			
+2115:
+			  text: 妥
+			  difficulty: 6
+  			
+2116:
+			  text: 洽
+			  difficulty: 6
+  			
+2117:
+			  text: 噪
+			  difficulty: 6
+  			
+2118:
+			  text: 砸
+			  difficulty: 6
+  			
+2119:
+			  text: 纹
+			  difficulty: 6
+  			
+2120:
+			  text: 渔
+			  difficulty: 6
+  			
+2121:
+			  text: 铭
+			  difficulty: 6
+  			
+2122:
+			  text: 垂
+			  difficulty: 6
+  			
+2123:
+			  text: 捞
+			  difficulty: 6
+  			
+2124:
+			  text: 庸
+			  difficulty: 6
+  			
+2125:
+			  text: 框
+			  difficulty: 6
+  			
+2126:
+			  text: 葬
+			  difficulty: 6
+  			
+2127:
+			  text: 惩
+			  difficulty: 6
+  			
+2128:
+			  text: 掀
+			  difficulty: 6
+  			
+2129:
+			  text: 纤
+			  difficulty: 6
+  			
+2130:
+			  text: 笼
+			  difficulty: 6
+  			
+2131:
+			  text: 宪
+			  difficulty: 6
+  			
+2132:
+			  text: 辰
+			  difficulty: 6
+  			
+2133:
+			  text: 辟
+			  difficulty: 6
+  			
+2134:
+			  text: 滞
+			  difficulty: 6
+  			
+2135:
+			  text: 滥
+			  difficulty: 6
+  			
+2136:
+			  text: 枝
+			  difficulty: 6
+  			
+2137:
+			  text: 皆
+			  difficulty: 6
+  			
+2138:
+			  text: 肿
+			  difficulty: 6
+  			
+2139:
+			  text: 纺
+			  difficulty: 6
+  			
+2140:
+			  text: 赋
+			  difficulty: 6
+  			
+2141:
+			  text: 睹
+			  difficulty: 6
+  			
+2142:
+			  text: 慨
+			  difficulty: 6
+  			
+2143:
+			  text: 谱
+			  difficulty: 6
+  			
+2144:
+			  text: 爽
+			  difficulty: 6
+  			
+2145:
+			  text: 牺
+			  difficulty: 6
+  			
+2146:
+			  text: 塌
+			  difficulty: 6
+  			
+2147:
+			  text: 昏
+			  difficulty: 6
+  			
+2148:
+			  text: 擅
+			  difficulty: 6
+  			
+2149:
+			  text: 巩
+			  difficulty: 6
+  			
+2150:
+			  text: 丛
+			  difficulty: 6
+  			
+2151:
+			  text: 绎
+			  difficulty: 6
+  			
+2152:
+			  text: 辨
+			  difficulty: 6
+  			
+2153:
+			  text: 悟
+			  difficulty: 6
+  			
+2154:
+			  text: 贤
+			  difficulty: 6
+  			
+2155:
+			  text: 翔
+			  difficulty: 6
+  			
+2156:
+			  text: 罕
+			  difficulty: 6
+  			
+2157:
+			  text: 腔
+			  difficulty: 6
+  			
+2158:
+			  text: 墅
+			  difficulty: 6
+  			
+2159:
+			  text: 袖
+			  difficulty: 6
+  			
+2160:
+			  text: 饲
+			  difficulty: 6
+  			
+2161:
+			  text: 酿
+			  difficulty: 6
+  			
+2162:
+			  text: 臂
+			  difficulty: 6
+  			
+2163:
+			  text: 沫
+			  difficulty: 6
+  			
+2164:
+			  text: 尴
+			  difficulty: 6
+  			
+2165:
+			  text: 尬
+			  difficulty: 6
+  			
+2166:
+			  text: 惧
+			  difficulty: 6
+  			
+2167:
+			  text: 迄
+			  difficulty: 6
+  			
+2168:
+			  text: 斥
+			  difficulty: 6
+  			
+2169:
+			  text: 狠
+			  difficulty: 6
+  			
+2170:
+			  text: 齿
+			  difficulty: 6
+  			
+2171:
+			  text: 顽
+			  difficulty: 6
+  			
+2172:
+			  text: 垫
+			  difficulty: 6
+  			
+2173:
+			  text: 慈
+			  difficulty: 6
+  			
+2174:
+			  text: 胀
+			  difficulty: 6
+  			
+2175:
+			  text: 掏
+			  difficulty: 6
+  			
+2176:
+			  text: 颈
+			  difficulty: 6
+  			
+2177:
+			  text: 哨
+			  difficulty: 6
+  			
+2178:
+			  text: 剥
+			  difficulty: 6
+  			
+2179:
+			  text: 辖
+			  difficulty: 6
+  			
+2180:
+			  text: 仇
+			  difficulty: 6
+  			
+2181:
+			  text: 淋
+			  difficulty: 6
+  			
+2182:
+			  text: 捉
+			  difficulty: 6
+  			
+2183:
+			  text: 削
+			  difficulty: 6
+  			
+2184:
+			  text: 坝
+			  difficulty: 6
+  			
+2185:
+			  text: 盯
+			  difficulty: 6
+  			
+2186:
+			  text: 凑
+			  difficulty: 6
+  			
+2187:
+			  text: 辱
+			  difficulty: 6
+  			
+2188:
+			  text: 曝
+			  difficulty: 6
+  			
+2189:
+			  text: 忌
+			  difficulty: 6
+  			
+2190:
+			  text: 扇
+			  difficulty: 6
+  			
+2191:
+			  text: 罩
+			  difficulty: 6
+  			
+2192:
+			  text: 挽
+			  difficulty: 6
+  			
+2193:
+			  text: 誓
+			  difficulty: 6
+  			
+2194:
+			  text: 谐
+			  difficulty: 6
+  			
+2195:
+			  text: 筒
+			  difficulty: 6
+  			
+2196:
+			  text: 钦
+			  difficulty: 6
+  			
+2197:
+			  text: 叛
+			  difficulty: 6
+  			
+2198:
+			  text: 骚
+			  difficulty: 6
+  			
+2199:
+			  text: 喻
+			  difficulty: 6
+  			
+2200:
+			  text: 灿
+			  difficulty: 6
+  			
+2201:
+			  text: 衔
+			  difficulty: 6
+  			
+2202:
+			  text: 灌
+			  difficulty: 6
+  			
+2203:
+			  text: 吞
+			  difficulty: 6
+  			
+2204:
+			  text: 逝
+			  difficulty: 6
+  			
+2205:
+			  text: 遮
+			  difficulty: 6
+  			
+2206:
+			  text: 敞
+			  difficulty: 6
+  			
+2207:
+			  text: 瘾
+			  difficulty: 6
+  			
+2208:
+			  text: 沸
+			  difficulty: 6
+  			
+2209:
+			  text: 哀
+			  difficulty: 6
+  			
+2210:
+			  text: 歹
+			  difficulty: 6
+  			
+2211:
+			  text: 渗
+			  difficulty: 6
+  			
+2212:
+			  text: 缠
+			  difficulty: 6
+  			
+2213:
+			  text: 侨
+			  difficulty: 6
+  			
+2214:
+			  text: 挨
+			  difficulty: 6
+  			
+2215:
+			  text: 苍
+			  difficulty: 6
+  			
+2216:
+			  text: 勾
+			  difficulty: 6
+  			
+2217:
+			  text: 巷
+			  difficulty: 6
+  			
+2218:
+			  text: 晃
+			  difficulty: 6
+  			
+2219:
+			  text: 筋
+			  difficulty: 6
+  			
+2220:
+			  text: 兽
+			  difficulty: 6
+  			
+2221:
+			  text: 荧
+			  difficulty: 6
+  			
+2222:
+			  text: 遣
+			  difficulty: 6
+  			
+2223:
+			  text: 驳
+			  difficulty: 6
+  			
+2224:
+			  text: 绒
+			  difficulty: 6
+  			
+2225:
+			  text: 碧
+			  difficulty: 6
+  			
+2226:
+			  text: 旱
+			  difficulty: 6
+  			
+2227:
+			  text: 殿
+			  difficulty: 6
+  			
+2228:
+			  text: 躁
+			  difficulty: 6
+  			
+2229:
+			  text: 冤
+			  difficulty: 6
+  			
+2230:
+			  text: 惹
+			  difficulty: 6
+  			
+2231:
+			  text: 贬
+			  difficulty: 6
+  			
+2232:
+			  text: 溜
+			  difficulty: 6
+  			
+2233:
+			  text: 浑
+			  difficulty: 6
+  			
+2234:
+			  text: 嘛
+			  difficulty: 6
+  			
+2235:
+			  text: 塘
+			  difficulty: 6
+  			
+2236:
+			  text: 宰
+			  difficulty: 6
+  			
+2237:
+			  text: 谎
+			  difficulty: 6
+  			
+2238:
+			  text: 钞
+			  difficulty: 6
+  			
+2239:
+			  text: 株
+			  difficulty: 6
+  			
+2240:
+			  text: 腻
+			  difficulty: 6
+  			
+2241:
+			  text: 抹
+			  difficulty: 6
+  			
+2242:
+			  text: 孝
+			  difficulty: 6
+  			
+2243:
+			  text: 昔
+			  difficulty: 6
+  			
+2244:
+			  text: 茫
+			  difficulty: 6
+  			
+2245:
+			  text: 瘤
+			  difficulty: 6
+  			
+2246:
+			  text: 肢
+			  difficulty: 6
+  			
+2247:
+			  text: 仗
+			  difficulty: 6
+  			
+2248:
+			  text: 蒸
+			  difficulty: 6
+  			
+2249:
+			  text: 瞩
+			  difficulty: 6
+  			
+2250:
+			  text: 碳
+			  difficulty: 6
+  			
+2251:
+			  text: 肆
+			  difficulty: 6
+  			
+2252:
+			  text: 耕
+			  difficulty: 6
+  			
+2253:
+			  text: 奠
+			  difficulty: 6
+  			
+2254:
+			  text: 溪
+			  difficulty: 6
+  			
+2255:
+			  text: 卸
+			  difficulty: 6
+  			
+2256:
+			  text: 狭
+			  difficulty: 6
+  			
+2257:
+			  text: 碌
+			  difficulty: 6
+  			
+2258:
+			  text: 螺
+			  difficulty: 6
+  			
+2259:
+			  text: 勘
+			  difficulty: 6
+  			
+2260:
+			  text: 贼
+			  difficulty: 6
+  			
+2261:
+			  text: 幢
+			  difficulty: 6
+  			
+2262:
+			  text: 崩
+			  difficulty: 6
+  			
+2263:
+			  text: 浸
+			  difficulty: 6
+  			
+2264:
+			  text: 稻
+			  difficulty: 6
+  			
+2265:
+			  text: 膨
+			  difficulty: 6
+  			
+2266:
+			  text: 叠
+			  difficulty: 6
+  			
+2267:
+			  text: 壤
+			  difficulty: 6
+  			
+2268:
+			  text: 彰
+			  difficulty: 6
+  			
+2269:
+			  text: 晤
+			  difficulty: 6
+  			
+2270:
+			  text: 棍
+			  difficulty: 6
+  			
+2271:
+			  text: 脾
+			  difficulty: 6
+  			
+2272:
+			  text: 谍
+			  difficulty: 6
+  			
+2273:
+			  text: 惕
+			  difficulty: 6
+  			
+2274:
+			  text: 堤
+			  difficulty: 6
+  			
+2275:
+			  text: 馈
+			  difficulty: 6
+  			
+2276:
+			  text: 绣
+			  difficulty: 6
+  			
+2277:
+			  text: 蕴
+			  difficulty: 6
+  			
+2278:
+			  text: 崭
+			  difficulty: 6
+  			
+2279:
+			  text: 诵
+			  difficulty: 6
+  			
+2280:
+			  text: 擎
+			  difficulty: 6
+  			
+2281:
+			  text: 栽
+			  difficulty: 6
+  			
+2282:
+			  text: 蓬
+			  difficulty: 6
+  			
+2283:
+			  text: 弦
+			  difficulty: 6
+  			
+2284:
+			  text: 颠
+			  difficulty: 6
+  			
+2285:
+			  text: 呵
+			  difficulty: 6
+  			
+2286:
+			  text: 畜
+			  difficulty: 6
+  			
+2287:
+			  text: 谴
+			  difficulty: 6
+  			
+2288:
+			  text: 竭
+			  difficulty: 6
+  			
+2289:
+			  text: 钉
+			  difficulty: 6
+  			
+2290:
+			  text: 娇
+			  difficulty: 6
+  			
+2291:
+			  text: 缔
+			  difficulty: 6
+  			
+2292:
+			  text: 扒
+			  difficulty: 6
+  			
+2293:
+			  text: 讶
+			  difficulty: 6
+  			
+2294:
+			  text: 凸
+			  difficulty: 6
+  			
+2295:
+			  text: 沧
+			  difficulty: 6
+  			
+2296:
+			  text: 枯
+			  difficulty: 6
+  			
+2297:
+			  text: 扯
+			  difficulty: 6
+  			
+2298:
+			  text: 霜
+			  difficulty: 6
+  			
+2299:
+			  text: 沾
+			  difficulty: 6
+  			
+2300:
+			  text: 帜
+			  difficulty: 6
+  			
+2301:
+			  text: 喘
+			  difficulty: 6
+  			
+2302:
+			  text: 钩
+			  difficulty: 6
+  			
+2303:
+			  text: 丘
+			  difficulty: 6
+  			
+2304:
+			  text: 捆
+			  difficulty: 6
+  			
+2305:
+			  text: 蔽
+			  difficulty: 6
+  			
+2306:
+			  text: 溃
+			  difficulty: 6
+  			
+2307:
+			  text: 澄
+			  difficulty: 6
+  			
+2308:
+			  text: 铸
+			  difficulty: 6
+  			
+2309:
+			  text: 肪
+			  difficulty: 6
+  			
+2310:
+			  text: 琢
+			  difficulty: 6
+  			
+2311:
+			  text: 兜
+			  difficulty: 6
+  			
+2312:
+			  text: 熬
+			  difficulty: 6
+  			
+2313:
+			  text: 膝
+			  difficulty: 6
+  			
+2314:
+			  text: 哑
+			  difficulty: 6
+  			
+2315:
+			  text: 虐
+			  difficulty: 6
+  			
+2316:
+			  text: 蚀
+			  difficulty: 6
+  			
+2317:
+			  text: 杠
+			  difficulty: 6
+  			
+2318:
+			  text: 丸
+			  difficulty: 6
+  			
+2319:
+			  text: 摧
+			  difficulty: 6
+  			
+2320:
+			  text: 侣
+			  difficulty: 6
+  			
+2321:
+			  text: 媳
+			  difficulty: 6
+  			
+2322:
+			  text: 阐
+			  difficulty: 6
+  			
+2323:
+			  text: 搁
+			  difficulty: 6
+  			
+2324:
+			  text: 愚
+			  difficulty: 6
+  			
+2325:
+			  text: 锈
+			  difficulty: 6
+  			
+2326:
+			  text: 辜
+			  difficulty: 6
+  			
+2327:
+			  text: 谣
+			  difficulty: 6
+  			
+2328:
+			  text: 瞒
+			  difficulty: 6
+  			
+2329:
+			  text: 芒
+			  difficulty: 6
+  			
+2330:
+			  text: 耍
+			  difficulty: 6
+  			
+2331:
+			  text: 蔓
+			  difficulty: 6
+  			
+2332:
+			  text: 穴
+			  difficulty: 6
+  			
+2333:
+			  text: 遏
+			  difficulty: 6
+  			
+2334:
+			  text: 蹦
+			  difficulty: 6
+  			
+2335:
+			  text: 芦
+			  difficulty: 6
+  			
+2336:
+			  text: 蛮
+			  difficulty: 6
+  			
+2337:
+			  text: 篷
+			  difficulty: 6
+  			
+2338:
+			  text: 竖
+			  difficulty: 6
+  			
+2339:
+			  text: 剖
+			  difficulty: 6
+  			
+2340:
+			  text: 宵
+			  difficulty: 6
+  			
+2341:
+			  text: 魄
+			  difficulty: 6
+  			
+2342:
+			  text: 磅
+			  difficulty: 6
+  			
+2343:
+			  text: 奢
+			  difficulty: 6
+  			
+2344:
+			  text: 酝
+			  difficulty: 6
+  			
+2345:
+			  text: 瘫
+			  difficulty: 6
+  			
+2346:
+			  text: 攒
+			  difficulty: 6
+  			
+2347:
+			  text: 讳
+			  difficulty: 6
+  			
+2348:
+			  text: 哄
+			  difficulty: 6
+  			
+2349:
+			  text: 磋
+			  difficulty: 6
+  			
+2350:
+			  text: 勉
+			  difficulty: 6
+  			
+2351:
+			  text: 俐
+			  difficulty: 6
+  			
+2352:
+			  text: 焰
+			  difficulty: 6
+  			
+2353:
+			  text: 唇
+			  difficulty: 6
+  			
+2354:
+			  text: 滤
+			  difficulty: 6
+  			
+2355:
+			  text: 啥
+			  difficulty: 6
+  			
+2356:
+			  text: 僵
+			  difficulty: 6
+  			
+2357:
+			  text: 衍
+			  difficulty: 6
+  			
+2358:
+			  text: 隙
+			  difficulty: 6
+  			
+2359:
+			  text: 淹
+			  difficulty: 6
+  			
+2360:
+			  text: 俘
+			  difficulty: 6
+  			
+2361:
+			  text: 搅
+			  difficulty: 6
+  			
+2362:
+			  text: 耻
+			  difficulty: 6
+  			
+2363:
+			  text: 剔
+			  difficulty: 6
+  			
+2364:
+			  text: 殴
+			  difficulty: 6
+  			
+2365:
+			  text: 悼
+			  difficulty: 6
+  			
+2366:
+			  text: 昼
+			  difficulty: 6
+  			
+2367:
+			  text: 喉
+			  difficulty: 6
+  			
+2368:
+			  text: 崖
+			  difficulty: 6
+  			
+2369:
+			  text: 聋
+			  difficulty: 6
+  			
+2370:
+			  text: 溶
+			  difficulty: 6
+  			
+2371:
+			  text: 嵌
+			  difficulty: 6
+  			
+2372:
+			  text: 岂
+			  difficulty: 6
+  			
+2373:
+			  text: 赂
+			  difficulty: 6
+  			
+2374:
+			  text: 卑
+			  difficulty: 6
+  			
+2375:
+			  text: 饥
+			  difficulty: 6
+  			
+2376:
+			  text: 倦
+			  difficulty: 6
+  			
+2377:
+			  text: 扛
+			  difficulty: 6
+  			
+2378:
+			  text: 咽
+			  difficulty: 6
+  			
+2379:
+			  text: 灶
+			  difficulty: 6
+  			
+2380:
+			  text: 颂
+			  difficulty: 6
+  			
+2381:
+			  text: 斩
+			  difficulty: 6
+  			
+2382:
+			  text: 奴
+			  difficulty: 6
+  			
+2383:
+			  text: 泌
+			  difficulty: 6
+  			
+2384:
+			  text: 萌
+			  difficulty: 6
+  			
+2385:
+			  text: 恭
+			  difficulty: 6
+  			
+2386:
+			  text: 坟
+			  difficulty: 6
+  			
+2387:
+			  text: 拢
+			  difficulty: 6
+  			
+2388:
+			  text: 喇
+			  difficulty: 6
+  			
+2389:
+			  text: 皱
+			  difficulty: 6
+  			
+2390:
+			  text: 愣
+			  difficulty: 6
+  			
+2391:
+			  text: 濒
+			  difficulty: 6
+  			
+2392:
+			  text: 掠
+			  difficulty: 6
+  			
+2393:
+			  text: 俭
+			  difficulty: 6
+  			
+2394:
+			  text: 惫
+			  difficulty: 6
+  			
+2395:
+			  text: 嫂
+			  difficulty: 6
+  			
+2396:
+			  text: 陋
+			  difficulty: 6
+  			
+2397:
+			  text: 畔
+			  difficulty: 6
+  			
+2398:
+			  text: 馅
+			  difficulty: 6
+  			
+2399:
+			  text: 徊
+			  difficulty: 6
+  			
+2400:
+			  text: 捏
+			  difficulty: 6
+  			
+2401:
+			  text: 稚
+			  difficulty: 6
+  			
+2402:
+			  text: 叭
+			  difficulty: 6
+  			
+2403:
+			  text: 烹
+			  difficulty: 6
+  			
+2404:
+			  text: 觅
+			  difficulty: 6
+  			
+2405:
+			  text: 柬
+			  difficulty: 6
+  			
+2406:
+			  text: 熏
+			  difficulty: 6
+  			
+2407:
+			  text: 飙
+			  difficulty: 6
+  			
+2408:
+			  text: 雌
+			  difficulty: 6
+  			
+2409:
+			  text: 辙
+			  difficulty: 6
+  			
+2410:
+			  text: 屁
+			  difficulty: 6
+  			
+2411:
+			  text: 韧
+			  difficulty: 6
+  			
+2412:
+			  text: 嘲
+			  difficulty: 6
+  			
+2413:
+			  text: 屑
+			  difficulty: 6
+  			
+2414:
+			  text: 跪
+			  difficulty: 6
+  			
+2415:
+			  text: 泻
+			  difficulty: 6
+  			
+2416:
+			  text: 袍
+			  difficulty: 6
+  			
+2417:
+			  text: 镶
+			  difficulty: 6
+  			
+2418:
+			  text: 禽
+			  difficulty: 6
+  			
+2419:
+			  text: 隶
+			  difficulty: 6
+  			
+2420:
+			  text: 筛
+			  difficulty: 6
+  			
+2421:
+			  text: 隧
+			  difficulty: 6
+  			
+2422:
+			  text: 趴
+			  difficulty: 6
+  			
+2423:
+			  text: 挠
+			  difficulty: 6
+  			
+2424:
+			  text: 啸
+			  difficulty: 6
+  			
+2425:
+			  text: 烁
+			  difficulty: 6
+  			
+2426:
+			  text: 沛
+			  difficulty: 6
+  			
+2427:
+			  text: 橙
+			  difficulty: 6
+  			
+2428:
+			  text: 滔
+			  difficulty: 6
+  			
+2429:
+			  text: 畴
+			  difficulty: 6
+  			
+2430:
+			  text: 颤
+			  difficulty: 6
+  			
+2431:
+			  text: 吟
+			  difficulty: 6
+  			
+2432:
+			  text: 芽
+			  difficulty: 6
+  			
+2433:
+			  text: 棕
+			  difficulty: 6
+  			
+2434:
+			  text: 渣
+			  difficulty: 6
+  			
+2435:
+			  text: 锤
+			  difficulty: 6
+  			
+2436:
+			  text: 扁
+			  difficulty: 6
+  			
+2437:
+			  text: 诫
+			  difficulty: 6
+  			
+2438:
+			  text: 挚
+			  difficulty: 6
+  			
+2439:
+			  text: 纬
+			  difficulty: 6
+  			
+2440:
+			  text: 掷
+			  difficulty: 6
+  			
+2441:
+			  text: 氓
+			  difficulty: 6
+  			
+2442:
+			  text: 叮
+			  difficulty: 6
+  			
+2443:
+			  text: 咋
+			  difficulty: 6
+  			
+2444:
+			  text: 僻
+			  difficulty: 6
+  			
+2445:
+			  text: 汹
+			  difficulty: 6
+  			
+2446:
+			  text: 瞪
+			  difficulty: 6
+  			
+2447:
+			  text: 妄
+			  difficulty: 6
+  			
+2448:
+			  text: 饶
+			  difficulty: 6
+  			
+2449:
+			  text: 氢
+			  difficulty: 6
+  			
+2450:
+			  text: 旷
+			  difficulty: 6
+  			
+2451:
+			  text: 缀
+			  difficulty: 6
+  			
+2452:
+			  text: 痪
+			  difficulty: 6
+  			
+2453:
+			  text: 枉
+			  difficulty: 6
+  			
+2454:
+			  text: 俯
+			  difficulty: 6
+  			
+2455:
+			  text: 捣
+			  difficulty: 6
+  			
+2456:
+			  text: 叨
+			  difficulty: 6
+  			
+2457:
+			  text: 昧
+			  difficulty: 6
+  			
+2458:
+			  text: 凹
+			  difficulty: 6
+  			
+2459:
+			  text: 澈
+			  difficulty: 6
+  			
+2460:
+			  text: 恍
+			  difficulty: 6
+  			
+2461:
+			  text: 袱
+			  difficulty: 6
+  			
+2462:
+			  text: 蠢
+			  difficulty: 6
+  			
+2463:
+			  text: 椎
+			  difficulty: 6
+  			
+2464:
+			  text: 抒
+			  difficulty: 6
+  			
+2465:
+			  text: 耸
+			  difficulty: 6
+  			
+2466:
+			  text: 窜
+			  difficulty: 6
+  			
+2467:
+			  text: 陡
+			  difficulty: 6
+  			
+2468:
+			  text: 踊
+			  difficulty: 6
+  			
+2469:
+			  text: 瞻
+			  difficulty: 6
+  			
+2470:
+			  text: 吼
+			  difficulty: 6
+  			
+2471:
+			  text: 瀑
+			  difficulty: 6
+  			
+2472:
+			  text: 帖
+			  difficulty: 6
+  			
+2473:
+			  text: 翘
+			  difficulty: 6
+  			
+2474:
+			  text: 哇
+			  difficulty: 6
+  			
+2475:
+			  text: 侮
+			  difficulty: 6
+  			
+2476:
+			  text: 墟
+			  difficulty: 6
+  			
+2477:
+			  text: 睦
+			  difficulty: 6
+  			
+2478:
+			  text: 憋
+			  difficulty: 6
+  			
+2479:
+			  text: 粥
+			  difficulty: 6
+  			
+2480:
+			  text: 嘿
+			  difficulty: 6
+  			
+2481:
+			  text: 呕
+			  difficulty: 6
+  			
+2482:
+			  text: 沐
+			  difficulty: 6
+  			
+2483:
+			  text: 缚
+			  difficulty: 6
+  			
+2484:
+			  text: 嚼
+			  difficulty: 6
+  			
+2485:
+			  text: 猖
+			  difficulty: 6
+  			
+2486:
+			  text: 葫
+			  difficulty: 6
+  			
+2487:
+			  text: 凄
+			  difficulty: 6
+  			
+2488:
+			  text: 疤
+			  difficulty: 6
+  			
+2489:
+			  text: 腥
+			  difficulty: 6
+  			
+2490:
+			  text: 勿
+			  difficulty: 6
+  			
+2491:
+			  text: 鞠
+			  difficulty: 6
+  			
+2492:
+			  text: 朽
+			  difficulty: 6
+  			
+2493:
+			  text: 沮
+			  difficulty: 6
+  			
+2494:
+			  text: 哎
+			  difficulty: 6
+  			
+2495:
+			  text: 拌
+			  difficulty: 6
+  			
+2496:
+			  text: 妒
+			  difficulty: 6
+  			
+2497:
+			  text: 磕
+			  difficulty: 6
+  			
+2498:
+			  text: 熄
+			  difficulty: 6
+  			
+2499:
+			  text: 捍
+			  difficulty: 6
+  			
+2500:
+			  text: 廓
+			  difficulty: 6
+  			
+2501:
+			  text: 怠
+			  difficulty: 6
+  			
+2502:
+			  text: 烘
+			  difficulty: 6
+  			
+2503:
+			  text: 肴
+			  difficulty: 6
+  			
+2504:
+			  text: 堕
+			  difficulty: 6
+  			
+2505:
+			  text: 兢
+			  difficulty: 6
+  			
+2506:
+			  text: 紊
+			  difficulty: 6
+  			
+2507:
+			  text: 哦
+			  difficulty: 6
+  			
+2508:
+			  text: 甭
+			  difficulty: 6
+  			
+2509:
+			  text: 侈
+			  difficulty: 6
+  			
+2510:
+			  text: 乞
+			  difficulty: 6
+  			
+2511:
+			  text: 秃
+			  difficulty: 6
+  			
+2512:
+			  text: 哺
+			  difficulty: 6
+  			
+2513:
+			  text: 筐
+			  difficulty: 6
+  			
+2514:
+			  text: 怯
+			  difficulty: 6
+  			
+2515:
+			  text: 绅
+			  difficulty: 6
+  			
+2516:
+			  text: 拽
+			  difficulty: 6
+  			
+2517:
+			  text: 苟
+			  difficulty: 6
+  			
+2518:
+			  text: 嗅
+			  difficulty: 6
+  			
+2519:
+			  text: 庇
+			  difficulty: 6
+  			
+2520:
+			  text: 屿
+			  difficulty: 6
+  			
+2521:
+			  text: 伺
+			  difficulty: 6
+  			
+2522:
+			  text: 饪
+			  difficulty: 6
+  			
+2523:
+			  text: 敷
+			  difficulty: 6
+  			
+2524:
+			  text: 拧
+			  difficulty: 6
+  			
+2525:
+			  text: 渺
+			  difficulty: 6
+  			
+2526:
+			  text: 譬
+			  difficulty: 6
+  			
+2527:
+			  text: 哼
+			  difficulty: 6
+  			
+2528:
+			  text: 舶
+			  difficulty: 6
+  			
+2529:
+			  text: 惦
+			  difficulty: 6
+  			
+2530:
+			  text: 桨
+			  difficulty: 6
+  			
+2531:
+			  text: 溅
+			  difficulty: 6
+  			
+2532:
+			  text: 簸
+			  difficulty: 6
+  			
+2533:
+			  text: 慷
+			  difficulty: 6
+  			
+2534:
+			  text: 谬
+			  difficulty: 6
+  			
+2535:
+			  text: 眶
+			  difficulty: 6
+  			
+2536:
+			  text: 涮
+			  difficulty: 6
+  			
+2537:
+			  text: 沼
+			  difficulty: 6
+  			
+2538:
+			  text: 秤
+			  difficulty: 6
+  			
+2539:
+			  text: 恕
+			  difficulty: 6
+  			
+2540:
+			  text: 拙
+			  difficulty: 6
+  			
+2541:
+			  text: 掐
+			  difficulty: 6
+  			
+2542:
+			  text: 躬
+			  difficulty: 6
+  			
+2543:
+			  text: 拣
+			  difficulty: 6
+  			
+2544:
+			  text: 眯
+			  difficulty: 6
+  			
+2545:
+			  text: 劈
+			  difficulty: 6
+  			
+2546:
+			  text: 蹬
+			  difficulty: 6
+  			
+2547:
+			  text: 搀
+			  difficulty: 6
+  			
+2548:
+			  text: 搓
+			  difficulty: 6
+  			
+2549:
+			  text: 揉
+			  difficulty: 6
+  			
+2550:
+			  text: 搂
+			  difficulty: 6
+  			
+2551:
+			  text: 嫉
+			  difficulty: 6
+  			
+2552:
+			  text: 唠
+			  difficulty: 6
+  			
+2553:
+			  text: 晾
+			  difficulty: 6
+  			
+2554:
+			  text: 诧
+			  difficulty: 6
+  			
+2555:
+			  text: 眨
+			  difficulty: 6
+  			
+2556:
+			  text: 哟
+			  difficulty: 6
+  			
+2557:
+			  text: 殃
+			  difficulty: 6
+  			
+2558:
+			  text: 辫
+			  difficulty: 6
+  			
+2559:
+			  text: 惋
+			  difficulty: 6
+  			
+2560:
+			  text: 浊
+			  difficulty: 6
+  			
+2561:
+			  text: 酌
+			  difficulty: 6
+  			
+2562:
+			  text: 涕
+			  difficulty: 6
+  			
+2563:
+			  text: 唾
+			  difficulty: 6
+  			
+2564:
+			  text: 梢
+			  difficulty: 6
+  			
+2565:
+			  text: 淆
+			  difficulty: 6
+  			
+2566:
+			  text: 啃
+			  difficulty: 6
+  			
+2567:
+			  text: 虏
+			  difficulty: 6
+  			
+2568:
+			  text: 衅
+			  difficulty: 6
+  			
+2569:
+			  text: 杖
+			  difficulty: 6
+  			
+2570:
+			  text: 徙
+			  difficulty: 6
+  			
+2571:
+			  text: 岔
+			  difficulty: 6
+  			
+2572:
+			  text: 蔑
+			  difficulty: 6
+  			
+2573:
+			  text: 腮
+			  difficulty: 6
+  			
+2574:
+			  text: 伶
+			  difficulty: 6
+  			
+2575:
+			  text: 痹
+			  difficulty: 6
+  			
+2576:
+			  text: 鄙
+			  difficulty: 6
+  			
+2577:
+			  text: 溉
+			  difficulty: 6
+  			
+2578:
+			  text: 疙
+			  difficulty: 6
+  			
+2579:
+			  text: 雹
+			  difficulty: 6
+  			
+2580:
+			  text: 嘈
+			  difficulty: 6
+  			
+2581:
+			  text: 诬
+			  difficulty: 6
+  			
+2582:
+			  text: 谤
+			  difficulty: 6
+  			
+2583:
+			  text: 峭
+			  difficulty: 6
+  			
+2584:
+			  text: 掰
+			  difficulty: 6
+  			
+2585:
+			  text: 咀
+			  difficulty: 6
+  			
+2586:
+			  text: 丐
+			  difficulty: 6
+  			
+2587:
+			  text: 嗦
+			  difficulty: 6
+  			
+2588:
+			  text: 诽
+			  difficulty: 6
+  			
+2589:
+			  text: 暧
+			  difficulty: 6
+  			
+2590:
+			  text: 吝
+			  difficulty: 6
+  			
+2591:
+			  text: 婪
+			  difficulty: 6
+  			
+2592:
+			  text: 睬
+			  difficulty: 6
+  			
+2593:
+			  text: 酗
+			  difficulty: 6
+  			
+2594:
+			  text: 裳
+			  difficulty: 6
+  			
+2595:
+			  text: 膛
+			  difficulty: 6
+  			
+2596:
+			  text: 隘
+			  difficulty: 6
+  			
+2597:
+			  text: 捎
+			  difficulty: 6
+  			
+2598:
+			  text: 蔼
+			  difficulty: 6
+  			
+2599:
+			  text: 哆
+			  difficulty: 6
+  			
+2600:
+			  text: 稠
+			  difficulty: 6
+  			
+2601:
+			  text: 榨
+			  difficulty: 6
+  			
+2602:
+			  text: 挎
+			  difficulty: 6
+  			
+2603:
+			  text: 茎
+			  difficulty: 6
+  			
+2604:
+			  text: 惰
+			  difficulty: 6
+  			
+2605:
+			  text: 迸
+			  difficulty: 6
+  			
+2606:
+			  text: 惮
+			  difficulty: 6
+  			
+2607:
+			  text: 狈
+			  difficulty: 6
+  			
+2608:
+			  text: 躇
+			  difficulty: 6
+  			
+2609:
+			  text: 馋
+			  difficulty: 6
+  			
+2610:
+			  text: 椭
+			  difficulty: 6
+  			
+2611:
+			  text: 踌
+			  difficulty: 6
+  			
+2612:
+			  text: 讥
+			  difficulty: 6
+  			
+2613:
+			  text: 舔
+			  difficulty: 6
+  			
+2614:
+			  text: 嗨
+			  difficulty: 6
+  			
+2615:
+			  text: 熨
+			  difficulty: 6
+  			
+2616:
+			  text: 斟
+			  difficulty: 6
+  			
+2617:
+			  text: 咙
+			  difficulty: 6
+  			
+2618:
+			  text: 暄
+			  difficulty: 6
+  			
+2619:
+			  text: 叼
+			  difficulty: 6
+  			
+2620:
+			  text: 嗯
+			  difficulty: 6
+  			
+2621:
+			  text: 呻
+			  difficulty: 6
+  			
+2622:
+			  text: 唆
+			  difficulty: 6
+  			
+2623:
+			  text: 阂
+			  difficulty: 6
+  			
+2624:
+			  text: 拄
+			  difficulty: 6
+  			
+2625:
+			  text: 啬
+			  difficulty: 6
+  			
+2626:
+			  text: 瘸
+			  difficulty: 6
+  			
+2627:
+			  text: 吩
+			  difficulty: 6
+  			
+2628:
+			  text: 蹋
+			  difficulty: 6
+  			
+2629:
+			  text: 锲
+			  difficulty: 6
+  			
+2630:
+			  text: 揍
+			  difficulty: 6
+  			
+2631:
+			  text: 啰
+			  difficulty: 6
+

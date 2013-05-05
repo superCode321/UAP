@@ -8,7 +8,11 @@ class SessionsController < ApplicationController
     user = User.authenticate(params[:username], params[:password])
     if user
       session[:user_id] = user.id
-	  redirect_to articles_path, :notice => "Logged in!"
+	  if userIsInitialized(user)
+	    redirect_to articles_path, :notice => "Logged in!"
+	  else
+	    redirect_to pretest
+	  end
     else
       flash.now.alert = "Invalid username or password"
       render 'new'
@@ -20,4 +24,18 @@ class SessionsController < ApplicationController
     session[:user_id] = nil
     redirect_to root_url, :notice => "Logged out!"
   end
+  
+    # Returns a boolean whether user model is initialized.
+	
+  def userIsInitialized(user)
+    kvectors = Kvector.find(:all, :include => :user, 
+	  :condition => ["users.username = ?", user.username])
+	  
+	if kvectors.length == 0
+	  return true
+	else
+	  return false
+	end
+  end
+  
 end
