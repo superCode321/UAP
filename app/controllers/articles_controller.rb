@@ -17,15 +17,10 @@ class ArticlesController < ApplicationController
 	@article = Article.new(params[:article])
 	@article.save
 	if @article.save
-	  redirect_to articles_path#, :notice => "Article created"
+	  redirect_to articles_path, :notice => "Article created"
 	else
 	  render "new"
 	end
-  end
-  
-  # Word set to unknown on word click
-  def on_click(char)
-    
   end
 
   # displays all articles in ranked order
@@ -76,12 +71,37 @@ class ArticlesController < ApplicationController
 
   def show
 	@article = Article.find(params[:id])
-	on_show(@article)
+	@test_body = on_show(@article)
+	@displayBody = build_show_view(article)
 
 	respond_to do |format|
 	  format.html # show.html.erb
 	  format.json { render json: @article }
 	end
+  end
+
+  # Only displays registered words.
+  def build_show_view(article)
+  	new_body = ''
+  	@user = current_user
+    if article.body == nil or article.body == ''
+    	return ''
+    end
+	body = article.body.split(//)
+    body = body.uniq
+    for char in body
+    	@word = Word.find_by_text(char)
+    	if @word != nil and @word.id != nil
+			new_body << char
+		end
+    end
+    return new_body
+  end
+
+  # Word set to unknown on word click
+  def on_click(char)
+    @user = current_user
+
   end
 
   # View count updates on article display
@@ -91,7 +111,7 @@ class ArticlesController < ApplicationController
     	return
     end
 
-    body = article.body.split(//) #assumes body is a contiguous string with no spaces
+    body = article.body.split(//)
     body = body.uniq
     for char in body
     	@word = Word.find_by_text(char)
@@ -120,6 +140,7 @@ class ArticlesController < ApplicationController
 	    # 	@kvector.save
 	    end
 	end
+	return body
   end
 
   # Determines whether char is Chinese
