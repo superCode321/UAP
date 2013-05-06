@@ -44,7 +44,6 @@
 
 <label id="username">Username : </label><input type="text" / size="50"> 
 <span id="hint">BodyText</span>
-ran
 <script>
 $(function() {
   $('#username').datepicker();
@@ -60,7 +59,7 @@ $(document).ready(function() {
  
   var showTooltip = function(event) {
     $('div.tooltip').remove();
-    $('<div class="tooltip">I\' am tooltips! tooltips! tooltips! :)</div>')
+    $('<div class="tooltip">Tooltip Works!!!</div>')
             .appendTo('body');
     changeTooltipPosition(event);
   };
