@@ -54,15 +54,14 @@
 
 <script>
 	$(document).ready(function (){
-		//var words = ['apple','orange','banana'];
-		var words = <%= words %>;
-		var article;
+		var words = ['apple','orange','banana'];
+		//var words = <%= words %>; HOW TO EMBED RUBY CODE IN JS!!!
 		var build = function () {
 			var article = $('#article');
-			for (var i=0; typeof(words[i]) != 'undefined'; i++){
+			for (var i = 0; typeof(words[i]) != 'undefined'; ++i){
 				var node = $('<div>')
 				.addClass('node')
-				.addClass('word_'+words[i])
+				//.addClass('w_'+words[i])
 				//.attr('id','node_'+i)
 				.html(words[i]);
 
@@ -70,12 +69,12 @@
 			}
 
 			$('div.node').click(function() {
-			   //var ele = $(this).html();
+			   var ele = $(this).html();
 			   $.post('http://localhost:3000/articles', function(data) {
   					alert("Data Loaded");
 				});
-			   //alert(ele);
-			   //$(this).tooltip();
+			   alert(ele);
+			   $(this).tooltip();
 			});
 
 		};
