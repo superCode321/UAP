@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Feed reader package
 #gem 'feedzirra', :require => 'feedzirra'
 
+# qTip2 for popups
+gem 'jquery-qtip2-rails'
+
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
 
