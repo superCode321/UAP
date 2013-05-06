@@ -26,7 +26,7 @@
 <body>
 
 <div id='article'></div>
-
+<p id='result'></p>
 
 <p>
   <b>Title:</b>
@@ -69,11 +69,14 @@
 
 			$('div.node').click(function() {
 			   var ele = $(this).html();
-			   $.post('http://localhost:3000/articles', function(data) {
-  					alert("Data Loaded");
+			    $.ajax({
+			    	url:"http://localhost:3000/click",
+			    	success:function(result){
+			      $("p#result").html(result);},
+			      	data: {'char':ele}
 				});
 			   alert(ele);
-			   $(this).tooltip();
+			   //$(this).tooltip();
 			});
 
 		};
