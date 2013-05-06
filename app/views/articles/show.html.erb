@@ -50,26 +50,26 @@
 <%= link_to 'Back', articles_path %>
 
 
-<div id='article'>asd</div>
+<div id='article'></div>
 
 <script>
-	(function (){
+	$(document).ready(function (){
 		var words = ['apple','orange','banana'];
 		var article;
 		var build = function () {
-			var article = $('#article')
+			var article = $('#article');
 			for (var i=0; typeof(words[i]) != 'undefined'; i++){
 				var node = $('<div>')
 				.addClass('node')
 				.addClass('word_'+words[i])
-				.attr('id','node_'+i)
+				//.attr('id','node_'+i)
 				.html(words[i]);
 
 				article.append(node);
 			}
 
 			$('div.node').click(function() {
-			   var ele = $(this).innerHTML;
+			   var ele = $(this).html();
 			   $.post('http://localhost:3000/click', {'char': ele});
 			   alert(ele);
 			   $(this).tooltip();
