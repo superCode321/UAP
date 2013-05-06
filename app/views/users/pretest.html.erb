@@ -29,11 +29,16 @@
 
 </ul>
 
-<div class='test'>here</div>
+<p class='test'>here</p>
 
 <script>
 $('.test').qtip({
-  content: 'An example tooltip',
+  content: {
+    text: 'I\'m blue... deal with it!'
+  },
+  style: {
+    classes: 'qtip-blue qtip-shadow'
+  }
 });
 // Functionality for level selection and vector model population
 
