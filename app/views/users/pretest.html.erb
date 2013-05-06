@@ -7,6 +7,17 @@
   li.active { background:black;color:white; }
   body {background-color: MistyRose;}
   span { color:red; }
+  #hint{
+    cursor:pointer;
+  }
+  .tooltip{
+    margin:8px;
+    padding:8px;
+    border:1px solid blue;
+    background-color:yellow;
+    position: absolute;
+    z-index: 2;
+  }
   </style>
 
 </head>
@@ -30,9 +41,39 @@
 </ul>
 
 <p class='test'>here</p>
+<label id="username">Username : </label><input type="text" / size="50"> 
+<span id="hint">hint (mouseover me)</span>
 
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 <script>
-$( '.test' ).tooltip({ content: "Awesome title!" });
+$('.test').tooltip({ content: "Awesome title!" });
+
+$(document).ready(function() {
+ 
+  var changeTooltipPosition = function(event) {
+    var tooltipX = event.pageX - 8;
+    var tooltipY = event.pageY + 8;
+    $('div.tooltip').css({top: tooltipY, left: tooltipX});
+  };
+ 
+  var showTooltip = function(event) {
+    $('div.tooltip').remove();
+    $('<div class="tooltip">I\' am tooltips! tooltips! tooltips! :)</div>')
+            .appendTo('body');
+    changeTooltipPosition(event);
+  };
+ 
+  var hideTooltip = function() {
+     $('div.tooltip').remove();
+  };
+ 
+  $("span#hint,label#username'").bind({
+     mousemove : changeTooltipPosition,
+     mouseenter : showTooltip,
+     mouseleave: hideTooltip
+  });
+});
+
 // Functionality for level selection and vector model population
 
 
