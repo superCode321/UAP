@@ -31,7 +31,7 @@ class ArticlesController < ApplicationController
   # displays all articles in ranked order
   def index
 	@articles = Article.find(:all)
-	@rankList = rankArticle(@articles)
+	@rankList = rankArticles(@articles)
 
 	respond_to do |format|
 	  format.html # index.html.erb
