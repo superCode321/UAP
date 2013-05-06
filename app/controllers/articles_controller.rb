@@ -120,6 +120,7 @@ class ArticlesController < ApplicationController
   # Determines whether char is Chinese
   def isChinese(char)
   	ord = char.unpack('U*')
+  	ord = ord[0]
     if ord >= 0x4E00 && ord <= 0x9FFF
     	return true
     else
