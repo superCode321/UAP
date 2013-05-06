@@ -65,7 +65,7 @@ class ArticlesController < ApplicationController
   def rankArticles(articles)
   	rankList = []
   	for article in articles
-  		tuple = [article.title, scoreArticle(article)]
+  		tuple = [article, scoreArticle(article)]
   		rankList.push(tuple)
   	end
   	return rankList
