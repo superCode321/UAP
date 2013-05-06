@@ -113,6 +113,7 @@ class ArticlesController < ApplicationController
 
   # View count updates on article display
   def on_show(article)
+  	new_body = []
     @user = current_user
     if article.body == nil or article.body == ''
     	return
@@ -123,6 +124,7 @@ class ArticlesController < ApplicationController
     for char in body
     	@word = Word.find_by_text(char)
     	if @word != nil and @word.id != nil
+    		new_body.push(char)
 	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
 	    		@user.id, @word.id])
 	    	if @kvector != nil
@@ -147,7 +149,7 @@ class ArticlesController < ApplicationController
 	    # 	@kvector.save
 	    end
 	end
-	return body
+	return new_body
   end
 
   # Determines whether char is Chinese
