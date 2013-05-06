@@ -54,9 +54,10 @@ class ArticlesController < ApplicationController
 	      	score += 1
 	      end
 	    else
-	    	if isChinese(char)
-	      		score += 1
-	      	end
+	      if isChinese(char)
+	        score += 1
+	        puts char
+	      end
 	    end
 	end
 	return score
@@ -114,6 +115,7 @@ class ArticlesController < ApplicationController
     end
   end
 
+  # Displays list of unique chinese chars
   # View count updates on article display
   def on_show(article)
   	new_body = []
