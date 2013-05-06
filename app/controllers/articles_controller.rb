@@ -80,7 +80,7 @@ class ArticlesController < ApplicationController
 	end
   end
 
-  # Only displays registered words.
+  # FOR NOW: Only displays registered words.
   def build_show_view(article)
   	new_body = ''
   	@user = current_user
@@ -99,9 +99,16 @@ class ArticlesController < ApplicationController
   end
 
   # Word set to unknown on word click
-  def on_click(char)
+  def on_click
+  	char = params[:char]
     @user = current_user
-
+    @word = Word.find_by_text(char)
+  	if @word != nil and @word.id != nil
+      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
+      	@user.id, @word.id])
+      kvector.is_known = false
+      kvector.save
+    end
   end
 
   # View count updates on article display

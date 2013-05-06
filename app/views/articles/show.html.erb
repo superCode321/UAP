@@ -44,9 +44,18 @@
   <%= @test_body %>
 </p>
 
+<% for char in @test_body %>
+<%= link_to char, click_path(:char => char) %>
+<% end %>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
+
+<script>
+
+</script>
+
+
 
 </body>
 </html>
