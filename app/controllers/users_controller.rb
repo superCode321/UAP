@@ -16,6 +16,7 @@ class UsersController < ApplicationController
     @user = current_user
   end
 
+  # 
   def initializeUser
     @user = current_user
     words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
@@ -29,7 +30,9 @@ class UsersController < ApplicationController
 
   	  kvs.push(@kvector)
   	end
-  	@user.kvectors = kvs
+  	@user.kvectors.destroy
+    
+    @user.kvectors = kvs
   	@user.save
 
     redirect_to articles_path, :notice => "You have been initialized!"
