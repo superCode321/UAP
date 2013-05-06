@@ -1,6 +1,6 @@
 class ChangeToText < ActiveRecord::Migration
   def up
-    change_column :articles, :body, :text, :limit => 4294967295
+    change_column :articles, :body, :text
   end
 
   def down
