@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
   def new
     if session[:user_id] != nil
+      user = User.find_by_id(session[:user_id])
       if userIsInitialized(user)
         redirect_to articles_path
       else
