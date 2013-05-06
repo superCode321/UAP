@@ -65,14 +65,14 @@
 				//.attr('id','node_'+i)
 				.html(words[i]);
 
-				article.append(node);
+				article.appendTo(node);
 			}
 
 			$('div.node').click(function() {
 			   var ele = $(this).html();
-			   $.post('http://localhost:3000/click', {'char': ele});
+			   $.post('http://localhost:3000/articles', {'char': ele});
 			   alert(ele);
-			   $(this).tooltip();
+			   //$(this).tooltip();
 			});
 
 		};
