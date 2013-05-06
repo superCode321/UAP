@@ -31,7 +31,8 @@ class ArticlesController < ApplicationController
   # displays all articles in ranked order
   def index
 	@articles = Article.find(:all)
-	@rankList = rankArticles(@articles)
+	# Rank by score, or the second index
+	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
 
 	respond_to do |format|
 	  format.html # index.html.erb
@@ -43,6 +44,9 @@ class ArticlesController < ApplicationController
   def scoreArticle(article)
   	score = 0
   	@user = current_user
+  	if body == ''
+  		return 0
+  	end
     body = article.body.split(//)
     body = body.uniq
     for char in body
