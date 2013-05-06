@@ -72,6 +72,7 @@ class ArticlesController < ApplicationController
   def show
 	@article = Article.find(params[:id])
 	@test_body = on_show(@article)
+	flash[:notice] = "Words updated on article show"
 	@displayBody = build_show_view(@article)
 
 	respond_to do |format|
