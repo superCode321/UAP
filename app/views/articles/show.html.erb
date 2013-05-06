@@ -45,7 +45,6 @@
 </p>
 
 <% words = @test_body.split(//) %>
-<% end %>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
@@ -54,33 +53,33 @@
 <div id='article'></div>
 
 <script>
-(function (){
-	var words = <%= words %>;
-	var article;
-	var build = function () {
-		var article = $('#article')
-		for (var i=0; typeof(words[i]) != 'undefined'; i++){
-			var node = $('<div>')
-			.addClass('node')
-			.addClass('word_'+words[i])
-			.attr('id','node_'+i);
-			.html(words[i]);
+	(function (){
+		var words = <%= words %>;
+		var article;
+		var build = function () {
+			var article = $('#article')
+			for (var i=0; typeof(words[i]) != 'undefined'; i++){
+				var node = $('<div>')
+				.addClass('node')
+				.addClass('word_'+words[i])
+				.attr('id','node_'+i);
+				.html(words[i]);
 
-			article.append(node);
-		}
+				article.append(node);
+			}
 
-		$('div.node').click(function() {
-		   var ele = $(this).innerHTML;
-		   $.post('http://localhost:3000/click', {'char': ele});
-		   alert("Word Updated!");
-		   $(this).tooltip();
-		});
+			$('div.node').click(function() {
+			   var ele = $(this).innerHTML;
+			   $.post('http://localhost:3000/click', {'char': ele});
+			   alert("Word Updated!");
+			   $(this).tooltip();
+			});
 
-	};
+		};
 
-	build();
+		build();
 
-})();
+	})();
 
 // var body = <%= @test_body %>;
 
