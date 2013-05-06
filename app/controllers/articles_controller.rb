@@ -57,6 +57,7 @@ class ArticlesController < ApplicationController
 	    else
 	      score += 1
 	    end
+	   end
 	return score
   end
   
