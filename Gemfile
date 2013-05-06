@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 # Feed reader package
 #gem 'feedzirra', :require => 'feedzirra'
 
-gem 'jquery-ui-rails'
-
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
 
@@ -33,6 +31,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
