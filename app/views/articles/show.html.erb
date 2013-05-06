@@ -70,7 +70,10 @@
 
 			$('div.node').click(function() {
 			   var ele = $(this).html();
-			   $.post('http://localhost:3000/articles', {'char': ele});
+			   $.post('http://localhost:3000/articles')
+				.done(function(data) {
+  					alert("Data Loaded: " + data);
+				});
 			   alert(ele);
 			   //$(this).tooltip();
 			});
