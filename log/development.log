@@ -2047,3 +2047,4 @@ Migrating to ChangeToText (20130506053912)
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("words")[0m
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
