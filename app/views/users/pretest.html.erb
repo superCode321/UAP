@@ -29,12 +29,14 @@
 
 </ul>
 
-<div id='test'></div>
+<div class='test'></div>
 
 <script>
-$('#test').qtip({
-  content: 'Hello world!'
-})
+$('.test').qtip({
+  content: {
+    text: 'Long hand notation'
+  }
+});
 // Functionality for level selection and vector model population
 
 
