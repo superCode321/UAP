@@ -7,6 +7,7 @@
     <th>Source_url</th>
     <th></th>
     <th></th>
+    <th></th>
   </tr>
 
 <% @rankList.each do |tuple| %>
@@ -15,6 +16,7 @@
     <%score = tuple[1]%>
     <td><%= article.title %></td>
     <td><%= score %></td>
+    <td><%= article.source_url %></td>
     <td><%= link_to 'Show', article %></td>
     <td><%= link_to 'Edit', edit_article_path(article) %></td>
     <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
