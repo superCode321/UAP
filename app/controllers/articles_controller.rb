@@ -53,7 +53,7 @@ class ArticlesController < ApplicationController
       if isChinese(char)
       	@word = Word.find_by_text(char)
       	if @word != nil
-	      kvector = Kvector.find(:conditions => ["user_id = ? AND word_id = ?",
+	      kvector = Kvector.find(:all, :conditions => ["user_id = ? AND word_id = ?",
 	      	@user.id, @word.id])
 	      if kvector == nil
 	      	score += 1
@@ -94,7 +94,7 @@ class ArticlesController < ApplicationController
     	if isChinese(char)
 	    	@word = Word.find_by_text(char)
 	    	if @word != nil
-		    	@kvector = Kvector.find(:conditions => ["user_id = ? AND word_id = ?",
+		    	@kvector = Kvector.find(:all, :conditions => ["user_id = ? AND word_id = ?",
 		    		@user.id, @word.id])
 		    	if @kvector != nil
 		    		@kvector.view_count += 1
