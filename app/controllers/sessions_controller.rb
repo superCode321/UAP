@@ -1,5 +1,12 @@
 class SessionsController < ApplicationController
   def new
+    if session[:user_id] != nil
+      if userIsInitialized(user)
+        redirect_to articles_path
+      else
+        redirect_to pretest_path
+      end
+    end
   end
   
   # Creates a new session for the user by authenticating name and password.
@@ -7,11 +14,11 @@ class SessionsController < ApplicationController
     user = User.authenticate(params[:username], params[:password])
     if user
       session[:user_id] = user.id
-	  if userIsInitialized(user)
-	    redirect_to articles_path, :notice => "Logged in!"
-	  else
-	    redirect_to pretest_path
-	  end
+  	  if userIsInitialized(user)
+  	    redirect_to articles_path, :notice => "Logged in!"
+  	  else
+  	    redirect_to pretest_path
+  	  end
     else
       flash.now.alert = "Invalid username or password"
       render 'new'
