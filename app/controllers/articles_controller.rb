@@ -30,10 +30,10 @@ class ArticlesController < ApplicationController
 	# Rank by score, or the second index
 	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
 
-	@known_words = []
-	for word in @user.kvectors
-		if word.kvector != nil and word.kvector.is_known == true
-			@known_words.push(word)
+	@known_vecs = []
+	for vec in @user.kvectors
+		if vec != nil and vec.is_known == true
+			@known_vecs.push(vec)
 		end
 	end
 	respond_to do |format|
