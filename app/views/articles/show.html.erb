@@ -72,8 +72,8 @@
 			    $.ajax({
 			    	url:"http://localhost:3000/click",
 			    	success:function(result){
-			      $("p#result").html(result);},
-			      	data: {'char':ele}
+			      $("p#result").html('success!!');},
+			      	data: { 'char':ele }
 				});
 			   alert(ele);
 			   //$(this).tooltip();
