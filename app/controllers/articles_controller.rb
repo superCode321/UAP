@@ -44,11 +44,11 @@ class ArticlesController < ApplicationController
   def scoreArticle(article)
   	score = 0
   	@user = current_user
-  	if body == ''
-  		return 0
-  	end
     body = article.body.split(//)
     body = body.uniq
+    if body == ''
+  		return 0
+  	end
     for char in body
       if isChinese(char)
       	@word = Word.find_by_text(char)
