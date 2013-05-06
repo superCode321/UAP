@@ -1,5 +1,4 @@
 class CreateKvectors < ActiveRecord::Migration
-  drop_table :kvectors
   def change
     create_table :kvectors do |t|
       t.boolean :is_known
