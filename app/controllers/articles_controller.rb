@@ -30,6 +30,12 @@ class ArticlesController < ApplicationController
 	# Rank by score, or the second index
 	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
 
+	@known_words = []
+	for word in @user.kvectors
+		if word.kvector != nil and word.kvector.is_known == true
+			@known_words.push(word)
+		end
+	end
 	respond_to do |format|
 	  format.html # index.html.erb
 	  format.json { render json: @articles }
