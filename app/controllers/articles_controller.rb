@@ -72,7 +72,7 @@ class ArticlesController < ApplicationController
   def show
 	@article = Article.find(params[:id])
 	@test_body = on_show(@article)
-	@displayBody = build_show_view(article)
+	@displayBody = build_show_view(@article)
 
 	respond_to do |format|
 	  format.html # show.html.erb
