@@ -24,6 +24,10 @@
 
 </head>
 <body>
+
+<div id='article'></div>
+
+
 <p>
   <b>Title:</b>
   <%= @article.title %>
@@ -49,14 +53,13 @@
 
 <script>
 		(function (){
-		var words;
 		var build = function () {
 			var words = ['apple','orange','banana'];
 			var article = $('#article');
 			for (var i = 0; typeof(words[i]) != 'undefined'; ++i){
 				var node = $('<div>')
 				.addClass('node')
-				.addClass('word_'+words[i])
+				//.addClass('w_'+words[i])
 				//.attr('id','node_'+i)
 				.html(words[i]);
 
