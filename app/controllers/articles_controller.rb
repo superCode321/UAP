@@ -17,7 +17,7 @@ class ArticlesController < ApplicationController
 	@article = Article.new(params[:article])
 	@article.save
 	if @article.save
-	  redirect_to articles_path, :notice => "Article created"
+	  redirect_to articles_path#, :notice => "Article created"
 	else
 	  render "new"
 	end
@@ -44,24 +44,23 @@ class ArticlesController < ApplicationController
   def scoreArticle(article)
   	score = 0
   	@user = current_user
+  	if article.body == nil or article.body == ''
+  		return 1
+  	end
+
     body = article.body.split(//)
     body = body.uniq
-    if body == ''
-  		return 0
-  	end
     for char in body
-      if isChinese(char)
       	@word = Word.find_by_text(char)
-      	if @word != nil
+      	if @word != nil and @word.id != nil
 	      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
 	      	@user.id, @word.id])
-	      if kvector == nil
+	      if kvector == nil or kvector.is_known == false
 	      	score += 1
 	      end
 	    else
 	      score += 1
 	    end
-	  end
 	end
 	return score
   end
@@ -88,44 +87,45 @@ class ArticlesController < ApplicationController
   # View count updates on article display
   def on_show(article)
     @user = current_user
+    if article.body == nil or article.body == ''
+    	return
+    end
+
     body = article.body.split(//) #assumes body is a contiguous string with no spaces
     body = body.uniq
     for char in body
-    	if isChinese(char)
-	    	@word = Word.find_by_text(char)
-	    	if @word != nil
-		    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-		    		@user.id, @word.id])
-		    	if @kvector != nil
-		    		@kvector.view_count += 1
-		    		@kvector.save
-		    	else # See for the first time
-		    		@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
-		    			:is_known => false, :view_count => 1)
-		    		@kvector.save
-		    	end
-	    		# If has been seen 3 or more times, set to known.
-	    		if @kvector.view_count >= 3
-	    			@kvector.is_known = true
-	    			@kvector.view_count = 0
-	    			@kvector.save
-	    		end
-		    else # An unregistered word
-		    	@word = Word.create(:text => char, :difficulty => 6)
-		    	@word.save
-		    	@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
-		    			:is_known => false, :view_count => 1)
-		    	@kvector.save
-		    end
-		end
+    	@word = Word.find_by_text(char)
+    	if @word != nil and @word.id != nil
+	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
+	    		@user.id, @word.id])
+	    	if @kvector != nil
+	    		@kvector.view_count += 1
+	    		@kvector.save
+	    	else # See for the first time
+	    		@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
+	    			:is_known => false, :view_count => 1)
+	    		@kvector.save
+	    	end
+    		# If has been seen 3 or more times, set to known.
+    		if @kvector.view_count >= 3
+    			@kvector.is_known = true
+    			@kvector.view_count = 0
+    			@kvector.save
+    		end
+	    # else # An unregistered word
+	    # 	@word = Word.create(:text => char, :difficulty => 6)
+	    # 	@word.save
+	    # 	@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
+	    # 			:is_known => false, :view_count => 1)
+	    # 	@kvector.save
+	    end
 	end
   end
 
   # Determines whether char is Chinese
   def isChinese(char)
-  	ord = char.unpack('U*')
-  	ord = ord[0]
-    if ord >= 0x4E00 && ord <= 0x9FFF
+  	ch = char.unpack('U*')[0]
+    if ch >= 0x4E00 && ch <= 0x9FFF
     	return true
     else
     	return false
