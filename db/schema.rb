@@ -1,3 +1,4 @@
+# encoding: UTF-8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,14 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130503203246) do
+ActiveRecord::Schema.define(:version => 20130506055653) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
-    t.string   "body"
+    t.text     "body",       :limit => 4294967295
     t.string   "source_url"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                       :null => false
+    t.datetime "updated_at",                       :null => false
   end
 
   create_table "kvectors", :force => true do |t|
@@ -25,6 +26,8 @@ ActiveRecord::Schema.define(:version => 20130503203246) do
     t.integer  "view_count"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.integer  "user_id"
+    t.integer  "word_id"
   end
 
   create_table "users", :force => true do |t|
