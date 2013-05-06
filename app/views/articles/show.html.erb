@@ -48,14 +48,15 @@
 <%= link_to 'Back', articles_path %>
 
 <script>
-	$(document).ready(function (){
+		(function (){
+		var words;
 		var build = function () {
 			var words = ['apple','orange','banana'];
 			var article = $('#article');
 			for (var i = 0; typeof(words[i]) != 'undefined'; ++i){
 				var node = $('<div>')
 				.addClass('node')
-				//.addClass('w_'+words[i])
+				.addClass('word_'+words[i])
 				//.attr('id','node_'+i)
 				.html(words[i]);
 
