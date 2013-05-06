@@ -3,7 +3,7 @@
 
 <div id="user_nav">
   <% if current_user %>
-    You are logged in with <span style="background-color: #ffff00"><%= current_user.username %></span>
+    You are logged in as <span style="background-color: #ffff00"><%= current_user.username %></span>
     <%= link_to "Log out", log_out_path %>
   <% else %>
     <%= link_to "Sign up", sign_up_path %> |
