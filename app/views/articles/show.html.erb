@@ -54,7 +54,7 @@
 
 <script>
 	(function (){
-		var words = ['1','2','3'];
+		var words = ['apple','orange','banana'];
 		var article;
 		var build = function () {
 			var article = $('#article')
@@ -71,7 +71,7 @@
 			$('div.node').click(function() {
 			   var ele = $(this).innerHTML;
 			   $.post('http://localhost:3000/click', {'char': ele});
-			   alert("Word Updated!");
+			   alert(ele);
 			   $(this).tooltip();
 			});
 
