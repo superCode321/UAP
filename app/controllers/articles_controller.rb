@@ -54,10 +54,9 @@ class ArticlesController < ApplicationController
 	      	score += 1
 	      end
 	    else
-	      if isChinese(char)
-	        score += 1
-	        puts char
-	      end
+	      # if isChinese(char)
+	      #   score += 1
+	      # end
 	    end
 	end
 	return score
