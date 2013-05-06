@@ -25,6 +25,7 @@ class ArticlesController < ApplicationController
 
   # displays all articles in ranked order
   def index
+  	@user = current_user
 	@articles = Article.find(:all)
 	# Rank by score, or the second index
 	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
