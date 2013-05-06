@@ -7,7 +7,7 @@ Langapp::Application.routes.draw do
   get 'pretest' => 'users#pretest', :as => 'pretest'
   get 'init' => 'users#initializeUser', :as => 'init'
   
-  get 'lick' => 'articles#on_click', :as => 'click'
+  get 'click' => 'articles#on_click', :as => 'click'
 
   root :to => 'sessions#new'
   
