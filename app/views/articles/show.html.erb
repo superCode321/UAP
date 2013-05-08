@@ -60,8 +60,6 @@
 			for (var i = 0; typeof(words[i]) != 'undefined'; ++i){
 				var node = $('<div>')
 				.addClass('node')
-				//.addClass('w_'+words[i])
-				//.attr('id','node_'+i)
 				.html(words[i]);
 
 				article.append(node);
@@ -73,7 +71,8 @@
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	success:function(result){
 			      $("p#result").html('success!!');},
-			      	data: { 'char':ele }
+			      	data: { 'char':ele },
+			      	error:function(){alert('error sending');}
 				});
 
 		  //     	$.ajax(
