@@ -61,7 +61,6 @@
 				var node = $('<div>')
 				.addClass('node')
 				.html(words[i]);
-
 				article.append(node);
 			}
 
@@ -72,7 +71,8 @@
 			    	success:function(result){
 			      $("p#result").html('success!!');},
 			      	data: { 'char':ele },
-			      	error:function(){alert('error sending');}
+			      	error:function(data){alert('error sending');
+			      	console.log(data);}
 				});
 
 		  //     	$.ajax(
