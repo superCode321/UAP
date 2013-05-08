@@ -55,7 +55,7 @@
 <script>
 		(function (){
 		var build = function () {
-			var words = '<%= escape_javascript @test_body %>';
+			var words = '<%= @test_body %>';
 			var article = $('#article');
 			for (var i = 0; typeof(words[i]) != 'undefined'; ++i){
 				var node = $('<div>')
