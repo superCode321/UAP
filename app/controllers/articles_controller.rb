@@ -5,7 +5,7 @@ class ArticlesController < ApplicationController
     unless !!current_user
 		flash[:error] = "Need to be logged in."
 		redirect_to log_in_path
-	end
+	  end
   end
   
   def new
@@ -80,7 +80,7 @@ class ArticlesController < ApplicationController
 
   def show
 	@article = Article.find(params[:id])
-  @test_body = ['a','b','c']#on_show(@article)
+  @test_body = on_show(@article)
 	flash[:notice] = "Words updated on article show!"
 	@displayBody = build_show_view(@article)
 
