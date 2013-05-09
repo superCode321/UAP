@@ -2,10 +2,14 @@ class SessionsController < ApplicationController
   def new
     if session[:user_id] != nil
       user = User.find_by_id(session[:user_id])
-      if userIsInitialized(user)
-        redirect_to articles_path
+      if user != nil
+        if userIsInitialized(user)
+          redirect_to articles_path
+        else
+          redirect_to pretest_path
+        end
       else
-        redirect_to pretest_path
+        redirect_to :action => :destroy
       end
     end
   end
@@ -36,11 +40,11 @@ class SessionsController < ApplicationController
 	
   def userIsInitialized(user)
     @kvectors = User.find_by_username(user.username).kvectors
-	if @kvectors.length == 0
-	  return false
-	else
-	  return true
-	end
+  	if @kvectors.length == 0
+  	  return false
+  	else
+  	  return true
+  	end
   end
   
 end
