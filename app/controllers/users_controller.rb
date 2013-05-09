@@ -1,12 +1,12 @@
 class UsersController < ApplicationController
-  before_filter :require_login, :only => :initializeUser
+  # before_filter :require_login, :only => :initializeUser
   
-  def require_login
-    unless !!current_user
-    flash[:error] = "Need to be logged in."
-    redirect_to log_in_path
-    end
-  end
+  # def require_login
+  #   unless !!current_user
+  #   flash[:error] = "Need to be logged in."
+  #   redirect_to log_in_path
+  #   end
+  # end
 
   def new
     @user = User.new
