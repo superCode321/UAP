@@ -159,8 +159,8 @@ class ArticlesController < ApplicationController
 	    # 			:is_known => false, :view_count => 1)
 	    # 	@kvector.save
 	    end
-	end
-	return new_body
+	  end
+	  return new_body
   end
 
   # Determines whether char is Chinese
@@ -175,31 +175,31 @@ class ArticlesController < ApplicationController
 
 
   def edit
-	@article = Article.find(params[:id])
+	  @article = Article.find(params[:id])
   end
 
   def update
-	@article = Article.find(params[:id])
+	  @article = Article.find(params[:id])
 
-	respond_to do |format|
-	  if @article.update_attributes(params[:article])
-		format.html { redirect_to @article, notice: 'Article was successfully updated.' }
-		format.json { head :no_content }
-	  else
-		format.html { render action: "edit" }
-		format.json { render json: @article.errors, status: :unprocessable_entity }
-	  end
-	end
+  	respond_to do |format|
+  	  if @article.update_attributes(params[:article])
+  		format.html { redirect_to @article, notice: 'Article was successfully updated.' }
+  		format.json { head :no_content }
+  	  else
+  		format.html { render action: "edit" }
+  		format.json { render json: @article.errors, status: :unprocessable_entity }
+  	  end
+  	end
   end
 
   def destroy
-	@article = Article.find(params[:id])
-	@article.destroy
+  	@article = Article.find(params[:id])
+  	@article.destroy
 
-	respond_to do |format|
-		format.html { redirect_to articles_path }
-		format.json { head :no_content }
-	end
+  	respond_to do |format|
+  		format.html { redirect_to articles_path }
+  		format.json { head :no_content }
+  	end
   end
 
 end

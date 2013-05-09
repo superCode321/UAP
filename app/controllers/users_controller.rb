@@ -1,4 +1,13 @@
 class UsersController < ApplicationController
+  before_filter :require_login, :only => :initializeUser
+  
+  def require_login
+    unless !!current_user
+    flash[:error] = "Need to be logged in."
+    redirect_to log_in_path
+    end
+  end
+
   def new
     @user = User.new
   end
@@ -19,23 +28,25 @@ class UsersController < ApplicationController
   # 
   def initializeUser
     @user = current_user
-    words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
-  	kvs = []
-  	for word in words
-  	  @kvector = Kvector.new
-  	  @kvector.word_id = word.id
-  	  @kvector.is_known = true
-  	  @kvector.view_count = 0
-  	  @kvector.save
+    if @user != nil
+      words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
+    	kvs = []
+    	for word in words
+    	  @kvector = Kvector.new
+    	  @kvector.word_id = word.id
+    	  @kvector.is_known = true
+    	  @kvector.view_count = 0
+    	  @kvector.save
 
-  	  kvs.push(@kvector)
-  	end
-  	@user.kvectors.destroy
-    
-    @user.kvectors = kvs
-  	@user.save
+    	  kvs.push(@kvector)
+    	end
+    	@user.kvectors.destroy
+      
+      @user.kvectors = kvs
+    	@user.save
 
-    redirect_to articles_path, :notice => "You have been initialized!"
+      redirect_to articles_path, :notice => "You have been initialized!"
+    end
   end
   
   
