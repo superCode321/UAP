@@ -82,7 +82,7 @@ class ArticlesController < ApplicationController
   	@article = Article.find(params[:id])
     @test_body = on_show(@article)
   	flash[:notice] = "Words updated on article show!"
-  	@displayBody = build_show_view(@article)
+  	#@displayBody = build_show_view(@article)
 
   	respond_to do |format|
   	  format.html # show.html.erb
@@ -91,23 +91,23 @@ class ArticlesController < ApplicationController
   end
 
   # FOR NOW: Only displays registered words.
-  def build_show_view(article)
-  	new_body = ''
-  	@user = current_user
-    if article.body == nil or article.body == ''
-    	return ''
-    end
-  	body = article.body.split(//)
-    body = body.uniq
-    for char in body
-      #@word = Word.find_by_text(char)
-    	#if @word != nil and @word.id != nil
-      if isChinese(char)
-			  new_body << char
-  		end
-    end
-    return new_body
-  end
+  # def build_show_view(article)
+  # 	new_body = ''
+  # 	@user = current_user
+  #   if article.body == nil or article.body == ''
+  #   	return ''
+  #   end
+  # 	body = article.body.split(//)
+  #   body = body.uniq
+  #   for char in body
+  #     #@word = Word.find_by_text(char)
+  #   	#if @word != nil and @word.id != nil
+  #     if isChinese(char)
+		# 	  new_body << char
+  # 		end
+  #   end
+  #   return new_body
+  # end
 
   # Word set to unknown on word click
   def on_click
