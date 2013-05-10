@@ -34,7 +34,7 @@
 
 <p>
   <b>Unique Words:</b>
-  <%= @test_body %>
+  <%= @test_body.length %>
 </p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
@@ -43,7 +43,7 @@
 <script>
 		$(function () {
 			var words = ['所','有'];//'<%= @test_body %>';
-			alert(words.length);
+			alert(words);
 			var article = $('#article');
 			var len = words.length;
 			for (var i = 0; i < words.length; i++){
