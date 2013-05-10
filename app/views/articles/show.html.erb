@@ -66,6 +66,7 @@
 			   var ele = $(this).html();
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
+			    	type: 'POST',
 			    	success:function(result){
 			      $("p#result").html('success!!');},
 			      	data: { 'char':ele },

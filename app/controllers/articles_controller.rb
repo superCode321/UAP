@@ -14,32 +14,32 @@ class ArticlesController < ApplicationController
 	
 	
   def create
-	@article = Article.new(params[:article])
-	@article.save
-	if @article.save
-	  redirect_to articles_path, :notice => "Article created"
-	else
-	  render "new"
-	end
+  	@article = Article.new(params[:article])
+  	@article.save
+  	if @article.save
+  	  redirect_to articles_path, :notice => "Article created"
+  	else
+  	  render "new"
+  	end
   end
 
   # displays all articles in ranked order
   def index
   	@user = current_user
-	@articles = Article.find(:all)
-	# Rank by score, or the second index
-	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
+  	@articles = Article.find(:all)
+  	# Rank by score, or the second index
+  	@rankList = rankArticles(@articles).sort_by {|e| [e[1]]}
 
-	@known_vecs = []
-	for vec in @user.kvectors
-		if vec != nil and vec.is_known == true
-			@known_vecs.push(vec)
-		end
-	end
-	respond_to do |format|
-	  format.html # index.html.erb
-	  format.json { render json: @articles }
-	end
+  	@known_vecs = []
+  	for vec in @user.kvectors
+  		if vec != nil and vec.is_known == true
+  			@known_vecs.push(vec)
+  		end
+  	end
+  	respond_to do |format|
+  	  format.html # index.html.erb
+  	  format.json { render json: @articles }
+  	end
   end
 
   # Higher score means harder article
@@ -65,8 +65,8 @@ class ArticlesController < ApplicationController
 	      #   score += 1
 	      # end
 	    end
-	end
-	return score
+	  end
+	  return score
   end
   
   def rankArticles(articles)
@@ -79,15 +79,15 @@ class ArticlesController < ApplicationController
   end
 
   def show
-	@article = Article.find(params[:id])
-  @test_body = on_show(@article)
-	flash[:notice] = "Words updated on article show!"
-	@displayBody = build_show_view(@article)
+  	@article = Article.find(params[:id])
+    @test_body = on_show(@article)
+  	flash[:notice] = "Words updated on article show!"
+  	@displayBody = build_show_view(@article)
 
-	respond_to do |format|
-	  format.html # show.html.erb
-	  format.json { render json: @article }
-	end
+  	respond_to do |format|
+  	  format.html # show.html.erb
+  	  format.json { render json: @article }
+  	end
   end
 
   # FOR NOW: Only displays registered words.
@@ -97,13 +97,13 @@ class ArticlesController < ApplicationController
     if article.body == nil or article.body == ''
     	return ''
     end
-	body = article.body.split(//)
-    body = body.uniq
-    for char in body
-    	@word = Word.find_by_text(char)
-    	if @word != nil and @word.id != nil
-			new_body << char
-		end
+  	body = article.body.split(//)
+      body = body.uniq
+      for char in body
+      	@word = Word.find_by_text(char)
+      	if @word != nil and @word.id != nil
+  			new_body << char
+  		end
     end
     return new_body
   end
