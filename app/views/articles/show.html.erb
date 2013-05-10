@@ -24,7 +24,7 @@
   <%= @article.title %>
 </p>
 
-<p>
+<p id='reader'>
   <b>Body:</b><br>
   <%= @article.body %>
 </p>
@@ -46,18 +46,18 @@
 
 <script type='text/javascript'>
 		$(function () {
-			var words = '<%= @test_body %>';
-			alert(words);
-			var article = $('#article');
-			var len = words.length;
-			for (var i = 0; i < words.length; i++){
-				var node = $('<div>')
-				.addClass('node')
-				.html(words[i]);
-				article.append(node);
-			}
+			// var words = '<%= @test_body %>';
+			// alert(words);
+			// var article = $('#article');
+			// var len = words.length;
+			// for (var i = 0; i < words.length; i++){
+			// 	var node = $('<div>')
+			// 	.addClass('node')
+			// 	.html(words[i]);
+			// 	article.append(node);
+			// }
 
-			$('div.node').mouseup(function() {
+			$('p#reader').mouseup(function() {
 			   var ele = $(this).html();//window.getSelection();
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
