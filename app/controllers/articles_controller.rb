@@ -121,6 +121,9 @@ class ArticlesController < ApplicationController
       kvector.view_count = 0
       kvector.save
     end
+    respond_to do |format|
+      format.json { render :json => @word }
+    end
   end
 
   # Displays list of unique chinese chars
