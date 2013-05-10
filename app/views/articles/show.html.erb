@@ -44,8 +44,8 @@
 
 <script>
 		$(function () {
-			var words = ['所','有'];//'<%= @test_body %>';
-			alert(<%= j @test_body =>);
+			var words = '#{@test_body}';//['所','有'];//'<%= @test_body %>';
+			alert(words);
 			var article = $('#article');
 			var len = words.length;
 			for (var i = 0; i < words.length; i++){
