@@ -9,6 +9,8 @@
   li.active { background:black;color:white; }
   body {background-color: MistyRose;}
   span { color:red; }
+
+  div {display:inline;}
   </style>
 
 </head>
@@ -44,7 +46,7 @@
 
 <script type='text/javascript'>
 		$(function () {
-			var words = ['所','有'];//'<%= @test_body %>';
+			var words = '<%= @test_body %>';
 			alert(words);
 			var article = $('#article');
 			var len = words.length;
