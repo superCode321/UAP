@@ -117,6 +117,7 @@ class ArticlesController < ApplicationController
       kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
       	@user.id, @word.id])
       kvector.is_known = false
+      kvector.view_count = 0
       kvector.save
     end
   end
