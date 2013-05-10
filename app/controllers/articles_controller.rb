@@ -80,7 +80,7 @@ class ArticlesController < ApplicationController
 
   def show
   	@article = Article.find(params[:id])
-    @test_body = on_show(@article).to_s
+    @test_body = on_show(@article)
   	flash[:notice] = "Words updated on article show!"
   	#@displayBody = build_show_view(@article)
 
@@ -140,7 +140,7 @@ class ArticlesController < ApplicationController
     for char in body
     	@word = Word.find_by_text(char)
       # Word is one of the basic 2631 words.
-    	if @word != nil and @word.id != nil and isChinese(char)
+    	if @word != nil and @word.id != nil
     		new_body.push(char)
 	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
 	    		@user.id, @word.id])
@@ -166,7 +166,7 @@ class ArticlesController < ApplicationController
 	    # 	@kvector.save
 	    end
 	  end
-	  return new_body
+	  return new_body.uniq.to_s
   end
 
   # Determines whether char is Chinese
