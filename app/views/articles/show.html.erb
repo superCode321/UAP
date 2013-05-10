@@ -43,7 +43,7 @@
 
 <script>
 		$(function () {
-			var words = '<%= @test_body %>';
+			var words = '<%= @test_body[0] %>';
 			alert(words);
 			var article = $('#article');
 			var len = words.length;
