@@ -70,10 +70,10 @@
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	type: 'POST',
 			    	success:function(result){
-			      $("p#result").html('success!!');},
+			      		$("p#result").append(result);},
 			      	data: { 'char':ele },
 			      	error:function(data){alert('error sending');
-			      	console.log(data);}
+			      		console.log(data);}
 				});
 			   //$(this).tooltip();
 			});
