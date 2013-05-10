@@ -161,7 +161,7 @@ class ArticlesController < ApplicationController
 	    # 	@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
 	    # 			:is_known => false, :view_count => 1)
 	    # 	@kvector.save
-	    # end
+	    end
 	  end
 	  return new_body
   end
