@@ -54,7 +54,7 @@
 
 <script>
 		$(function () {
-			var words = ['所','有'];//'<%= @test_body.to_json %>';
+			var words = ['有'，'所'];//'<%= @test_body.to_json %>';
 			var article = $('#article');
 			var len = words.length;
 			for (var i = 0; i < words.length; i++){
@@ -64,8 +64,8 @@
 				article.append(node);
 			}
 
-			$('div.node').click(function() {
-			   var ele = $(this).html();
+			$('div.node').mouseup(function() {
+			   var ele = $.selection();
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	success:function(data){
@@ -75,7 +75,6 @@
 			      	error:function(data){alert('error sending');
 			      		console.log(data);}
 				});
-			   //$(this).tooltip();
 			});
 		});
 
