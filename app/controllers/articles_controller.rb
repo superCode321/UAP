@@ -141,7 +141,7 @@ class ArticlesController < ApplicationController
     for char in body
     	@word = Word.find_by_text(char)
       # Word is one of the basic 2631 words.
-    	if @word != nil and @word.id != nil
+    	if @word != nil and @word.id != nil and isChinese(char)
     		new_body.push(char)
 	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
 	    		@user.id, @word.id])
