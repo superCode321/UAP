@@ -54,7 +54,7 @@
 
 <script>
 		$(function () {
-			var words = ['a','b'];//'<%= @test_body.to_json %>';
+			var words = ['所','有'];//'<%= @test_body.to_json %>';
 			var article = $('#article');
 			var len = words.length;
 			for (var i = 0; i < words.length; i++){
@@ -70,7 +70,7 @@
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	type: 'POST',
 			    	success:function(result){
-			      		$("p#result").append(result);},
+			      		$("p#result").append('success!');},
 			      	data: { 'char':ele },
 			      	error:function(data){alert('error sending');
 			      		console.log(data);}
