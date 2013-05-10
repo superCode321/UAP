@@ -54,7 +54,7 @@
 			}
 
 			$('div.node').mouseup(function() {
-			   var ele = window.getSelection();
+			   var ele = $(this).html();//window.getSelection();
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	success:function(data){
@@ -66,15 +66,6 @@
 				});
 			});
 		});
-
-// var body = <%= @test_body %>;
-
-// for (index = 0; index < ; index++) {
-//   var newdiv=document.createElement("div");
-//   newdiv.id = index
-//   newdiv.innterHTML = 
-//   document.body.appendChild(newdiv);
-// }
 
 </script>
 
