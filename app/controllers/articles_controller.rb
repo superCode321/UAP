@@ -98,11 +98,12 @@ class ArticlesController < ApplicationController
     	return ''
     end
   	body = article.body.split(//)
-      body = body.uniq
-      for char in body
-      	@word = Word.find_by_text(char)
-      	if @word != nil and @word.id != nil
-  			new_body << char
+    body = body.uniq
+    for char in body
+      #@word = Word.find_by_text(char)
+    	#if @word != nil and @word.id != nil
+      if isChinese(char)
+			  new_body << char
   		end
     end
     return new_body
@@ -135,6 +136,7 @@ class ArticlesController < ApplicationController
     body = body.uniq
     for char in body
     	@word = Word.find_by_text(char)
+      # Word is one of the basic 2631 words.
     	if @word != nil and @word.id != nil
     		new_body.push(char)
 	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
@@ -159,7 +161,7 @@ class ArticlesController < ApplicationController
 	    # 	@kvector = Kvector.create(:user_id => @user.id, :word_id => @word.id,
 	    # 			:is_known => false, :view_count => 1)
 	    # 	@kvector.save
-	    end
+	    # end
 	  end
 	  return new_body
   end
@@ -167,7 +169,7 @@ class ArticlesController < ApplicationController
   # Determines whether char is Chinese
   def isChinese(char)
   	ch = char.unpack('U*')[0]
-    if ch >= 0x4E00 && ch <= 0x9FFF
+    if ch >= 0x4E00 and ch <= 0x9FFF
     	return true
     else
     	return false
