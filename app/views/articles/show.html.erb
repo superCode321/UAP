@@ -35,7 +35,7 @@
 <p>
   <b>Unique Words:</b>
   <%= #@test_body.length %>
-  <%= @test_body %>
+  <%= @test_body.to_s %>
 </p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
