@@ -9,6 +9,8 @@
   li.active { background:black;color:white; }
   body {background-color: MistyRose;}
   span { color:red; }
+
+  div {display:inline;}
   </style>
 
 </head>
@@ -22,7 +24,7 @@
   <%= @article.title %>
 </p>
 
-<p>
+<p id='reader'>
   <b>Body:</b><br>
   <%= @article.body %>
 </p>
@@ -44,19 +46,19 @@
 
 <script type='text/javascript'>
 		$(function () {
-			var words = '#<%=@test_body=>';//['所','有'];//'<%= @test_body %>';
-			alert(words);
-			var article = $('#article');
-			var len = words.length;
-			for (var i = 0; i < words.length; i++){
-				var node = $('<div>')
-				.addClass('node')
-				.html(words[i]);
-				article.append(node);
-			}
+			// var words = '<%= @test_body %>';
+			// alert(words);
+			// var article = $('#article');
+			// var len = words.length;
+			// for (var i = 0; i < words.length; i++){
+			// 	var node = $('<div>')
+			// 	.addClass('node')
+			// 	.html(words[i]);
+			// 	article.append(node);
+			// }
 
-			$('div.node').mouseup(function() {
-			   var ele = $(this).html();//window.getSelection();
+			$('p#reader').mouseup(function() {
+			   var ele = document.getSelection().toString();
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	success:function(data){
