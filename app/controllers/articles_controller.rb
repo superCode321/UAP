@@ -27,24 +27,24 @@ class ArticlesController < ApplicationController
 
   # Get new articles by url
   def fetch
-        d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
-        for i in range(len(d['entries'])):
-            if title == d['entries'][i]['title']:
-                f = urllib.urlopen(d['entries'][i]['link'])
-                link = d['entries'][i]['link']
-                paragraphs=[]
-                line = f.readline()
-                while line:
-                    if line.startswith("<p>"):
-                        paragraphs.append(line)
-                    line = f.readline()
-                for paragraph in paragraphs:
-                    soup = BeautifulSoup.BeautifulSoup(paragraph)
-                    for p in soup.findAll('p'):
-                           finalStrings.append(''.join(soup.findAll(text=True)))
-                f.close()
-                break
-    return finalStrings
+    #     d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
+    #     for i in range(len(d['entries'])):
+    #         if title == d['entries'][i]['title']:
+    #             f = urllib.urlopen(d['entries'][i]['link'])
+    #             link = d['entries'][i]['link']
+    #             paragraphs=[]
+    #             line = f.readline()
+    #             while line:
+    #                 if line.startswith("<p>"):
+    #                     paragraphs.append(line)
+    #                 line = f.readline()
+    #             for paragraph in paragraphs:
+    #                 soup = BeautifulSoup.BeautifulSoup(paragraph)
+    #                 for p in soup.findAll('p'):
+    #                        finalStrings.append(''.join(soup.findAll(text=True)))
+    #             f.close()
+    #             break
+    # return finalStrings
 
 
 
