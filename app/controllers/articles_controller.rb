@@ -1,3 +1,5 @@
+require 'rfeedparser'
+
 class ArticlesController < ApplicationController
   before_filter :require_login
   
@@ -22,6 +24,36 @@ class ArticlesController < ApplicationController
   	  render "new"
   	end
   end
+
+  # Get new articles by url
+  def fetch
+        d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
+        for i in range(len(d['entries'])):
+            if title == d['entries'][i]['title']:
+                f = urllib.urlopen(d['entries'][i]['link'])
+                link = d['entries'][i]['link']
+                paragraphs=[]
+                line = f.readline()
+                while line:
+                    if line.startswith("<p>"):
+                        paragraphs.append(line)
+                    line = f.readline()
+                for paragraph in paragraphs:
+                    soup = BeautifulSoup.BeautifulSoup(paragraph)
+                    for p in soup.findAll('p'):
+                           finalStrings.append(''.join(soup.findAll(text=True)))
+                f.close()
+                break
+    return finalStrings
+
+
+
+    respond_to do |format|
+      format.html # index.html.erb
+      format.json { render json: @articles }
+    end
+  end
+
 
   # displays all articles in ranked order
   def index
@@ -53,18 +85,14 @@ class ArticlesController < ApplicationController
     body = article.body.split(//)
     body = body.uniq
     for char in body
-      	@word = Word.find_by_text(char)
-      	if @word != nil and @word.id != nil
-	      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-	      	@user.id, @word.id])
+    	@word = Word.find_by_text(char)
+    	if @word != nil and @word.id != nil
+      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
+      	@user.id, @word.id])
 	      if kvector == nil or kvector.is_known == false
 	      	score += 1
 	      end
-	    else
-	      # if isChinese(char)
-	      #   score += 1
-	      # end
-	    end
+      end
 	  end
 	  return score
   end
@@ -87,32 +115,23 @@ class ArticlesController < ApplicationController
   	respond_to do |format|
   	  format.html # show.html.erb
   	  format.json { render json: @article }
-      #format.js { render js: @test_body}
   	end
   end
 
-  # FOR NOW: Only displays registered words.
-  # def build_show_view(article)
-  # 	new_body = ''
-  # 	@user = current_user
-  #   if article.body == nil or article.body == ''
-  #   	return ''
-  #   end
-  # 	body = article.body.split(//)
-  #   body = body.uniq
-  #   for char in body
-  #     #@word = Word.find_by_text(char)
-  #   	#if @word != nil and @word.id != nil
-  #     if isChinese(char)
-		# 	  new_body << char
-  # 		end
-  #   end
-  #   return new_body
-  # end
-
   # Word set to unknown on word click
   def on_click
-  	char = params[:char]
+    char = params[:char]
+    charList = char.split()
+    if charList.length == 1
+      single_on_click(char)
+    else
+      for char in charList
+        single_on_click(char)
+      end
+    end 
+  end
+
+  def single_on_click(char)
     @user = current_user
     @word = Word.find_by_text(char)
   	if @word != nil and @word.id != nil

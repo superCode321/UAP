@@ -45,35 +45,32 @@
 <label id="username">Username : </label><input type="text" / size="50"> 
 <span id="hint">BodyText</span>
 <script>
-$(function() {
-  $('#username').datepicker();
-});
 
-$(document).ready(function() {
+// $(document).ready(function() {
  
-  var changeTooltipPosition = function(event) {
-    var tooltipX = event.pageX - 8;
-    var tooltipY = event.pageY + 8;
-    $('div.tooltip').css({top: tooltipY, left: tooltipX});
-  };
+//   var changeTooltipPosition = function(event) {
+//     var tooltipX = event.pageX - 8;
+//     var tooltipY = event.pageY + 8;
+//     $('div.tooltip').css({top: tooltipY, left: tooltipX});
+//   };
  
-  var showTooltip = function(event) {
-    $('div.tooltip').remove();
-    $('<div class="tooltip">Tooltip Works!!!</div>')
-            .appendTo('body');
-    changeTooltipPosition(event);
-  };
+//   var showTooltip = function(event) {
+//     $('div.tooltip').remove();
+//     $('<div class="tooltip">Tooltip Works!!!</div>')
+//             .appendTo('body');
+//     changeTooltipPosition(event);
+//   };
  
-  var hideTooltip = function() {
-     $('div.tooltip').remove();
-  };
+//   var hideTooltip = function() {
+//      $('div.tooltip').remove();
+//   };
  
-  $("span#hint,label#username'").bind({
-     mousemove : changeTooltipPosition,
-     mouseenter : showTooltip,
-     mouseleave: hideTooltip
-  });
-});
+//   $("span#hint,label#username'").bind({
+//      mousemove : changeTooltipPosition,
+//      mouseenter : showTooltip,
+//      mouseleave: hideTooltip
+//   });
+// });
 </script>
 <script>
 // Functionality for level selection and vector model population
