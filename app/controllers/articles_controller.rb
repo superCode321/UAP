@@ -1,5 +1,3 @@
-require 'rfeedparser'
-
 class ArticlesController < ApplicationController
   before_filter :require_login
   
