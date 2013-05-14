@@ -89,12 +89,13 @@ class ArticlesController < ApplicationController
       	  @user.id, @word.id])
 	      if kvector == nil or kvector.is_known == false
 	      	score += 1
-	      end
+	      else 
       end
 	  end
 	  return score
   end
   
+  # Called on display of article list
   def rankArticles(articles)
   	rankList = []
   	for article in articles
