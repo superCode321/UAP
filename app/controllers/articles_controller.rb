@@ -120,7 +120,7 @@ class ArticlesController < ApplicationController
   # Word set to unknown on word click
   def on_click
     char = params[:char]
-    charList = char.split()
+    charList = char.split(//)
     if charList.length == 1
       single_on_click(char)
     else
