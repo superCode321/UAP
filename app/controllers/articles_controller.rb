@@ -92,6 +92,11 @@ class ArticlesController < ApplicationController
 	      end 
       end
 	  end
+
+    karticle = Karticle.find(:first, :conditions => ["article_id = ?", article.id])
+    karticle.score = score
+    karticle.save
+
 	  return score
   end
   
@@ -99,7 +104,8 @@ class ArticlesController < ApplicationController
   def rankArticles(articles)
   	rankList = []
   	for article in articles
-  		tuple = [article, scoreArticle(article)]
+      karticle = Karticle.find(:first, :condition => ["article_id = ? ", article.id])
+  		tuple = [article, karticle.score]
   		rankList.push(tuple)
   	end
   	return rankList
@@ -128,7 +134,7 @@ class ArticlesController < ApplicationController
         single_on_click(char)
       end
     end 
-    
+
     respond_to do |format|
       format.json { head :no_content }
     end
@@ -149,6 +155,8 @@ class ArticlesController < ApplicationController
   # Displays list of unique chinese chars
   # View count updates on article display
   # Only deals with characters from HSK (lvl 1-6)
+
+  # Updates article score
   def on_show(article)
   	new_body = []
     @user = current_user
@@ -187,6 +195,9 @@ class ArticlesController < ApplicationController
 	    # 	@kvector.save
 	    end
 	  end
+
+    scoreArticle(article)
+
 	  return new_body.uniq.to_s
   end
 
