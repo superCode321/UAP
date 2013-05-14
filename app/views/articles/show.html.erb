@@ -59,7 +59,6 @@
 
 			$('p#reader').mouseup(function() {
 			   var ele = document.getSelection().toString();
-			   alert(ele);
 			    $.ajax({
 			    	url:"http://glacial-badlands-7296.herokuapp.com/click",
 			    	success:function(data){
@@ -69,6 +68,7 @@
 			      	error:function(data){alert('error sending');
 			      		console.log(data);}
 				});
+				alert(ele);
 			});
 		});
 
