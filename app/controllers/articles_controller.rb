@@ -89,7 +89,7 @@ class ArticlesController < ApplicationController
       	  @user.id, @word.id])
 	      if kvector == nil or kvector.is_known == false
 	      	score += 1
-	      else 
+	      end 
       end
 	  end
 	  return score
