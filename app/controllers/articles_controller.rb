@@ -128,6 +128,10 @@ class ArticlesController < ApplicationController
         single_on_click(char)
       end
     end 
+
+    respond_to do |format|
+      format.json { render => char }
+    end
   end
 
   def single_on_click(char)
@@ -139,9 +143,6 @@ class ArticlesController < ApplicationController
       kvector.is_known = false
       kvector.view_count = 0
       kvector.save
-    end
-    respond_to do |format|
-      format.json { render :json => @word }
     end
   end
 
