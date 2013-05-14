@@ -128,9 +128,9 @@ class ArticlesController < ApplicationController
         single_on_click(char)
       end
     end 
-
+    
     respond_to do |format|
-      format.json { render => char }
+      format.json { head :no_content }
     end
   end
 
