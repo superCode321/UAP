@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "rfeedparser", "~> 0.9.951"
+gem "rfeedparser"
 
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'

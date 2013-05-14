@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130506055653) do
+ActiveRecord::Schema.define(:version => 20130513160413) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
@@ -19,6 +19,13 @@ ActiveRecord::Schema.define(:version => 20130506055653) do
     t.string   "source_url"
     t.datetime "created_at",                       :null => false
     t.datetime "updated_at",                       :null => false
+  end
+
+  create_table "karticles", :force => true do |t|
+    t.integer  "article_id"
+    t.integer  "score"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "kvectors", :force => true do |t|

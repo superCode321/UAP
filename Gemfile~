@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-# Feed reader package
-#gem 'feedzirra', :require => 'feedzirra'
+gem "rfeedparser", "~> 0.9.951"
 
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
@@ -12,13 +11,13 @@ gem 'rails', '3.2.7'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
-#group :development, :test do
-#  gem 'sqlite3'
-#end
-#group :production do
-#  gem 'pg'
-#end
+#gem 'sqlite3'
+group :development, :test do
+  gem 'sqlite3'
+end
+group :production do
+  gem 'pg'
+end
 
 gem 'json'
 
