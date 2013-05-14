@@ -105,8 +105,10 @@ class ArticlesController < ApplicationController
   	rankList = []
   	for article in articles
       karticle = Karticle.find(:first, :conditions => ["article_id = ? ", article.id])
-  		tuple = [article, karticle.score]
-  		rankList.push(tuple)
+      if karticle not nil
+    		tuple = [article, karticle.score]
+    		rankList.push(tuple)
+      end
   	end
   	return rankList
   end
