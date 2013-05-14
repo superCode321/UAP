@@ -25,23 +25,23 @@ class ArticlesController < ApplicationController
 
   # Get new articles by url
   def fetch
-    #     d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
-    #     for i in range(len(d['entries'])):
-    #         if title == d['entries'][i]['title']:
-    #             f = urllib.urlopen(d['entries'][i]['link'])
-    #             link = d['entries'][i]['link']
-    #             paragraphs=[]
-    #             line = f.readline()
-    #             while line:
-    #                 if line.startswith("<p>"):
-    #                     paragraphs.append(line)
-    #                 line = f.readline()
-    #             for paragraph in paragraphs:
-    #                 soup = BeautifulSoup.BeautifulSoup(paragraph)
-    #                 for p in soup.findAll('p'):
-    #                        finalStrings.append(''.join(soup.findAll(text=True)))
-    #             f.close()
-    #             break
+    # d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
+    #   for i in range(len(d['entries'])):
+    #     if title == d['entries'][i]['title']:
+    #       f = urllib.urlopen(d['entries'][i]['link'])
+    #       link = d['entries'][i]['link']
+    #       paragraphs=[]
+    #       line = f.readline()
+    #       while line:
+    #           if line.startswith("<p>"):
+    #               paragraphs.append(line)
+    #           line = f.readline()
+    #       for paragraph in paragraphs:
+    #           soup = BeautifulSoup.BeautifulSoup(paragraph)
+    #           for p in soup.findAll('p'):
+    #                  finalStrings.append(''.join(soup.findAll(text=True)))
+    #       f.close()
+    #       break
     # return finalStrings
 
 
@@ -168,13 +168,13 @@ class ArticlesController < ApplicationController
 
     body = article.body.split(//)
     body = body.uniq
-    for char in body
-    	@word = Word.find_by_text(char) #KEY: Linear search
+    for char in body # KEY: Linear in article text size
+    	@word = Word.find_by_text(char) #KEY: Linear in word table
       # Word is one of the basic 2631 words.
     	if @word != nil and @word.id != nil
     		new_body.push(char)
 	    	@kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-	    		@user.id, @word.id])
+	    		@user.id, @word.id]) # KEY: Linear in kvector table
 	    	if @kvector != nil
 	    		@kvector.view_count += 1
 	    		@kvector.save

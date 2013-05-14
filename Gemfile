@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-#gem "rfeedparser"
-
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
 
@@ -21,6 +19,7 @@ end
 
 gem 'json'
 
+#gem "rfeedparser"
 
 
 # Gems used only for assets and not required
