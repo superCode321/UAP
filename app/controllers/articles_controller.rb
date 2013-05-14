@@ -93,9 +93,9 @@ class ArticlesController < ApplicationController
       end
 	  end
 
-    karticle = Karticle.find(:first, :conditions => ["article_id = ?", article.id])
-    karticle.score = score
-    karticle.save
+    # karticle = Karticle.find(:first, :conditions => ["article_id = ?", article.id])
+    # karticle.score = score
+    # karticle.save
 
 	  return score
   end
