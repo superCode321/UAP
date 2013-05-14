@@ -146,6 +146,7 @@ class ArticlesController < ApplicationController
 
   # Displays list of unique chinese chars
   # View count updates on article display
+  # Only deals with characters from HSK (lvl 1-6)
   def on_show(article)
   	new_body = []
     @user = current_user
@@ -188,14 +189,14 @@ class ArticlesController < ApplicationController
   end
 
   # Determines whether char is Chinese
-  def isChinese(char)
-  	ch = char.unpack('U*')[0]
-    if ch >= 0x4E00 and ch <= 0x9FFF
-    	return true
-    else
-    	return false
-    end
-  end
+  # def isChinese(char)
+  # 	ch = char.unpack('U*')[0]
+  #   if ch >= 0x4E00 and ch <= 0x9FFF
+  #   	return true
+  #   else
+  #   	return false
+  #   end
+  # end
 
 
   def edit
