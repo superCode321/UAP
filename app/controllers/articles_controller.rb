@@ -83,10 +83,10 @@ class ArticlesController < ApplicationController
     body = article.body.split(//)
     body = body.uniq
     for char in body
-    	@word = Word.find_by_text(char)
+    	@word = Word.find_by_text(char) # KEY: Linear search
     	if @word != nil and @word.id != nil
         kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-      	  @user.id, @word.id])
+      	  @user.id, @word.id]) # KEY: Linear search
 	      if kvector == nil or kvector.is_known == false
 	      	score += 1
 	      end 
@@ -144,10 +144,10 @@ class ArticlesController < ApplicationController
 
   def single_on_click(char)
     @user = current_user
-    @word = Word.find_by_text(char)
+    @word = Word.find_by_text(char) # KEY: Linear search
   	if @word != nil and @word.id != nil
       kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-      	@user.id, @word.id])
+      	@user.id, @word.id]) # KEY: Linear search
       kvector.is_known = false
       kvector.view_count = 0
       kvector.save
@@ -169,7 +169,7 @@ class ArticlesController < ApplicationController
     body = article.body.split(//)
     body = body.uniq
     for char in body
-    	@word = Word.find_by_text(char)
+    	@word = Word.find_by_text(char) #KEY: Linear search
       # Word is one of the basic 2631 words.
     	if @word != nil and @word.id != nil
     		new_body.push(char)
