@@ -85,8 +85,8 @@ class ArticlesController < ApplicationController
     for char in body
     	@word = Word.find_by_text(char)
     	if @word != nil and @word.id != nil
-      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
-      	@user.id, @word.id])
+        kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
+      	  @user.id, @word.id])
 	      if kvector == nil or kvector.is_known == false
 	      	score += 1
 	      end
