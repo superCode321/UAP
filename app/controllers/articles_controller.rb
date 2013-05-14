@@ -103,13 +103,13 @@ class ArticlesController < ApplicationController
   # Called on display of article list
   def rankArticles(articles)
   	rankList = []
-  	for article in articles
-      karticle = Karticle.find(:first, :conditions => ["article_id = ? ", article.id])
-      if karticle != nil
-    		tuple = [article, karticle.score]
-    		rankList.push(tuple)
-      end
-  	end
+  	# for article in articles
+   #    karticle = Karticle.find(:first, :conditions => ["article_id = ? ", article.id])
+   #    if karticle != nil
+   #  		tuple = [article, karticle.score]
+   #  		rankList.push(tuple)
+   #    end
+  	# end
   	return rankList
   end
 
