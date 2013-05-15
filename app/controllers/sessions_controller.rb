@@ -30,14 +30,13 @@ class SessionsController < ApplicationController
     end
   end
 
-  # called when logging out. Destroys the session.
+  # Called when logging out. Destroys the session.
   def destroy
     session[:user_id] = nil
     redirect_to root_url, :notice => "Logged out!"
   end
   
-    # Returns a boolean whether user model is initialized.
-	
+  # Returns a boolean whether user model is initialized.
   def userIsInitialized(user)
     @kvectors = User.find_by_username(user.username).kvectors
   	if @kvectors.length == 0
