@@ -38,16 +38,19 @@
 
 <p>
   <b>Unique Words:</b>
-  <%= @test_body.length %>
-  <%= @test_body.class %>
+  <%= @new_body.length %>
+  <%= @new_body.class %>
+  <%= @new_body %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
 
 <script type='text/javascript'>
+    var array = '<%= @article.body%>';
+    alert(array);
+
 		$(function () {
-      var array = '<%= @article.body%>';
-      alert(array);
+
 			$('p#reader').mouseup(function() {
 			    var ele = document.getSelection().toString();
 			    $.ajax({
@@ -58,7 +61,7 @@
 			      	data: { 'char': ele },
 			      	error:function(data){alert('error sending');
 			      		console.log(data);}
-				});
+				  });
 			});
 		});
 
