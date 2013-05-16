@@ -6,6 +6,8 @@ gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'json'
 gem 'rails', '3.2.7'
 
+ruby "2.0.0"
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -25,7 +27,7 @@ end
 #gem 'open-uri'
 gem 'rfeedparser'
 #gem 'nokogiri'
-
+##
 
 # Gems used only for assets and not required
 # in production environments by default.
