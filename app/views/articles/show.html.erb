@@ -11,6 +11,7 @@
   span { color:red; }
 
   div {display: inline;}
+
   </style>
 
 </head>
@@ -28,6 +29,7 @@
 
 <p id='reader'>
   <b>Body:</b><br>
+  <b id='body'></b>
   <%= @article.body %>
 </p>
 
@@ -39,14 +41,18 @@
 <p>
   <b>Unique Words:</b>
   <%= @new_body.length %>
-  <%= @new_body.split(//) %>
+  <%= @new_body.split(//).class %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
 
 <script type='text/javascript'>
-    var array = '<%= @new_body.split(//) %>';
-    alert(array);
+    var array = '<%= @article.body %>';
+
+    // for (var i = 0; i < array.length; i++) {
+    //   $('#body').append('<div id='+i+'>'+array[i]+'</div>');
+    // }
+
 		$(function () {
 			$('p#reader').mouseup(function() {
 			    var ele = document.getSelection().toString();
@@ -61,6 +67,16 @@
 				  });
 			});
 		});
+
+    // isChinese = function(char) {
+    //   ch = char.unpack('U*')[0]
+    //   if (ch >= 0x4E00 && ch <= 0x9FFF) {
+    //     return true;
+    //   } else {
+    //     return false;
+    //   }
+
+    // }
 </script>
 
 

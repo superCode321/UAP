@@ -9,6 +9,8 @@ Langapp::Application.routes.draw do
   
   get 'click' => 'articles#on_click', :as => 'click'
 
+  get 'fetch' => 'articles#addArticle', :as => 'fetch'
+
   root :to => 'sessions#new'
   
   

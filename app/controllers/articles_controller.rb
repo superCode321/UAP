@@ -23,33 +23,50 @@ class ArticlesController < ApplicationController
   	end
   end
 
-  # Get new articles by url
-  def fetch
-    # d = Feedparser.parse("http://www.chinanews.com/rss/scroll-news.xml")
-    #   for i in range(len(d['entries'])):
-    #     if title == d['entries'][i]['title']:
-    #       f = urllib.urlopen(d['entries'][i]['link'])
-    #       link = d['entries'][i]['link']
-    #       paragraphs=[]
-    #       line = f.readline()
-    #       while line:
-    #           if line.startswith("<p>"):
-    #               paragraphs.append(line)
-    #           line = f.readline()
-    #       for paragraph in paragraphs:
-    #           soup = BeautifulSoup.BeautifulSoup(paragraph)
-    #           for p in soup.findAll('p'):
-    #                  finalStrings.append(''.join(soup.findAll(text=True)))
-    #       f.close()
-    #       break
-    # return finalStrings
 
-
-
+  def addArticle
+    result = fetchArticle
+    title = result[0]
+    body = result[1]
+    source_url = result[2]
+    @article = Article.new(:title => title, :body => body, :url => source_url)
+    @article.save
+    flash[:notice] = "Article added!"
     respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @articles }
+      format.json { head :no_content }
     end
+  end
+
+  # Get new articles by url
+  # NOTE: Can change url to different rss feed
+  def fetchArticle
+    result = []
+    bodyStr = ""
+    d = Feedparser.parse("https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss")
+    for i in 0...2#d.entries.length
+      title = d.entries
+      source_url = d.entries[i].link
+      doc = open(source_url)
+      body_text = []
+      line = f.readline
+      while line
+        if line.start_with?("<p>")
+          body_text.append(strip_tags(line))
+        end
+        line = f.readline
+      end
+
+      for p in body_text
+        resultStr << p
+        resultStr << '\n'
+      end
+
+      doc.close()
+      break
+    end
+    result.push(title)
+    result.push(bodyStr)
+    result.push(source_url)
   end
 
 
