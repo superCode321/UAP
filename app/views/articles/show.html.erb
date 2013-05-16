@@ -38,16 +38,13 @@
 
 <p>
   <b>Unique Words:</b>
+  <%= @new_body %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
 
 <script type='text/javascript'>
-    //var array = '<%= @article.body%>';
-    //alert(array);
-
 		$(function () {
-
 			$('p#reader').mouseup(function() {
 			    var ele = document.getSelection().toString();
 			    $.ajax({
