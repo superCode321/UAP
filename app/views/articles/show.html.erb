@@ -38,12 +38,15 @@
 
 <p>
   <b>Unique Words:</b>
-  <%= @new_body %>
+  <%= @new_body.length %>
+  <%= @new_body.split(//) %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
 
 <script type='text/javascript'>
+    var array = '<%= @new_body %>';
+    alert(array);
 		$(function () {
 			$('p#reader').mouseup(function() {
 			    var ele = document.getSelection().toString();
@@ -58,7 +61,6 @@
 				  });
 			});
 		});
-
 </script>
 
 
