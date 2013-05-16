@@ -38,8 +38,6 @@
 
 <p>
   <b>Unique Words:</b>
-  <%= @new_body.length %>
-  <%= @new_body %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
@@ -57,8 +55,8 @@
 			    	success:function(data){
 			      		$("p#result").append('success');
 			      		console.log(data);},
-			      	data: { 'char': ele },
-			      	error:function(data){alert('error sending');
+			      data: { 'char': ele },
+			      error:function(data){alert('error sending');
 			      		console.log(data);}
 				  });
 			});
