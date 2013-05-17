@@ -27,10 +27,10 @@ class ArticlesController < ApplicationController
 
 
   def addArticle
-    #result = fetchArticle
-    title = 'none'#result[0]
-    body = 'none'#result[1]
-    source_url = 'none'#result[2]
+    result = fetchArticle
+    title = result[0]
+    body = result[1]
+    source_url = result[2]
     @article = Article.new(:title => title, :body => body, :source_url => source_url)
     @article.save
     flash[:notice] = "Article added!"
