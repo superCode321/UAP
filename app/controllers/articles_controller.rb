@@ -40,13 +40,17 @@ class ArticlesController < ApplicationController
   # Get new articles by url
   # NOTE: Can change url to different rss feed
   def fetchArticle
+    # RSS source: news.google.com (Taiwan version)
+    feed = "https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss"
     result = []
     bodyStr = ""
-    d = Feedparser.parse("https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss")
+    rss = SimpleRSS.parse open(feed)
     for i in 0...2#d.entries.length
-      title = d.entries
-      source_url = d.entries[i].link
+      title = rss.entries[i].title
+      source_url = rss.entries[i].link
+      source_url = source_url.split("url=").last
       doc = open(source_url)
+      
       body_text = []
       line = f.readline
       while line

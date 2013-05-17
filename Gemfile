@@ -21,8 +21,7 @@ group :production do
 end
 
 
-# Gems used for html/text parsing
-#gem 'rfeedparser'
+# Gems used for html/text and rss-feed parsing
 gem 'simple-rss'
 gem 'nokogiri'
 
