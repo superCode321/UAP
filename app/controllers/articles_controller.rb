@@ -27,12 +27,14 @@ class ArticlesController < ApplicationController
 
 
   def addArticle
-    result = fetchArticle
-    title = result[0]
-    body = result[1]
-    source_url = result[2]
-    @article = Article.new(:title => title, :body => body, :source_url => source_url)
-    @article.save
+    for i in 0..5
+      result = fetchArticle(i)
+      title = result[0]
+      body = result[1]
+      source_url = result[2]
+      @article = Article.new(:title => title, :body => body, :source_url => source_url)
+      @article.save
+    end
     if @article.save
       flash[:notice] = "Article added!"
     end
@@ -41,13 +43,13 @@ class ArticlesController < ApplicationController
 
   # Get new articles by url
   # NOTE: Can change url to different rss feed
-  def fetchArticle
+  def fetchArticle(i)
     # RSS source: news.google.com (Taiwan version)
     feed = "https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss"
     result = []
     bodyStr = ""
     rss = SimpleRSS.parse open(feed)
-    for i in 0...5#d.entries.length
+    #for i in 0...5#d.entries.length
       title = rss.entries[i].title
       source_url = rss.entries[i].link
       source_url = source_url.split("url=").last
@@ -56,10 +58,10 @@ class ArticlesController < ApplicationController
       #body_text = []
       line = doc.gets
       while line
-        if line.start_with?("<p>")
+        #if line.start_with?("<p>")
           text = strip_tags(line)
           bodyStr << text
-        end
+        #end
         line = doc.gets
       end
 
@@ -69,7 +71,8 @@ class ArticlesController < ApplicationController
       # end
 
       doc.close()
-    end
+      #break
+    #end
     result.push(title)
     result.push(bodyStr)
     result.push(source_url)
