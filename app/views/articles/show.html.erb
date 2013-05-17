@@ -47,10 +47,14 @@
 <%= link_to 'Edit Article', edit_article_path(@article) %>
 
 <script type='text/javascript'>
+    var front = 0;
+    var back = 0;
     var array = '<%= @article.body %>';
 
     // for (var i = 0; i < array.length; i++) {
-    //   $('#body').append('<div id='+i+'>'+array[i]+'</div>');
+      // if ( isChinese(array[i]) ) {
+      //   $('#body').append('<div id='+i+'>'+array[i]+'</div>');
+      // }
     // }
 
 		$(function () {

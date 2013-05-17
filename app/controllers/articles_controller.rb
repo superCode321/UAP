@@ -51,23 +51,23 @@ class ArticlesController < ApplicationController
       title = rss.entries[i].title
       source_url = rss.entries[i].link
       source_url = source_url.split("url=").last
-      doc = open(source_url)
+      # doc = open(source_url)
 
-      body_text = []
-      line = f.readline
-      while line
-        if line.start_with?("<p>")
-          body_text.append(strip_tags(line))
-        end
-        line = f.readline
-      end
+      # body_text = []
+      # line = f.readline
+      # while line
+      #   if line.start_with?("<p>")
+      #     body_text.push(strip_tags(line))
+      #   end
+      #   line = f.readline
+      # end
 
-      for p in body_text
-        resultStr << p
-        resultStr << '\n'
-      end
+      # for p in body_text
+      #   resultStr << p
+      #   #resultStr << '\n'
+      # end
 
-      doc.close()
+      # doc.close()
       break
     end
     result.push(title)
