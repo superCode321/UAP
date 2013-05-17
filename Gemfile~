@@ -1,17 +1,20 @@
 source 'https://rubygems.org'
 
-gem "rfeedparser", "~> 0.9.951"
-
 # Encryption package
 gem 'bcrypt-ruby', :require => 'bcrypt'
 
-
+gem 'json'
 gem 'rails', '3.2.7'
+
+ruby "2.0.0"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+
+#gem 'mysql'
 #gem 'sqlite3'
+
 group :development, :test do
   gem 'sqlite3'
 end
@@ -19,9 +22,12 @@ group :production do
   gem 'pg'
 end
 
-gem 'json'
 
-
+# Gems used for html/text parsing
+#gem 'open-uri'
+gem 'rfeedparser'
+#gem 'nokogiri'
+##
 
 # Gems used only for assets and not required
 # in production environments by default.
