@@ -47,7 +47,7 @@ class ArticlesController < ApplicationController
     result = []
     bodyStr = ""
     rss = SimpleRSS.parse open(feed)
-    for i in 0...2#d.entries.length
+    for i in 0...5#d.entries.length
       title = rss.entries[i].title
       source_url = rss.entries[i].link
       source_url = source_url.split("url=").last
@@ -69,7 +69,6 @@ class ArticlesController < ApplicationController
       # end
 
       doc.close()
-      break
     end
     result.push(title)
     result.push(bodyStr)
