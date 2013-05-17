@@ -33,8 +33,10 @@ class ArticlesController < ApplicationController
       title = result[0]
       body = result[1]
       source_url = result[2]
-      @article = Article.new(:title => title, :body => body, :source_url => source_url)
-      @article.save
+      if Article.find_by_title(:conditions => ["title = ?",title]) == nil
+        @article = Article.new(:title => title, :body => body, :source_url => source_url)
+        @article.save
+      end
     end
     if @article.save
       flash[:notice] = "Article added!"
@@ -59,10 +61,10 @@ class ArticlesController < ApplicationController
       #line = doc.gets
       #while line
         #if line.start_with?("<p>")
-      doc.search('p').each do |line|
-          bodyStr << line.text
         #end
         #line = doc.gets
+      doc.search('p').each do |line|
+        bodyStr << line.text
       end
 
       # for p in body_text
