@@ -73,6 +73,7 @@ class ArticlesController < ApplicationController
     result.push(title)
     result.push(bodyStr)
     result.push(source_url)
+    return result
   end
 
 
