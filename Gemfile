@@ -25,6 +25,7 @@ end
 # Gems used for html/text and rss-feed parsing
 gem 'simple-rss'
 gem 'nokogiri'
+gem 'sanitize'
 
 
 # Gems used only for assets and not required

@@ -59,7 +59,7 @@ class ArticlesController < ApplicationController
       line = doc.gets
       while line
         #if line.start_with?("<p>")
-          text = strip_tags(line)
+          text = Sanitize.clean(line)
           bodyStr << text
         #end
         line = doc.gets
