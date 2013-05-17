@@ -24,10 +24,9 @@ end
 
 
 # Gems used for html/text parsing
-#gem 'open-uri'
-gem 'rfeedparser'
-#gem 'nokogiri'
-##
+#gem 'rfeedparser'
+gem 'nokogiri'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
