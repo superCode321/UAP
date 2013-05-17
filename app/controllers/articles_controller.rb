@@ -1,4 +1,5 @@
 require 'open-uri'
+require 'nokogiri'
 
 class ArticlesController < ApplicationController
   before_filter :require_login
@@ -53,16 +54,15 @@ class ArticlesController < ApplicationController
       title = rss.entries[i].title
       source_url = rss.entries[i].link
       source_url = source_url.split("url=").last
-      doc = open(source_url)
-
+      doc = Nokogiri::HTML.parse(open(source_url))
       #body_text = []
-      line = doc.gets
-      while line
+      #line = doc.gets
+      #while line
         #if line.start_with?("<p>")
-          text = Sanitize.clean(line)
-          bodyStr << text
+      doc.search('p').each do |line|
+          bodyStr << line.text
         #end
-        line = doc.gets
+        #line = doc.gets
       end
 
       # for p in body_text
@@ -70,7 +70,7 @@ class ArticlesController < ApplicationController
       #   #bodyStr << '\n'
       # end
 
-      doc.close()
+      #doc.close()
       #break
     #end
     result.push(title)
