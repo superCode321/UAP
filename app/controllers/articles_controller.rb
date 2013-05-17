@@ -45,7 +45,7 @@ class ArticlesController < ApplicationController
     # RSS source: news.google.com (Taiwan version)
     feed = "https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss"
     result = []
-    bodyStr = "1"
+    bodyStr = ""
     rss = SimpleRSS.parse open(feed)
     for i in 0...2#d.entries.length
       title = rss.entries[i].title
@@ -55,17 +55,17 @@ class ArticlesController < ApplicationController
 
       body_text = []
       line = doc.readline
-      # while line
-      #   if line.start_with?("<p>")
-      #     body_text.push(strip_tags(line))
-      #   end
-      #   line = doc.readline
-      # end
+      while line
+        if line.start_with?("<p>")
+          body_text.push(strip_tags(line))
+        end
+        line = doc.readline
+      end
 
-      # for p in body_text
-      #   resultStr << p
-      #   #resultStr << '\n'
-      # end
+      for p in body_text
+        resultStr << p
+        #resultStr << '\n'
+      end
 
       doc.close()
       break
