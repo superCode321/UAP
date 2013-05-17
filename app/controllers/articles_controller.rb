@@ -54,13 +54,13 @@ class ArticlesController < ApplicationController
       doc = open(source_url)
 
       #body_text = []
-      line = doc.readline
+      line = doc.gets
       while line
         if line.start_with?("<p>")
           text = strip_tags(line)
           bodyStr << text
         end
-        line = doc.readline
+        line = doc.gets
       end
 
       # for p in body_text
