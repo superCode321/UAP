@@ -23,6 +23,7 @@ end
 
 # Gems used for html/text parsing
 #gem 'rfeedparser'
+gem 'simple-rss'
 gem 'nokogiri'
 
 
