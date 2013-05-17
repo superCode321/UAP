@@ -33,10 +33,10 @@ class ArticlesController < ApplicationController
     source_url = result[2]
     @article = Article.new(:title => title, :body => body, :source_url => source_url)
     @article.save
-    flash[:notice] = "Article added!"
-    respond_to do |format|
-      format.json { head :no_content }
+    if @article.save
+      flash[:notice] = "Article added!"
     end
+    redirect_to articles_path
   end
 
   # Get new articles by url
@@ -45,7 +45,7 @@ class ArticlesController < ApplicationController
     # RSS source: news.google.com (Taiwan version)
     feed = "https://news.google.com/news/feeds?pz=1&cf=all&ned=tw&hl=zh-TW&output=rss"
     result = []
-    bodyStr = ""
+    bodyStr = "1"
     rss = SimpleRSS.parse open(feed)
     for i in 0...2#d.entries.length
       title = rss.entries[i].title

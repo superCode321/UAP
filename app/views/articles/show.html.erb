@@ -40,8 +40,10 @@
 
 <p>
   <b>Unique Words:</b>
+  <% if @new_body not nil %>
   <%= @new_body.length %>
   <%= @new_body.split(//).class %>
+  <% end %>
 </p>
 
 <%= link_to 'Edit Article', edit_article_path(@article) %>
