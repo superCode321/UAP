@@ -1,3 +1,5 @@
+require 'open-uri'
+
 class ArticlesController < ApplicationController
   before_filter :require_login
   
@@ -50,7 +52,7 @@ class ArticlesController < ApplicationController
       source_url = rss.entries[i].link
       source_url = source_url.split("url=").last
       doc = open(source_url)
-      
+
       body_text = []
       line = f.readline
       while line
