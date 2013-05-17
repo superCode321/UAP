@@ -53,19 +53,20 @@ class ArticlesController < ApplicationController
       source_url = source_url.split("url=").last
       doc = open(source_url)
 
-      body_text = []
+      #body_text = []
       line = doc.readline
       while line
         if line.start_with?("<p>")
-          body_text.push(strip_tags(line))
+          text = strip_tags(line)
+          bodyStr << text
         end
         line = doc.readline
       end
 
-      for p in body_text
-        resultStr << p
-        #resultStr << '\n'
-      end
+      # for p in body_text
+      #   bodyStr << p
+      #   #bodyStr << '\n'
+      # end
 
       doc.close()
       break
