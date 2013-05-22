@@ -4,7 +4,7 @@
 <table>
   <tr>
     <th>Title</th>
-    <th>Score</th>
+    <th>Difficulty</th>
     <th>Source_url</th>
     <th></th>
     <th></th>
@@ -14,9 +14,9 @@
 <% @rankList.each do |tuple| %>
   <tr>
     <%article = tuple[0]%>
-    <%score = tuple[1]%>
+    <%difficulty = tuple[1]%>
     <td><%= article.title %></td>
-    <td><%= score %></td>
+    <td><%= difficulty %></td>
     <td><%= article.source_url %></td>
     <td><%= link_to 'Show', article %></td>
     <td><%= link_to 'Edit', edit_article_path(article) %></td>

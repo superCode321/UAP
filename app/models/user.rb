@@ -2,6 +2,8 @@ class User < ActiveRecord::Base
   attr_accessible :username, :password, :password_confirmation, 
 :password_hash, :password_salt
 
+  attr_accessible :knowledge_string
+
   has_many :kvectors, :dependent => :destroy
 
   attr_accessor :password
