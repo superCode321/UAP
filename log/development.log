@@ -10551,3 +10551,4 @@ Migrating to RemoveLimitFromBody (20130524121619)
   [1m[35m (0.0ms)[0m  PRAGMA index_list("kvectors")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("words")
+Connecting to database specified by database.yml
