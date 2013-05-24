@@ -38,8 +38,8 @@ class SessionsController < ApplicationController
   
   # New userInitilized() method for efficient initialization
   def userIsInitialized(user)
-    Kstring = User.find_by_username(user.username).knowledge_string
-    if Kstring == nil or Kstring == ""
+    @Kstring = User.find_by_username(user.username).knowledge_string
+    if @Kstring == nil or @Kstring == ""
       return false
     else
       return true
