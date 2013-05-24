@@ -36,24 +36,24 @@ class SessionsController < ApplicationController
     redirect_to root_url, :notice => "Logged out!"
   end
   
-  # New userInitilized() method for efficient initialization
-  def userIsInitialized(user)
-    @Kstring = User.find_by_username(user.username).knowledge_string
-    if @Kstring == nil or @Kstring == ""
-      return false
-    else
-      return true
-    end
-  end
-
-  # Returns a boolean whether user model is initialized.
+  # # New userInitilized() method for efficient initialization
   # def userIsInitialized(user)
-  #   @kvectors = User.find_by_username(user.username).kvectors
-  # 	if @kvectors.length == 0
-  # 	  return false
-  # 	else
-  # 	  return true
-  # 	end
+  #   @Kstring = User.find_by_username(user.username).knowledge_string
+  #   if @Kstring == nil or @Kstring == ""
+  #     return false
+  #   else
+  #     return true
+  #   end
   # end
+
+  Returns a boolean whether user model is initialized.
+  def userIsInitialized(user)
+    @kvectors = User.find_by_username(user.username).kvectors
+  	if @kvectors.length == 0
+  	  return false
+  	else
+  	  return true
+  	end
+  end
   
 end
