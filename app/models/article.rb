@@ -3,11 +3,11 @@ class Article < ActiveRecord::Base
 
 	@@article_index = 0
 
-    def changeIndex(val)
-      @@article_index= val
+    def Article.changeIndex=(val)
+      @@article_index = val
     end
  
-    def article_index
+    def Article.article_index
       @@article_index
     end
 end
