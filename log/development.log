@@ -10513,3 +10513,4 @@ Migrating to AddKnowledgeStringToUsers (20130518235422)
   [1m[35m (0.0ms)[0m  PRAGMA index_list("words")
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml

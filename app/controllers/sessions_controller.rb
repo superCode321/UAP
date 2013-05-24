@@ -45,8 +45,7 @@ class SessionsController < ApplicationController
   #     return true
   #   end
   # end
-
-  Returns a boolean whether user model is initialized.
+  # Returns a boolean whether user model is initialized.
   def userIsInitialized(user)
     @kvectors = User.find_by_username(user.username).kvectors
   	if @kvectors.length == 0
