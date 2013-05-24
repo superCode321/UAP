@@ -28,16 +28,17 @@ class ArticlesController < ApplicationController
 
 
   def addArticle
-    for i in 0..5
-      result = fetchArticle(i)
-      title = result[0]
-      body = result[1]
-      source_url = result[2]
-      #if Article.find_by_title(:conditions => ["title = ?",title]) == nil
-        @article = Article.new(:title => title, :body => body, :source_url => source_url)
-        @article.save
-      #end
-    end
+    # Count param represents number of articles
+    # i is the index of the article to fetch
+    i = params[:count] % 30 # cycles back after 30 articles
+    result = fetchArticle(i)
+    title = result[0]
+    body = result[1]
+    source_url = result[2]
+    #if Article.find_by_title(:conditions => ["title = ?",title]) == nil
+      @article = Article.new(:title => title, :body => body, :source_url => source_url)
+      @article.save
+    #end
     if @article.save
       flash[:notice] = "Article added!"
     end

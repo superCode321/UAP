@@ -58,7 +58,6 @@ class UsersController < ApplicationController
     	  kvs.push(@kvector)
     	end
     	@user.kvectors.destroy
-      
       @user.kvectors = kvs
     	@user.save
 
