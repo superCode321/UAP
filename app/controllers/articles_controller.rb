@@ -101,6 +101,25 @@ class ArticlesController < ApplicationController
   	end
   end
 
+  def efficientScoreArticle(article)
+    score = 0
+    @user = current_user
+    if article.body == nil or article.body == ''
+      return 1
+    end
+    body = article.body.split(//)
+    body = body.uniq
+    for char in body
+      if @user.knowledge_string.index(char) != nil
+        score += 1
+      end
+    end
+
+    return score
+  end
+
+
+
   # Higher score means harder article
   def scoreArticle(article)
   	score = 0
@@ -135,7 +154,7 @@ class ArticlesController < ApplicationController
   	for article in articles
       #karticle = Karticle.find(:first, :conditions => ["article_id = ? ", article.id])
       #if karticle != nil
-    		tuple = [article, scoreArticle(article)]#karticle.score]
+    		tuple = [article, efficientScoreArticle(article)]#karticle.score]
     		rankList.push(tuple)
       #end
   	end
