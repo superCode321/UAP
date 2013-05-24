@@ -36,6 +36,8 @@ class UsersController < ApplicationController
       end
       @user.knowledge_string = word_order
       @user.save
+
+      redirect_to articles_path, :notice => "You have been initialized!"
     end
 
   end
