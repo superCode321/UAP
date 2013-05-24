@@ -30,13 +30,14 @@ class ArticlesController < ApplicationController
   def addArticle
     # Count param represents number of articles
     # i is the index of the article to fetch
-    i = ARTICLE_INDEX % 30 # cycles back after 30 articles
+    i = Article.article_index % 30 # cycles back after 30 articles
     result = fetchArticle(i)
     body = result[1]
     while body == nil or body.length < 10
-      result = fetchArticle(i+1)
+      i += 1
+      result = fetchArticle(i)
       body = result[1]
-      ARTICLE_INDEX = i
+      Article.changeIndex(i)
     end
     title = result[0]
     source_url = result[2]
