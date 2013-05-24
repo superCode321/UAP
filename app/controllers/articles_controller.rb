@@ -91,6 +91,7 @@ class ArticlesController < ApplicationController
 
   # displays all articles in ranked order
   def index
+    @index = Article.article_index
   	@user = current_user
   	@articles = Article.find(:all)
   	# Rank by score, or the second index
