@@ -28,13 +28,14 @@ class UsersController < ApplicationController
   def efficientInitialzeUser
     @user = current_user
     if @user != nil
-      word_order = Word.find(:first, :conditions => ["difficulty = ?",0])
+      word_order = Word.find(:first, :conditions => ["difficulty = ?",0]).text
       words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
       for word in words
-        index = word_order.index(word)
-        word_order[index] = word
+        index = word_order.index(word.text)
+        word_order[index] = word.text
       end
       @user.knowledge_string = word_order
+      @user.save
     end
 
   end
