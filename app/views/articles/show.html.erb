@@ -62,7 +62,27 @@
 				  });
 			});
 		});
+    /*
+        Code for indexed word updating
+    var front = 0;
+    var back = 0;
+    var array = '<%= @article.body %>';
 
+    for (var i = 0; i < array.length; i++) {
+       if ( isChinese(array[i]) ) {
+         $('#body').append('<div id='+i+'>'+array[i]+'</div>');
+       }
+     }
+     isChinese = function(char) {
+       ch = char.unpack('U*')[0]
+       if (ch >= 0x4E00 && ch <= 0x9FFF) {
+         return true;
+       } else {
+         return false;
+       }
+     }
+
+     */
   
 </script>
 
