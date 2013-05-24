@@ -28,7 +28,7 @@ class UsersController < ApplicationController
   def efficientInitialzeUser
     @user = current_user
     if @user != nil
-      word_order = Word.find(:first, :condition => ["difficulty = ?",0])
+      word_order = Word.find(:first, :conditions => ["difficulty = ?",0])
       words = Word.find(:all, :conditions => ["difficulty <= ?",params[:difficulty]])
       for word in words
         index = word_order.index(word)
