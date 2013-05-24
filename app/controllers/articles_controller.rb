@@ -30,13 +30,13 @@ class ArticlesController < ApplicationController
   def addArticle
     # Count param represents number of articles
     # i is the index of the article to fetch
-    i = Langapp::Application::ARTICLE_INDEX % 30 # cycles back after 30 articles
+    i = ARTICLE_INDEX % 30 # cycles back after 30 articles
     result = fetchArticle(i)
     body = result[1]
     while body == nil or body.length < 10
       result = fetchArticle(i+1)
       body = result[1]
-      Langapp::Application::ARTICLE_INDEX = i
+      ARTICLE_INDEX = i
     end
     title = result[0]
     source_url = result[2]
@@ -136,7 +136,7 @@ class ArticlesController < ApplicationController
 
     body = article.body.split(//)
     body = body.uniq
-    for char in body
+    for char in body # KEY: Linear search
     	@word = Word.find_by_text(char) # KEY: Linear search
     	if @word != nil and @word.id != nil
         kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
