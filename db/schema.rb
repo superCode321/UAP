@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130513160413) do
+ActiveRecord::Schema.define(:version => 20130518235422) do
 
   create_table "articles", :force => true do |t|
     t.string   "title"
@@ -42,15 +42,16 @@ ActiveRecord::Schema.define(:version => 20130513160413) do
     t.string   "password"
     t.string   "password_hash"
     t.string   "password_salt"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+    t.text     "knowledge_string"
   end
 
   create_table "words", :force => true do |t|
-    t.string   "text"
+    t.text     "text",       :limit => 255
     t.integer  "difficulty"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
 end
