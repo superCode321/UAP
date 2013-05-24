@@ -30,7 +30,7 @@ class ArticlesController < ApplicationController
   def addArticle
     # Count param represents number of articles
     # i is the index of the article to fetch
-    i = params[:count] % 30 # cycles back after 30 articles
+    i = params[:count].to_i % 30 # cycles back after 30 articles
     result = fetchArticle(i)
     title = result[0]
     body = result[1]
