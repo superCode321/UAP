@@ -5,8 +5,9 @@ Langapp::Application.routes.draw do
   get 'sign_up' => 'users#new', :as => 'sign_up'
   
   get 'pretest' => 'users#pretest', :as => 'pretest'
-  get 'init' => 'users#initializeUser', :as => 'init'
-  
+  #get 'init' => 'users#initializeUser', :as => 'init'
+  get 'init' => 'users#efficientInitialzeUser', :as => 'init'
+
   get 'click' => 'articles#on_click', :as => 'click'
 
   get 'fetch' => 'articles#addArticle', :as => 'fetch'
