@@ -32,8 +32,12 @@ class ArticlesController < ApplicationController
     # i is the index of the article to fetch
     i = params[:count].to_i % 30 # cycles back after 30 articles
     result = fetchArticle(i)
-    title = result[0]
     body = result[1]
+    while body == nil or body.length < 10
+      result = fetchArticle(i+1)
+      body = result[1]
+    end
+    title = result[0]
     source_url = result[2]
     #if Article.find_by_title(:conditions => ["title = ?",title]) == nil
       @article = Article.new(:title => title, :body => body, :source_url => source_url)
