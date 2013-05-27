@@ -37,8 +37,8 @@ class ArticlesController < ApplicationController
       i += 1
       result = fetchArticle(i)
       body = result[1]
-      Article.changeIndex(i)
     end
+    Article.changeIndex(i)
     title = result[0]
     source_url = result[2]
     #if Article.find_by_title(:conditions => ["title = ?",title]) == nil
@@ -202,11 +202,11 @@ class ArticlesController < ApplicationController
     @user = current_user
     @word = Word.find_by_text(char) # KEY: Linear search
   	if @word != nil and @word.id != nil
-      kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
+      @kvector = Kvector.find(:first, :conditions => ["user_id = ? AND word_id = ?",
       	@user.id, @word.id]) # KEY: Linear search
-      kvector.is_known = false
-      kvector.view_count = 0
-      kvector.save
+      @kvector.is_known = false
+      @kvector.view_count = 0
+      @kvector.save
     end
   end
 
